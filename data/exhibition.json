@@ -1,0 +1,80 @@
+[
+	{
+		"title": "Muestras / Exhibiciones",
+		"description": "Expuse experiencias digitales propias y participé de muchas obras de distintos artistas y productoras, empezando por sitios web hasta muestras VR / AR, pasando por un colectivo lleno de arcades y otras experiencias más raras."
+	},
+	{
+		"title": "Muestras Arcade",
+	"description": "Hace años que formo parte de lo que llamamos colectivo arcade, que es un grupo de desarrolladores de videojuegos independientes argentinos que armamos eventos en distintos espacios culturales y conlcuimos comprando un colectivo y lo formateamos para que sea una auténtica sala de juegos móbil con gabinetes custom 100% desarrolos propios. En el 2021 Mulata Films filmó una serie que muestra un viaje qeu hicimos por todo el país, generando un encuentro inusual entre jugadores y máquinas en cada destino. Experiencias, historia, industria y nuevas propuestas lúdicas confluyen en este recorrido sin precedentes.",
+		"image": "images/works/vjsr.png",
+		"links":
+		[
+			{
+				"url_text": "En CineAR",
+				"url": "https://play.cine.ar/INCAA/produccion/8761"
+			},
+			{
+				"url_text": "Nota en Argentina.gob.ar",
+				"url": "https://www.argentina.gob.ar/noticias/videojuegos-sobre-ruedas-la-serie-estreno-de-tectv-que-lleva-los-juegos-arcades-por-toda-la"
+			}
+		]
+	} ,{
+		"title": "Ergo Proxy - Muestra Virtual",
+		"description": "Ergo Proxy - Muestra Virtual. En el año del centenario del nacimiento de Joseph Beuys, el Pabellón de las Artes se adhiere a este aniversario con una exposición de escultura dentro del campo expandido, donde la escultura toma un rol social como lo difundía el maestro alemán. Un contexto 3D computarizado e interactivo desde la comunicación y la reconstrucción digital del paisaje que, de acuerdo al entendimiento del observador de lo habitual en su vida real, le permite relacionarse con la realidad virtual y la reconstrucción digital de Ergo Proxy. La muestra, que reúne a cuatro artistas, trabaja con las ambigüedades que se producen sobre la existencia, durante los procesos de digitalización.",
+		"image": "images/works/uca2.png",
+		"links":
+		[
+			{
+				"url_text": "Ergo Proxy",	
+				"url": "https://uca.edu.ar/es/pabellon-de-bellas-artes/ergo-proxy"
+			}
+		]
+	} ,{
+		"title": "Signar la complejidad",
+		"description": "Muestra virtual para el Pabellón de las Bellas Artes, con producción de Espacio Pla y curaduría de Merlina Rañi. La interfaz es un diagrama, una matriz de los vínculos entre las obras de Renee Carmichael, Elisa Balmaceda y Diego Alberti, que combina el ejercicio formal con el conceptual, para hablar de la complejidad, uno de los paradigmas más destacados de la contemporaneidad. ",
+		"image": "images/works/uca3.png",
+		"links":
+		[
+			{
+				"url_text": "Visitar Muestra",
+				"url": "https://uca.edu.ar/es/pabellon-de-bellas-artes/signar-la-complejidad"
+			}
+		]
+	} ,
+	{
+		"title": "Muestra virtual en la UCA",
+		"description": "En el 2020 desarrollé junto a la gente de Espacio Pla, esta muestra virtual para la UCA. La faz de la Tierra: v.2020. El Pabellón de las Bellas Artes reinstaló en 2006, en el Dique II de Puerto Madero, una Instalación Esférica de Eduardo Pla (1952-2011), flotante de seis metros que representó a la Argentina en la Bienal de Arte del Mercosur en Porto Alegre, Brasil (2001). El 31 de diciembre, debido a una tormenta arremolinada, la esfera tuvo que ser rescatada por el Buque Ice Lady Patagonia anclado en ese lugar. Tempestad que inspiró al Pabellón a ubicar otra Instalación Esférica de Pla en noviembre de 2007, en la cabecera del Dique II, al frente del puente levadizo emplazado sobre el boulevard Azucena Villaflor.",
+		"image": "images/works/uca.png",
+		"links":
+		[
+			{
+				"url_text": "La Faz de la Tierra",
+				"url": "https://uca.edu.ar/es/pabellon-de-bellas-artes/la-faz-de-la-tierra-v2020"
+			}
+		]
+	},
+	{
+		"title": "Azul de Monte Spekticalaspoeticfly",
+		"description": "Obra interactiva web",
+		"image": "images/works/azuldemonte.png",
+		"links":
+		[
+			{
+				"url_text": "Ver Online",
+				"url": "https://skepticalasepticfly.click/?fbclid=PAZXh0bgNhZW0CMTEAAaanWOvhCfLRtpEv7l5qw2HLT9Qu1nEHcY01SNq4Rym9_TvcbrIeYfYTM6s_aem_l8Wr5nKiSsmK0AF0A6zZbA"
+			}
+		]
+	} ,
+	{
+		"title": "Realidad Aumentada en Tecnópolis",
+		"description": "Experiencia inmersiva desarrollada para cascos de realidad aumentada que explora el vínculo entre el deporte, la moda, los videojuegos y la música con la tecnología digital. Esta muestra tuvo lugar en Tecnópolis en el 2021 y fué desarrollada por los amigos de Eurínome, junto a Brenda Burgoa desarrollamos la parte de AR qeu inlcuía videojuegos, app musical y otras experiencias de realidad aumentada.",
+		"image": "images/works/eurinome.png",
+		"links":
+		[
+			{
+				"url_text": "Eurinome",
+				"url": "https://www.instagram.com/soyeurinome/?hl=en"
+			}
+		]
+	}  
+]

@@ -1,0 +1,31 @@
+[
+	{
+		"name": "Inventar Pakapaka",
+		"youtube_id": "Vs_wEMhh1O4",
+		"description": "Juguete para crear pequeñas obras animadas partiendo de figuras geométricas básicas. Las obras son compartidas como gifs animados en redes sociales.<br><ul><li>Ganadora del premio Mejor App Para Niñes en comKids 2022.</li><li>Finalista del Japan Prize 2022, categoría digital</li>",
+		"client": "Pakapaka",
+		"tags": "home videogame kids educational",
+		"links": 
+		[
+			{
+				"url_text": "Paka-Paka (PLAY)",
+				"url": "https://inventar.pakapaka.gob.ar/juego/"
+			}
+		]
+	},
+   {
+    "name": "Matenautas",
+    "youtube_id": "a6qcpWbs1Uw",
+    "client": "Fundación Bunge y Born",
+    "title": "Matenautas",
+    "description": "Matenautas es un juego de ciencia ficción desarrollado por Yaguar, Fundación Hagamos Todo Para Educar en Ciencias y Edutrama. Este proyecto es uno de los finalistas del concurso MásMAT, organizado por la Fundación Bunge y Born.<br><ul><li>Ganadora del concurso MásMAT, organizado por la Fundación Bunge y Born.</li>",
+    "tags": "home educational kids videogame",
+	"links": 
+		[
+			{
+				"url_text": "PlayStore",
+				"url": "https://play.google.com/store/apps/details?id=com.yaguar.Matenautas"
+			}
+		]
+  }
+]

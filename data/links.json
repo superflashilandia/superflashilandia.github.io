@@ -1,0 +1,71 @@
+[
+  {
+    "title": "Links y artículos",
+	"description": "Propias y ajenas",	
+	"links":
+	[
+		{
+			"url_text": "Yaguar: Videojuegos Educativos para Cambiar el Mundo",
+			"url": "https://www.youtube.com/watch?v=3CwNahznY9c"
+		},
+		{
+			"url_text": "INCA - Videojuegos sobre ruedas",
+			"url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
+		},
+		{
+			"url_text": "Da Vinci - Bit Bang Fest",
+			"url": "https://davinci.edu.ar/noticias/detalle/bit-bang-fest-animando-los-videojuegos"
+		},
+		{
+			"url_text": "Universidad Maimonides",
+			"url": "https://multimedia.maimonides.edu/profesor/agustin-pontura/"
+		},		
+		{
+			"url_text": "Ver el Festival Multiversos",
+			"url": "https://www.dailymotion.com/video/x8jt8n8"
+		},
+		{
+			"url_text": "Expo Eva 2021",
+			"url": "https://expoeva.com/en2/"
+		},
+		{
+			"url_text": "Conicet - Aplicación mobile",
+			"url": "https://salta-jujuy.conicet.gov.ar/una-experiencia-de-alfabetizacion-de-cientificas-del-conicet-junto-a-la-organizacion-de-los-estados-iberoamericanos-oei/"
+		},
+		{
+			"url_text": "Pressover",
+			"url": "https://pressover.news/noticias/videojuegos-sobre-ruedas/"
+		},
+		{
+			"url_text": "Universidad Católica Argentina",
+			"url": "https://wadmin.uca.edu.ar/public/ckeditor/Pabellon%20de%20Bellas%20Artes/2021/142/2021-Pabellon-Bellas-Artes-Presskit-Signar-la-complejidad.pdf"
+		},
+		{
+			"url_text": "Videojuegos sobre ruedas",
+			"url": "https://www.instagram.com/videojuegossobreruedas/?hl=en"
+		},
+		{
+			"url_text": "Pagina 12",
+			"url": "https://www.pagina12.com.ar/diario/suplementos/no/12-8355-2016-02-11.html"
+		},
+		{
+			"url_text": "Ciudad.com.ar -> Shoshiland",
+			"url": "https://www.ciudad.com.ar/espectaculos/rock-pixelado_262/"
+		},
+		{
+			"url_text": "Buenosaliens.com",
+			"url": "https://www.buenosaliens.com/agenda.cfm/cod.21487.t.south-american-music-conference-2007.htm"
+		},
+		{
+			"url_text": "Umai - Videojuegos Sobre Ruedas",
+			"url": "https://www.maimonides.edu/videojuegos-sobre-ruedas/"
+		},
+		{
+			"url_text": "Muestra en Tecnópolis",
+			"url": "https://www.argentina.gob.ar/noticias/muestra-interactiva-de-videojuegos-nacionales-en-tecnopolis"
+		}
+	]
+  } 
+  
+   
+]

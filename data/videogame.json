@@ -1,0 +1,27 @@
+[
+	{
+		"title": "Haciendo videojuegos desde muy chico",
+		"description": "Desde juegos grabados en cinta de cassette para la Talent MSX hasta la actualidad, siempre sentí motivación por la programación y el desarrollo de videojuegos.<br><br>En el año 2006 entro en la industria a través de una de las pocas empresas argentinas que había en el país (<b>QB9</b>) que se cruza con un MMO mío (<b>Shoshiland</b>), desarrollado integramente por mí y de forma totalmente independiente. Desde entonces me dedico a la programación y al diseño casi exclusivo de videojuegos desde dentro y fuera de la industria.<br><br>En todo este tiempo he participado de decenas de proyectos en el rol de programador (principalmente) pero también como artista, productor y game designer, desarrollando juegos para empresas como Lego, Mattel, Comedy Central, American Greetings, VH1, entre muchas otras.<br><br>En la actualidad soy socio fundador del estudio <b>Yaguar</b> donde hacemos juegos infantiles y hace unos años fuí socio fundador de <b>Aconcagua Games</b> donde desarrollamos una serie de títulos propios en el universo de los Galaxy Sports. En paralelo y junto a un par de colegas del corazón hacemos <b>Tumbagames</b> (juegos políticamente incorrectos).",
+		"image":"images/works/logos.png"
+	},
+	{
+		"title": "Colectivo Arcade (2020)",
+		"description": "Hace años que formo parte de lo que llamamos colectivo arcade, que es un grupo de desarrolladores de videojuegos independientes argentinos que armamos eventos en distintos espacios culturales y conlcuimos comprando un colectivo y lo formateamos para que sea una auténtica sala de juegos móbil con gabinetes custom 100% desarrolos propios. En el 2021 Mulata Films filmó una serie que muestra un viaje qeu hicimos por todo el país, generando un encuentro inusual entre jugadores y máquinas en cada destino. Experiencias, historia, industria y nuevas propuestas lúdicas confluyen en este recorrido sin precedentes.",
+		"image": "images/works/vjsr.png",
+		"links":
+		[
+			{
+				"url_text": "Videojuegos sobre Ruedas",
+				"url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
+			},
+			{
+				"url_text": "En CineAR",
+				"url": "https://play.cine.ar/INCAA/produccion/8761"
+			},
+			{
+				"url_text": "Nota en Argentina.gob.ar",
+				"url": "https://www.argentina.gob.ar/noticias/videojuegos-sobre-ruedas-la-serie-estreno-de-tectv-que-lleva-los-juegos-arcades-por-toda-la"
+			}
+		]
+	}
+]

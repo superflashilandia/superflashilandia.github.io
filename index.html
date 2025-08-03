@@ -1,0 +1,115 @@
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Darío Georges Portfolio</title> 
+  <link rel="stylesheet" type="text/css" href="css/styles.css">
+</head>
+<body>	
+
+
+<button id="hamburger" class="hamburger" aria-label="Toggle menu">☰</button>
+<nav class="menu tab" id="tab">
+   <button class="filter-button" data-filter="home">home</button>
+	<button class="filter-button" data-filter="videogame">videogames</button>
+	<button class="filter-button" data-filter="exhibition">exhibiciones</button>
+	<button class="filter-button" data-filter="educational">educación</button>
+	<button class="filter-button" data-filter="vr">vr-ar</button>
+	<button class="filter-button" data-filter="experimental">experimental</button>
+	<button class="filter-button" data-filter="links">links</button>
+	<button class="filter-button" data-filter="cv">cv</button>
+</nav>
+
+  <main class="mainContent"> 
+	<div class="video-overlay" id="videoOverlay">
+		<div class="close-overlay" onclick="closeVideo()">&times;</div>
+		<iframe id="videoFrame" src="" allowfullscreen></iframe>
+	</div>
+
+	<div id="content" class = "content">
+	
+	<div id="google_translate_element"></div>
+
+	<script type="text/javascript">
+	  function googleTranslateElementInit() {
+		new google.translate.TranslateElement({
+		  pageLanguage: 'es',  // idioma original
+		  includedLanguages: 'en,fr,de,it,pt,es',  // idiomas disponibles
+		  layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+		}, 'google_translate_element');
+	  }
+	</script>
+
+<script type="text/javascript"
+  src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
+</script>
+
+	</div> 
+	<div class="videos">
+		<div id="gallery" class = "gallery"></div>  
+	</div> 
+	<div class="footer">
+		<ul>
+			<li>
+				<a href="mailto:superflashilandia@gmail.com">superflashilandia@gmail.com</a>  
+			</li>
+			<li>
+				<a href="https://github.com/superflashilandia" target="_blank">https://github.com/superflashilandia</a>  
+			</li>
+			<li>
+				<a href="https://www.linkedin.com/in/agust%C3%ADn-pontura-3308b745/" target="_blank">linkedin</a>  
+			</li>			
+		</ul>
+	</div> 
+   </main> 
+
+	 
+</body>
+ <script src="js/content.js"></script>
+ <script src="js/videos.js"></script>
+</html>
+
+<script>
+  const menu = document.getElementById('tab');
+  const hamburger = document.getElementById('hamburger');
+  let lastScrollY = window.scrollY;
+  let menuHidden = false;
+
+  function updateHamburgerVisibility() {
+    if (menuHidden) {
+      hamburger.style.display = 'block';
+    } else {
+      hamburger.style.display = 'none';
+    }
+  }
+
+  // Toggle con botón hamburguesa
+  hamburger.addEventListener('click', () => {
+    menu.classList.toggle('hidden');
+    menuHidden = !menuHidden;
+    updateHamburgerVisibility();
+  });
+
+  // Control del scroll
+  window.addEventListener('scroll', () => {
+    const currentScrollY = window.scrollY;
+
+    if (currentScrollY === 0) {
+      menu.classList.remove('hidden');
+      menuHidden = false;
+      updateHamburgerVisibility();
+      return;
+    }
+
+    if (currentScrollY > lastScrollY && !menuHidden) {
+      menu.classList.add('hidden');
+      menuHidden = true;
+      updateHamburgerVisibility();
+    }
+
+    lastScrollY = currentScrollY;
+  });
+
+  // Inicializar correctamente al cargar la página
+  updateHamburgerVisibility();
+</script>

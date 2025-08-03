@@ -1,0 +1,71 @@
+[
+	{
+		"title": "Educationals",
+		"description": "Desde 2016 junto a muy cercanos amigos hacemos Yaguar. Una marca donde desarrollamos con muchísimo corazón numeroso proyectos educativos y aplicaciones para montar en distintos eventos.",
+		"image":"images/works/yaguar.png",
+		"links":
+		[
+			{
+				"url_text": "Yaguar",
+				"url": "https://yaguar.xyz/"
+			},
+			{
+				"url_text": "Juegos para niñes",
+				"url": "?tag=kids"
+			}
+		]
+  },
+  {
+		"description": "Desarrollé muchos proyectos educacionales para muy chiquitos y no tanto, desde experiencias abstractas y lúdicas para clientes como Paka-Paka hasta muy apps para ejercitar las matemáticas, las lenguas o instrucciones para lavarse correctamente en épocas del COVID 19. Muchos de estos proyectos los hice con Yaguar y algunos ganaron premios bastante importantes como el concurso MásMAT, que tuvo como objetivo promover y mejorar las habilidades matemáticas de chicas y chicos de entre 10 y 12 años o una licitación para Paka Paka donde desarrollamos una experiencia creativa para niñxs llamada: Inventar",
+		"image": "images/works/matenautas.jpg"
+	},
+	{
+		"title": "Inventar - Pakapaka",
+		"description": "Desarrollé junto al equipo de Yaguar y Plan este videojuego / juguete interactivo para niñes que puede experimentarse en dispositivos Android y Apple y también en la web oficial de canal Paka Paka. Se trata de un juego para armar figuras, animarlas y compartirlas en redes. Publicación: Octubre 2020.",
+		"image":"images/works/pakapaka.jpg",
+		"links":
+		[
+			{
+				"url_text": "Jugar!",
+				"url": "https://inventar.pakapaka.gob.ar/juego/"
+			},
+			{
+				"url_text": "Nota en Pressover",
+				"url": "https://pressover.news/noticias/inventar-un-videojuego-de-paka-paka/"
+			}
+		]
+	},
+	{
+		"title": "Matenautas",
+		"description": "Matenautas es un juego educativo de ciencia ficción que desarrollamos en Yaguar junto a Fundación Hagamos Todo Para Educar en Ciencias y Edutrama, que permite ejercitar contenidos curriculares de Matemática. Fué Ganadora del concurso MásMAT, organizado por la Fundación Bunge y Born.",
+		"image":"images/works/matenautas2.jpg",
+		"links":
+		[
+			{
+				"url_text": "Ganador MasMat",
+				"url": "https://www.fundacionbyb.org/post/matenautas-es-el-proyecto-ganador-de-m%C3%A1smat"
+			},
+			{
+				"url_text": "Ver el Festival Multiversos",
+				"url": "https://www.dailymotion.com/video/x8jt8n8"
+			},
+			{
+				"url_text": "MATENAUTAS es el proyecto ganador del Concurso MásMAT...",
+				"url": "https://revista.elarcondeclio.com.ar/matenautas-es-el-proyecto-ganador-del-concurso-masmat-que-busca-promover-habilidades-matematicas/"
+			}
+			
+		]
+	},
+	{
+		"title": "Conicet - Huonna Cuentos",
+		"description": "Huo'o na cuentos es una aplicación que busca promover el desarrollo lingüístico y la alfabetización temprana de niños y niñas pequeños. Incluye tres recorridos:Oscarcito es para que los niños y niñas que hablan español continúen aprendiéndolo, Nasheli es para aquellos y aquellas que hablan otras lenguas con sus familias y quieren empezar a aprender español y Dany es para los niños y niñas que quieren empezar a aprender qom. Equipo: Matias Somonte en arte, Brenda Burgoa en producción junto a la gente de Conicet y yo hice el desarrollo",
+		"image":"images/works/conicet.jpg",
+		"links":
+		[
+			{
+				"url_text": "Playstore",
+				"url": "https://play.google.com/store/apps/details?id=com.pontura.conicet&hl=es"
+			}
+		]
+	}
+]

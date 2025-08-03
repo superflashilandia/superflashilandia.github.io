@@ -1,0 +1,36 @@
+[
+	{
+		"title": "TIRA 1d",
+		"description": "TIRA es un party-game de 5 metros de leds representado en la extrema síntesis visual de una única dimensión y síntesis sonora. Consiste en una tira de leds desde cuyos extremos se encuentran los inputs de cada jugador. Tiene una simple mecánica de “hacer perder al otro” matcheando con precisión y timing bloques de luces de colores que se van secuenciado desde el centro hacia ambos extremos. TIRA es un eterno work in progress mío procesado por un microcontrolador de muy bajo coste",
+		"image": "images/works/tira_.png"
+	},
+	{
+		"title": "Juego Físico (sensor Lidar)",
+		"description": "En el 2025 me convocan para hacer este proyecto para la muestra de artes marciales: Marcial Games. Armamos junto a Eric Sauerhering una pantalla de 3x2.5 metros sensada por el Lidar desde la parte inferior. Sobre esta pantalla se proyecta y se reciben los flechasos!. Una PC conectada con un cable de red hace el resto.",
+		"image": "images/works/lidar.png"
+	},
+	{
+		"title": "El libro-app de Werner Pertot",
+		"description": "Junto a Juan Pablo Amato desarrollamos hace varios años esta aventura gráfica en formato Mobile del libro del periodista con ilustraciones de Gustavo Sala y CJ Camba.",
+		"image": "images/works/macria.png",
+		"links":
+		[
+			{
+				"url_text": "Crónicas de Macria",
+				"url": "https://www.pagina12.com.ar/224571-los-universos-paralelos-de-cronicas-de-macria"
+			}
+		]
+	},
+	{
+		"title": "Kinect + QR",
+		"description": "Junto a Christian Parsons y Lolo Armdz pasamos horas desarrollando experimentos para cámara lúcida, un proyecto de Parsons que se basa en proyectar a la vez que se levanta información 3d del espacio donde se es proyectado.",
+		"image": "images/works/parsons.jpg",
+		"links":
+		[
+			{
+				"url_text": "Cámara Lúcida",
+				"url": "https://christian-parsons.com/#/camaralucida"
+			}
+		]
+	}
+]
