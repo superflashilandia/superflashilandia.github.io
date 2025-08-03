@@ -1,5 +1,5 @@
 body {
-	font-family: Helvetica, Arial, sans-serif;
+	font-family: 'Roboto', sans-serif;
 	padding: 0px;
 	margin: 0px;
 }
@@ -137,10 +137,11 @@ iframe {
 }
 
 h1 {
+	font-family: 'Silkscreen', sans-serif !important;
 	font-size: 4ex;
 	line-height: 2ex;
 	margin: 5px 0;
-	font-weight: 600;
+	font-weight: 700 !important;
 	margin-bottom: .3em;
 	margin-top: 0.2em;
 }
