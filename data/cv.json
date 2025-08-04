@@ -1,132 +1,80 @@
 [
   {
-    "title": "Yaguar (2016-actualidad)",
-	"description": "Desde 2016 junto a muy cercanos amigos hacemos Yaguar. Una marca donde desarrollamos con muchísimo corazón numeroso proyectos educativos y aplicaciones para montar en distintos eventos.",
-	"image":"images/works/yaguar.png",
-	"links":
-	[
-		{
-			"url_text": "Yaguar",
-			"url": "https://yaguar.xyz/"
-		},
-		{
-			"url_text": "Juegos para niñes",
-			"url": "?tag=kids"
-		}
-	]
-  },
-  {
-    "title": "Socio fundador de Aconcagua Games (2021-2024)",
-	"description": "En el 2021 fundamos Aconcagua Games donde desarrollamos una serie de títulos propios en el universo de los Galaxy Sports. Títulos como Fulbo Galaxy, Golf Galaxy, y otros en desarrollo.",
-	"image":"images/works/aconcagua.jpg",
-	"links":
-	[
-		{
-			"url_text": "Aconcagua Games",
-			"url": "https://aconcaguagames.com/"
-		}
-	]
-  },
-   {
-    "title": "Fulbo Galaxy (2020)",
-	"description": "En el 2020 junto a mis socios Darío Georges y Nacho Rud hicimos FulboStars, lo que nos llevó a asociarnos y fundar Aconcagua Games en el 2021.",
-	"image":"images/works/fulbogalaxy.jpg",
-	"links":
-	[
-		{
-			"url_text": "Fulbo Galaxy",
-			"url": "https://fulbogalaxy.com/"
-		}
-	]
-  },
-   
-  {
-    "title": "Docencia (2018-2023)",
-	"description": "Trabajé los últimos 5 años como docente en la Universidad Maimonides. Disfruté mucho dando la materia del último año de programación. También dicté distintos cursos, talleres / workshops relacionados a la programación de piezas interactivas y videojuegos. Di charlas en distintos espacios como el Centro Cultural de la Ciencia, Universidad de Córdoba, Tecnópolis, CCK, en distintos medios online, etc.",
-	"links":
-	[
-		{
-			"url_text": "Universidad Maimonides",
-			"url": "https://multimedia.maimonides.edu/profesor/agustin-pontura/"
-		}
-	]	
-  },
- {
-	"title": "Colectivo Arcade (2020)",
-		"description": "Hace años que formo parte de lo que llamamos colectivo arcade, que es un grupo de desarrolladores de videojuegos independientes argentinos que armamos eventos en distintos espacios culturales y conlcuimos comprando un colectivo y lo formateamos para que sea una auténtica sala de juegos móbil con gabinetes custom 100% desarrolos propios. En el 2021 Mulata Films filmó una serie que muestra un viaje qeu hicimos por todo el país, generando un encuentro inusual entre jugadores y máquinas en cada destino. Experiencias, historia, industria y nuevas propuestas lúdicas confluyen en este recorrido sin precedentes.",
-		"image": "images/works/vjsr.png",
-		"links":
-		[
-			{
-				"url_text": "Videojuegos sobre Ruedas",
-				"url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
-			},
-			{
-				"url_text": "En CineAR",
-				"url": "https://play.cine.ar/INCAA/produccion/8761"
-			},
-			{
-				"url_text": "Nota en Argentina.gob.ar",
-				"url": "https://www.argentina.gob.ar/noticias/videojuegos-sobre-ruedas-la-serie-estreno-de-tectv-que-lleva-los-juegos-arcades-por-toda-la"
-			}
-		]
-	},
-  {
-    "title": "QB9, mi incorporación a la industria de los videojuegos (2006-2015)",
-	"description": "En el año 2006 me convocaron para formar parte de la empresa QB9 que recién arrancaba, empresa sobre la que tuve un pequeñisimo porcentaje y sentí una verdadera familia y de la que estoy inmensamente agradecido por la oportunidad de trabajar con gente muy profesional y aprender los standards necesarios para el trabajo en equipos grandes.",
-	"image":"images/works/logos.png",
-	
-	"links":
-	[
-		{
-			"url_text": "Más sobre video juegos",
-			"url": "?tag=videogame"
-		}
-	]
-  },
-   {
-    "title": "Tumba Games / Games to f☠ck the system. (2010-actualidad)",
-	"description": "Desde el 2008 (+-), junto a Darío Georges venimos armando esta banda de punk rock que en vez de canciones hace videojuegos.",
-	"image":"images/works/tumbagames.png",	
-	"links":
-	[
-		{
-			"url_text": "Más sobre video juegos",
-			"url": "?tag=videogame"
-		}
-	]
-  },
-  {
-		"title": "Mundo Gaturro",
-		"description": "Dentro de QB9, además de haber desarrollado innumerable cantidad de juegos, trabajé (desde el primer prototipo) en Mundo Gaturro y durante muchos años en asociación con Clarín Medios Digitales y el equipo de Nik en Mundo Gaturro. Este mundo virtual terminó siendo la comunidad infantil más grande de Latinoamérica.",
-		"image": "images/works/mundo_gaturro.png",
-		"links":
-		[
-			{
-				"url_text": "Videojuegos para Niñxs",
-				"url": "?tag=kids"
-			}
-		]
-	},
-  {
-    "title": "Shoshiland",
-	"description": "En los inicios de los años 2000 me embarqué en la taréa titánica de hacer un MMO. Fué como prácticamente toda taréa titánica en la que me embarqué en mi vida, una excusa para aprender a hacer cosas que desconozco. Llegó a estar online durante varios años y fué mi puerta de acceso a la industria de los videojuegos, además de ser un tesoro importantísimo en mi vida! Dato de color, parte de la tecnoogía que luego se rehizo en QB9 fué la génesis del popular Mundo Gaturro.",
-	"image":"images/works/shoshiland.jpg",	
-	"links":
-	[
-		{
-			"url_text": "Más experimentos",
-			"url": "?tag=experimental"
-		}
-	]
-  },
-  {
-    "title": "BDF (2002-2006)",
-	"description": "Mis primeros pasos en el desarrollo de software fué en esta empresa donde desempeñé el rol de diseñador de interfaces, a la vez que empecé a dar mis primeros pasos en la programación profesional."
-  } ,
-  {
-    "title": "Egresado de la UBA",
-	"description": "Soy egresado de la carrera Diseño de Imagen y Sonido de la Universidad de Buenos Aires, durante la carrera una materia en particular ->Multimedia, me volvió a acercar al mundo digital del que me había alejado. Mucho tiempo antes de comenzar la carrera, incluso antes del secundario (a eso de los 9 años) ya había programado mis primeros videojuegos a los que grababa con mi hermano en cintas de cassette. Puro amor! y aún lo mantengo vivo."
-  } 
-   
+    "title": "Experiencia laboral",
+    "items": [
+      {
+        "subtitle": "Yaguar, 2014-Actualidad",
+        "description": "<p><b>Co fundador / Director de arte / Product Owner</b></p><p>Desarrollo de proyectos interactivos educativos y culturales. EdTech. Apps para instalaciones interactivas y activaciones de marketing.</p><p>Clientes: Ministerio de Educación de La Nación, Museo Nacional del Cabildo, GCBA, YPF, Paka Paka, Honda Marine, entre otros.</p>",
+        "links": [
+          {
+            "url_text": "Portfolio",
+            "url": "https://yaguar.xyz/"
+          },
+		  {
+            "url_text": "Linkedin",
+            "url": "https://www.linkedin.com/company/yaguarxyz"
+          },
+		  {
+            "url_text": "Gameplay videos",
+            "url": "https://youtube.com/playlist?list=PLBduGc0zKyy0In0oQlnDIlkY4FmEnzo6n&si=QPcVbQzCTcAYi4x4"
+          }
+        ]
+      },
+	  {
+        "subtitle": "Tumba, 2010-Actualidad",
+        "description": "<p><b>Co fundador / Director de arte</b></p><p>Videojuegos experimentales, art games, comedy games.</p>",
+        "links": [
+          {
+            "url_text": "Instagram",
+            "url": "https://www.instagram.com/tumbagamesba/"
+          },
+		   {
+            "url_text": "Gameplay videos",
+            "url": "https://youtube.com/playlist?list=PLBduGc0zKyy0YGGIpH5IpZ-lWzLT0a_Cc&si=gvrjIsntexsE0bVE"
+          }
+        ]
+      },
+       
+      {
+        "subtitle": "Aconcagua Games, 2022-2024",
+        "description": "<p><b>Director de arte</b></p><p>Desarrollo de cripto juegos y proyectos interactivos blockchain.</p>",
+		"links": [
+          {
+            "url_text": "Linkedin",
+            "url": "https://www.linkedin.com/company/aconcagua-games"
+          }
+        ]
+      },
+	      {
+        "subtitle": "Aphelian Labs, 2013-2022",
+        "description": "<p><b>Co fundador / Director de arte</b></p><p>Desrrollo de herramientas digitales de creación musical con interfaces innovadoras.</p>",
+		"links": [
+          {
+            "url_text": "Website",
+            "url": "https://aphelian.gitlab.io/"
+          }
+        ]
+      },
+	     {
+        "subtitle": "Papumba, 2017-2019",
+        "description": "<p><b>Artista / Game designer</b></p><p>Desarrollo de estilo visual de suite de minijuegos. Desarrollo de wireframes y prototipos gráficos de minijuegos.</p>",
+		"links": [
+          {
+            "url_text": "Website",
+            "url": "https://www.papumba.com/index.html"
+          }
+        ]
+      },
+	  {
+        "subtitle": "Chrysalis UNSAM, 2017",
+        "description": "<p><b>Tutor (Docente)</b></p><p>Tutor en arte para el programa de incubación Chrysalis (Universidad de  San Martín).</p>",
+		"links": [
+          {
+            "url_text": "Website",
+            "url": "https://g.co/kgs/ALpaJ6F"
+          }
+        ]
+      }
+    ]
+  }
 ]

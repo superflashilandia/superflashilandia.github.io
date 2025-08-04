@@ -185,7 +185,7 @@ a {
 a:hover {
   background-color: white;
   color: black;
-  box-shadow: 0 0 0 2px black inset;
+  box-shadow: none;
   transform: translateY(-2px);
 }
 
@@ -483,4 +483,33 @@ body {
 
 .footer li {
   margin: 0;            /* quita márgenes verticales */
+}
+
+.footer a:hover {
+  background-color: #ff55ff; /* el color que quieras */
+  color: white;              /* podés dejarlo blanco o cambiarlo */
+  box-shadow: none;          /* quita el stroke */
+  transform: none;           /* evita que se mueva al hacer hover */
+}
+
+.links {
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.links a {
+  background-color: #ff55ff;
+  color: white;
+  text-decoration: none;
+  padding: 0.2em 0.6em;
+  border-radius: 0;
+  font-size: 1.05em;
+  transition: all 0.3s ease;
+}
+
+.links a:hover {
+  background-color: #55ffff;
+  color: black;
+  
 }
