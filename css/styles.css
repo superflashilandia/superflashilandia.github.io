@@ -1,9 +1,12 @@
 body {
-	font-family: 'Roboto', sans-serif;
-	padding: 0px;
-	margin: 0px;
+  margin: 0;
+  font-family: 'Roboto', sans-serif !important;
+  font-size: 2ex;
+  line-height: 1.5;
+  display: flex;
+  min-height: 100vh;
+  color: #000;
 }
-
 
 
 li{
@@ -138,7 +141,7 @@ iframe {
 
 h1 {
 	font-family: 'Silkscreen', sans-serif !important;
-	font-size: 4ex;
+	font-size: 4ex !important;
 	line-height: 2ex;
 	margin: 5px 0;
 	font-weight: 700 !important;
@@ -147,6 +150,8 @@ h1 {
 }
 
 h2 {
+	font-family: 'Silkscreen', sans-serif !important;
+	font-weight: 400 !important;
 	font-size: 2.2ex;
 	line-height: 2.8ex;
 	margin: 5px 0;
@@ -155,7 +160,9 @@ h2 {
 }
 
 p {
-	font-size: 2.2ex;
+	font-family: 'Roboto', sans-serif !important;
+	font-weight: 400 !important;
+	font-size: 2ex;
 	line-height: 2.6ex;
 	margin: 5px 0;
 	font-weight: 400;
@@ -370,12 +377,12 @@ body {
 /* Desktop: menú vertical a la izquierda */
 @media (min-width: 769px) {
   .menu {
-    width: 200px;
+    width: 260px;
     height: 100vh; /* Alto de toda la ventana */
   }
 
   .mainContent {
-    margin-left: 230px; /* Deja espacio para el menú */
+    margin-left: 260px; /* Deja espacio para el menú */
   }
 }
 
@@ -445,3 +452,23 @@ body {
     display: block;
   }
 }
+
+/* Estilo tabs */
+.menu.tab h3 {
+  font-family: 'Silkscreen', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 1em;
+  color: #ffffff !important;
+  margin: 0;
+}
+
+/* Color fuente de tab seleccionado */
+.menu.tab .filter-button-active h3 {
+  color: #000000 !important;
+}
+
+/* Color fuente mouseover tab */
+.menu.tab .filter-button:hover h3 {
+  color: #fa306a !important;
+}
+
