@@ -37,7 +37,7 @@
        
       {
         "subtitle": "Aconcagua Games, 2022-2024",
-        "description": "<p><b>Director de arte</b></p><p>Desarrollo de cripto juegos y proyectos interactivos blockchain.</p>",
+        "description": "<p><b>Director de arte</b></p><p>Desarrollo de cripto juegos y proyectos interactivos blockchain. Gestión de equipos de arte. Desarrollo de IPs propias.</p>",
 		"links": [
           {
             "url_text": "Linkedin",
@@ -74,6 +74,98 @@
             "url": "https://g.co/kgs/ALpaJ6F"
           }
         ]
+      },
+	  {
+        "subtitle": "QB9, 2005-2013",
+        "description": "<p><b>Director de arte</b></p><p>Gestión de equipos de arte. Dirección de arte del área de servicios online. Desarrollo de IPs propias.</p><p>Clientes: LEGO, VH1, Mattel, Comedy Central, Disney, Nickelodeon, entre otros</p>",
+		"links": [
+          {
+            "url_text": "Gameplay videos",
+            "url": "https://youtube.com/playlist?list=PLBduGc0zKyy3lN-fZToqUtgMfSMfevpiE&si=PiHe9pHRYkN9XXiq"
+          }
+        ]
+      },
+	  {
+        "subtitle": "Super Flashination Studios, 2001-2007",
+        "description": "<p><b>Artista / Animador</b></p><p>Servicios de desarrollo de videojuegos online y animación flash para marketing y publicidad</p><p>Clientes: Kellogs, Bubballoo, 47 Street, Renault, entre otros</p>",
+		"links": [
+          
+        ]
+      },
+	   {
+        "subtitle": "Cybrel Digital Entertainment, 2000-2001",
+        "description": "<p><b>Director de animación</b></p><p>Creación y dirección de series animadas. DIrección artística de portal de historietas. Dirección de arte de videojuegos.</p>",
+		"links": [
+          
+        ]
+      },
+	    {
+        "subtitle": "Ediciones de La Urraca, 1997",
+        "description": "<p><b>Guionista</b></p><p>Guión de la revista Charly Bizarro.</p>",
+		"links": [
+          
+        ]
+      }
+    ]
+
+  },
+  {
+    "title": "Premios",
+    "items": [
+      {
+        "subtitle": "másMAT, Ganador",
+        "description": "<p><b>Matenautas</b> fue ganador del primer premio del concurso másMAT, otorgado por la Fundación Bunge y Born a la excelencia en educación en matemática. Financiamiento total del proyecto.</p>"
+      },
+      {
+        "subtitle": "comKids, Mejor app infantil",
+        "description": "<p><b>Inventar El Mundo</b> obtuvo el reconocimiento a la mejor app infantil regional en 2022.</p>"
+      }
+    ]
+  },
+  {
+    "title": "Educación",
+    "items": [
+      {
+        "subtitle": "Instituto de Artes Cinematográficas, 1996-1997",
+        "description": "<p><b>Realizador de cine animado</b></p><p>Formación académica en técnicas de animación tradicional y experimental.</p>"
+      },
+      {
+        "subtitle": "School of Visual Arts, 1998",
+        "description": "<p><b>Diseñador de personajes y layout</b></p><p>Especialización en diseño de personajes y desarrollo de layout con medios analógicos y digitales.</p>"
+      }
+    ]
+  },
+  {
+    "title": "Herramientas",
+    "items": [
+      {
+        "subtitle": "Adobe Suite",
+        "description": "<p>Uso fluido de Illustrator, Photoshop, Animate, Premiere, Media Encoder.</p>"
+      },
+      {
+        "subtitle": "Unity",
+        "description": "<p>Herramientas gráficas 2D, generación de partículas, animación. Integración de Rive.</p>"
+      },
+      {
+        "subtitle": "Pixel / Ascii",
+        "description": "<p>Aseprite, LvlLvl, Petscii Editor, Pico Cad, Mosh Pro.</p>"
+      },
+      {
+        "subtitle": "Audio",
+        "description": "<p>Propellerhead Reason, FamiStudio, Adobe Audition, SidTracker 64, Aphelian, Oscilab, Arturia V.</p>"
+      }
+    ]
+  },
+  {
+    "title": "Idiomas",
+    "items": [
+      {
+        "subtitle": "Inglés",
+        "description": "<p><b>Nivel avanzado.</b>Uso profesional en proyectos internacionales y documentación técnica.</p>"
+      },
+      {
+        "subtitle": "Castellano",
+        "description": "<p><b>Nativo.</b></p>"
       }
     ]
   }

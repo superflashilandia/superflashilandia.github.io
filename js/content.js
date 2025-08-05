@@ -22,14 +22,14 @@ fetch("data/" + jsonName + '.json')
 		const sectionDiv = document.createElement('div');	
 		sectionDiv.className = 'content-section';
 
-		// Título general (H1) si existe
+		// Si existe un título general
 		if (section.title) {
 			const title = document.createElement('h1');
 			title.innerText = section.title;
 			sectionDiv.appendChild(title);
 		}
 
-		// --- NUEVO: soporte para formato con "items" (ej. CV) ---
+		// --- Formato con items (CV, Premios, Educación, etc.) ---
 		if (section.items) {
 			section.items.forEach(item => {
 				const itemDiv = document.createElement('div');	
@@ -45,20 +45,18 @@ fetch("data/" + jsonName + '.json')
 					const description = document.createElement('p'); 
 					description.innerHTML = item.description;
 					itemDiv.appendChild(description);
-					itemDiv.className = "contentDesc";	
 				}
 
 				if (item.image) {
 					const imageData = document.createElement('img'); 
 					imageData.src = `${item.image}`;
 					itemDiv.appendChild(imageData);
-					itemDiv.className = "contentImages";	
 				}
 
 				if (item.links) {	
 					const links = document.createElement('div');	
 					links.className = "links";	
-				 itemDiv.appendChild(links);
+					itemDiv.appendChild(links);
 
 					item.links.forEach(obj => {
 						const a = document.createElement('a');
@@ -72,10 +70,10 @@ fetch("data/" + jsonName + '.json')
 				sectionDiv.appendChild(itemDiv);
 			});
 		} 
-		// --- SOPORTE LEGADO: formato simple (ej. Home) ---
+		// --- Formato simple (Home y similares) ---
 		else {
 			if (section.description) {
-				const description = document.createElement('p'); 
+				const description = document.createElement('div'); 
 				description.innerHTML = section.description;
 				sectionDiv.appendChild(description);
 			}
@@ -84,7 +82,6 @@ fetch("data/" + jsonName + '.json')
 				const imageData = document.createElement('img'); 
 				imageData.src = `${section.image}`;
 				sectionDiv.appendChild(imageData);
-				sectionDiv.className = "contentImages";	
 			}
 
 			if (section.links) {
@@ -104,10 +101,12 @@ fetch("data/" + jsonName + '.json')
 
 		home.appendChild(sectionDiv);
 
-		const c = document.createElement('p'); 
-		c.innerText = ".....";
-		c.className = "separation";	
-		home.appendChild(c);
+		// Separador visual entre secciones (solo si hay más de una)
+		if (data.length > 1) {
+			const sep = document.createElement('hr');
+			sep.className = "section-separator";
+			home.appendChild(sep);
+		}
 	});
 })
 .catch(error => console.error(error));
