@@ -150,13 +150,12 @@ h1 {
 }
 
 h2 {
-	font-family: 'Silkscreen', sans-serif !important;
-	font-weight: 400 !important;
-	font-size: 2.2ex;
-	line-height: 2.8ex;
-	margin: 5px 0;
-	font-weight: 400;
-	margin-bottom: 2em;
+  font-family: 'Silkscreen', sans-serif !important;
+  font-weight: 400 !important;
+  font-size: 2.2ex;
+  line-height: 2.8ex;
+  margin-top: 30px;    /* espacio encima */
+  margin-bottom: 12px; /* espacio debajo reducido */
 }
 
 p {
@@ -512,4 +511,18 @@ body {
   background-color: #55ffff;
   color: black;
   
+}
+
+.clients-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+  gap: 20px;
+  justify-items: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.clients-grid img {
+  max-width: 100px; /* tamaño ajustable */
+  height: auto;
 }
