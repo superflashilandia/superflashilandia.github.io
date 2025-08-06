@@ -319,15 +319,7 @@ body {
   flex: 1;
   padding: 2rem;
 }
-.footer
-{
-	width:100%;
-	margin-bottom:100px;
-	margin-left:10px;
-	float:left;
-	height: 150px;
-	font-size: 1.2em;
-}
+
 #google_translate_element a
 {
 		color:black;
@@ -471,24 +463,65 @@ body {
 .menu.tab .filter-button:hover h3 {
   color: #55ffff !important;
 }
+.footer {
+  width: 100%;
+  margin: 40px 0 20px 10px;  /* mantiene el corrimiento a la derecha */
+  padding: 20px;
+  font-size: 1em;
+  display: flex;
+  justify-content: flex-start; /* 👈 alinea a la izquierda */
+  flex-wrap: wrap;             /* permite que los links bajen de línea */
+  gap: 10px;                   /* espacio entre links */
+  box-sizing: border-box;      /* padding incluido en el ancho */
+}
 
 .footer ul {
   list-style: none;
   padding: 0;
   margin: 0;
-  display: flex;        /* los pone en fila */
-  gap: 10px;            /* espacio entre links */
+  display: flex;
+  gap: 10px;
+  flex-wrap: wrap;
 }
 
 .footer li {
-  margin: 0;            /* quita márgenes verticales */
+  margin: 0;
+}
+
+.footer a {
+  background-color: #55ffff;
+  color: black;
+  text-decoration: none;
+  padding: 0.4em 0.8em;
+  border-radius: 0;        /* esquinas rectas */
+  font-size: 0.9em;
+  transition: all 0.3s ease;
 }
 
 .footer a:hover {
-  background-color: #ff55ff; /* el color que quieras */
-  color: white;              /* podés dejarlo blanco o cambiarlo */
-  box-shadow: none;          /* quita el stroke */
-  transform: none;           /* evita que se mueva al hacer hover */
+  background-color: #ff55ff; /* tu color de hover */
+  color: white;
+  box-shadow: none;
+  transform: none;
+}
+
+/* Versión mobile */
+@media (max-width: 768px) {
+  .footer {
+    flex-direction: column;  
+    align-items: flex-start; /* 👈 también a la izquierda en mobile */
+    margin-left: 0;
+  }
+
+  .footer ul {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .footer a {
+    width: auto;
+    text-align: left;
+  }
 }
 
 .links {

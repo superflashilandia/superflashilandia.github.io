@@ -1,24 +1,16 @@
 [
 	{
-		"title": "Educationals",
-		"description": "Desde 2016 junto a muy cercanos amigos hacemos Yaguar. Una marca donde desarrollamos con muchísimo corazón numeroso proyectos educativos y aplicaciones para montar en distintos eventos.",
+		"title": "EdTech y Museología",
+		"description": "En 2013, después de 8 años de aprender mucho participando del desarrollo de proyectos soñados, decidí renunciar a QB9 para poder dedicarme a explorar otras áreas del desarrollo interactivo y volver al dinamismo y la heterogeneidad de la autonomía. Pronto aparecieron los primeros clientes del mundo EdTech: Edutrama y Tipitap. No tardé en enamorarme de ese nicho. Participar de la creación de ideas con educadores, historiadores, matemáticos, científicos y otros expertos, y acercarles soluciones tecnológicas a sus demandas educativas, me pareció algo gratificante y estimulante desde el comienzo, y sentí que era un camino natural para profundizar. En 2014 fundamos Yaguar junto a los programadores Agustín Pontura y Juan Pablo Amato, focalizándonos casi exclusivamente en el desarrollo de productos y servicios tecnológicos para los segmentos de educación y cultura. El equipo creció según la necesidad de cada proyecto, sumando talentos como el de la escritora y diseñadora narrativa Alejandra Bruno, la diseñadora de UX Brenda Burgoa, la productora experta en museología Mariana Albornoz, el level designer Ignacio Rud, y la consultora educativa María Forteza. Juntos desarrollamos decenas de juegos y apps para instalaciones en museos y parques tecnológicos.",
 		"image":"images/works/yaguar.png",
 		"links":
 		[
 			{
 				"url_text": "Yaguar",
 				"url": "https://yaguar.xyz/"
-			},
-			{
-				"url_text": "Juegos para niñes",
-				"url": "?tag=kids"
 			}
 		]
   },
-  {
-		"description": "Desarrollé muchos proyectos educacionales para muy chiquitos y no tanto, desde experiencias abstractas y lúdicas para clientes como Paka-Paka hasta muy apps para ejercitar las matemáticas, las lenguas o instrucciones para lavarse correctamente en épocas del COVID 19. Muchos de estos proyectos los hice con Yaguar y algunos ganaron premios bastante importantes como el concurso MásMAT, que tuvo como objetivo promover y mejorar las habilidades matemáticas de chicas y chicos de entre 10 y 12 años o una licitación para Paka Paka donde desarrollamos una experiencia creativa para niñxs llamada: Inventar",
-		"image": "images/works/matenautas.jpg"
-	},
 	{
 		"title": "Inventar - Pakapaka",
 		"description": "Desarrollé junto al equipo de Yaguar y Plan este videojuego / juguete interactivo para niñes que puede experimentarse en dispositivos Android y Apple y también en la web oficial de canal Paka Paka. Se trata de un juego para armar figuras, animarlas y compartirlas en redes. Publicación: Octubre 2020.",
