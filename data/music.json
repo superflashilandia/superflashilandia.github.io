@@ -1,36 +1,52 @@
 [
+{
+    "title": "También hago música",
+	"description": "<img src='images/tandooris.png' class='homeImage'/><p>Mi vínculo con el arte digital comenzó en mayo de 1986, cuando mis abuelos me regalaron para mi cumpleaños una <b>Commodore 128</b>. Pasaba horas explorando sus manuales de Basic y creando mis primeras animaciones, canciones y primitivos videojuegos. En paralelo, asistía a talleres de pintura, dibujo y animación, y me sumergía con pasión en los videojuegos, las historietas de ciencia ficción, el humor gráfico y el cine fantástico.</p><p>En los 90s armé mis primeras bandas de garage punk, estudié animación en el <b>Instituto de Artes Cinematográficas</b> de Avellaneda y realicé cursos de especialización en la <b>School of Visual Arts</b> de Nueva York, continuando la búsqueda de unir lo digital y lo analógico, lo visual y lo musical, en un mismo universo creativo.</p><p>En 2000 inicié mi carrera profesional en la empresa <b>Cybrel Digital Entertainment</b>, donde lideré un proyecto de animación que me abrió definitivamente las puertas del desarrollo de videojuegos. En 2005 me sumé a <b>QB9</b>, una pequeña compañía de casual games que creció exponencialmente y en la que llegué a ser director de arte.</p><p>Desde 2014 soy cofundador de <b>Yaguar</b>, estudio dedicado al desarrollo de <b>videojuegos educativos</b> y de <b>museología</b>.</p><p>También hice música original para películas y videojuegos, di talleres y cursos relacionados a mis áreas de experiencia, desarrollé criptojuegos con <b>Aconcagua Games</b>, diversas aplicaciones musicales como <b>Aphelian</b> y <b>Oscilab</b>, varios productos digitales de marketing y proyectos de <b>arte digital experimental</b>, participando en muestras y dirigiendo videos musicales para bandas como <b>Lulu Lewis</b>, <b>Mariano Rodriguez</b> y <b>Kumbia Queers</b>.</p>",
+		"links":
+	[
+		{
+			"url_text": "Bandcamp",
+			"url": "https://dariogeorges.bandcamp.com/"
+		},
+		{
+			"url_text": "Soundcloud",
+			"url": "https://soundcloud.com/superflashilander"
+		},
+		{
+			"url_text": "The Tandooris",
+			"url": "https://thetandooris.bandcamp.com/"
+		}	
+	]
+  
+  },
   {
-    "title": "Experiencia laboral",
+    "title": "Discografía",
     "items": [
       {
-        "subtitle": "Yaguar, 2014-Actualidad",
-        "description": "<p><b>Co fundador / Director de arte / Product Owner</b></p><p>Desarrollo de proyectos interactivos educativos y culturales. EdTech. Apps para instalaciones interactivas y activaciones de marketing.</p><p>Clientes: Ministerio de Educación de La Nación, Museo Nacional del Cabildo, GCBA, YPF, Paka Paka, Honda Marine, entre otros.</p>",
+        "subtitle": "Darío Georges - Superflashilandia Vol. 1",
+        "description": "<p><b>2020 - Jit Jot Records - Casette / Digital</b></p><p>Selección de musica original de videojuegos compuestas a lo largo de 15 años, en romántico formato de casette, y en pragmático formato digital.</p>",
         "links": [
           {
-            "url_text": "Portfolio",
-            "url": "https://yaguar.xyz/"
+            "url_text": "Digital",
+            "url": "https://jitjotrecords.bandcamp.com/album/vol-1"
           },
 		  {
-            "url_text": "Linkedin",
-            "url": "https://www.linkedin.com/company/yaguarxyz"
-          },
-		  {
-            "url_text": "Gameplay videos",
-            "url": "https://youtube.com/playlist?list=PLBduGc0zKyy0In0oQlnDIlkY4FmEnzo6n&si=QPcVbQzCTcAYi4x4"
+            "url_text": "Spotify",
+            "url": "https://open.spotify.com/intl-es/album/38GZVSWV5FfM2RlrXEpiYC?si=tAqCvAa4SgKdO2oJzDstmA"
           }
         ]
       },
 	  {
-        "subtitle": "Tumba, 2010-Actualidad",
-        "description": "<p><b>Co fundador / Director de arte</b></p><p>Videojuegos experimentales, art games, comedy games.</p>",
+        "subtitle": "Darío Georges - Claudia",
+        "description": "<p><b>2019 - Independiente - Digital</b></p><p>Música original de la película Claudia, de Sebastián De Caro.</p>",
         "links": [
           {
-            "url_text": "Instagram",
-            "url": "https://www.instagram.com/tumbagamesba/"
+            "url_text": "Digital",
+            "url": "https://dariogeorges.bandcamp.com/album/claudia"
           },
-		   {
-            "url_text": "Gameplay videos",
-            "url": "https://youtube.com/playlist?list=PLBduGc0zKyy0YGGIpH5IpZ-lWzLT0a_Cc&si=gvrjIsntexsE0bVE"
+		  {
+            "url_text": "Spotify",
+            "url": "https://open.spotify.com/intl-es/album/576ZiDkQKXpgeBpGmnwRd0?si=ghxRiYAyQ-KNZ_Chm08a7A"
           }
         ]
       },

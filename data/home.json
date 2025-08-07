@@ -6,15 +6,19 @@
 	"links":
 	[
 		{
-			"url_text": "Behance",
-			"url": "https://www.linkedin.com/in/agust%C3%ADn-pontura-3308b745/"
-		},
-		{
-			"url_text": "Yaguar Studio",
+			"url_text": "Yaguar",
 			"url": "https://yaguar.xyz/"
 		},
 		{
-			"url_text": "CV (experiencia laboral)",
+			"url_text": "Tumba",
+			"url": "https://www.instagram.com/tumbagamesba/"
+		},
+		{
+			"url_text": "Aphelian",
+			"url": "https://aphelian.gitlab.io/"
+		},
+		{
+			"url_text": "CV",
 			"url": "/?tag=cv"
 		}		
 	]
