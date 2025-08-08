@@ -1,112 +1,159 @@
-const urlParams = new URLSearchParams(window.location.search);
+document.addEventListener("DOMContentLoaded", () => {
+  // --- Utils ---
+  const $ = (sel) => document.querySelector(sel);
+  const $$ = (sel) => Array.from(document.querySelectorAll(sel));
 
-var selectedTag = "home";
+  const contentEl = $("#content");
 
-if (urlParams != null)	
-	selectedTag = urlParams.get('tag');
+  function getTagFromURL() {
+    const params = new URLSearchParams(window.location.search);
+    return params.get("tag") || "home";
+  }
 
-var jsonName = "home";
-if (selectedTag == null || selectedTag == "") {
-	jsonName = 'home';
-	selectedTag = "home";
-} else {	
-	jsonName = selectedTag;
-}
+  function setActiveButton(tag) {
+    $$(".filter-button").forEach(btn => {
+      const isActive = btn.dataset.filter === tag;
+      btn.classList.toggle("filter-button-active", isActive);
+    });
+  }
 
-fetch("data/" + jsonName + '.json')
-.then(response => response.json())
-.then(data => {
-	const home = document.getElementById('content');
-  
-	data.forEach(section => {  
-		const sectionDiv = document.createElement('div');	
-		sectionDiv.className = 'content-section';
+  function clearContent() {
+    if (contentEl) contentEl.innerHTML = "";
+    const gallery = $("#gallery");
+    if (gallery) gallery.innerHTML = ""; // por si tu galería depende del tag
+  }
 
-		// Si existe un título general
-		if (section.title) {
-			const title = document.createElement('h1');
-			title.innerText = section.title;
-			sectionDiv.appendChild(title);
-		}
+  function makeLink(url_text, url) {
+    const a = document.createElement("a");
+    a.innerText = url_text;
+    a.href = url;
+    a.className = "contentLinks";
+    a.target = "_blank";
+    a.rel = "noopener noreferrer";
+    return a;
+  }
 
-		// --- Formato con items (CV, Premios, Educación, etc.) ---
-		if (section.items) {
-			section.items.forEach(item => {
-				const itemDiv = document.createElement('div');	
-				itemDiv.className = 'content-item';
+  function renderSection(section, container) {
+    const sectionDiv = document.createElement("div");
+    sectionDiv.className = "content-section";
 
-				if (item.subtitle) {
-					const subtitle = document.createElement('h2');
-					subtitle.innerText = item.subtitle;
-					itemDiv.appendChild(subtitle);
-				}
+    // Título principal (H1)
+    if (section.title) {
+      const h1 = document.createElement("h1");
+      h1.innerText = section.title;
+      sectionDiv.appendChild(h1);
+    }
 
-				if (item.description) {
-					const description = document.createElement('p'); 
-					description.innerHTML = item.description;
-					itemDiv.appendChild(description);
-				}
+    // Formato con items (CV, Premios, etc.)
+    if (section.items && Array.isArray(section.items)) {
+      section.items.forEach(item => {
+        const itemDiv = document.createElement("div");
+        itemDiv.className = "content-item";
 
-				if (item.image) {
-					const imageData = document.createElement('img'); 
-					imageData.src = `${item.image}`;
-					itemDiv.appendChild(imageData);
-				}
+        if (item.subtitle) {
+          const h2 = document.createElement("h2");
+          h2.innerText = item.subtitle;
+          itemDiv.appendChild(h2);
+        }
 
-				if (item.links) {	
-					const links = document.createElement('div');	
-					links.className = "links";	
-					itemDiv.appendChild(links);
+        if (item.description) {
+          const desc = document.createElement("div");
+          desc.innerHTML = item.description; // permite HTML
+          itemDiv.appendChild(desc);
+        }
 
-					item.links.forEach(obj => {
-						const a = document.createElement('a');
-						a.innerText = obj.url_text;
-						a.href = obj.url;
-						a.className = "contentLinks";
-						links.appendChild(a);
-					});
-				}
+        if (item.image) {
+          const img = document.createElement("img");
+          img.src = item.image;
+          itemDiv.appendChild(img);
+        }
 
-				sectionDiv.appendChild(itemDiv);
-			});
-		} 
-		// --- Formato simple (Home y similares) ---
-		else {
-			if (section.description) {
-				const description = document.createElement('div'); 
-				description.innerHTML = section.description;
-				sectionDiv.appendChild(description);
-			}
+        if (item.links && Array.isArray(item.links)) {
+          const linksWrap = document.createElement("div");
+          linksWrap.className = "links";
+          item.links.forEach(link => {
+            linksWrap.appendChild(makeLink(link.url_text, link.url));
+          });
+          itemDiv.appendChild(linksWrap);
+        }
 
-			if (section.image) {
-				const imageData = document.createElement('img'); 
-				imageData.src = `${section.image}`;
-				sectionDiv.appendChild(imageData);
-			}
+        sectionDiv.appendChild(itemDiv);
+      });
+    } else {
+      // Formato simple (Home y similares)
+      if (section.description) {
+        const desc = document.createElement("div");
+        desc.innerHTML = section.description; // permite HTML
+        sectionDiv.appendChild(desc);
+      }
 
-			if (section.links) {
-				const links = document.createElement('div');	
-				links.className = "links";	
-				sectionDiv.appendChild(links);
+      if (section.image) {
+        const img = document.createElement("img");
+        img.src = section.image;
+        sectionDiv.appendChild(img);
+      }
 
-				section.links.forEach(obj => {
-					const a = document.createElement('a');
-					a.innerText = obj.url_text;
-					a.href = obj.url;
-					a.className = "contentLinks";
-					links.appendChild(a);
-				});
-			}
-		}
+      if (section.links && Array.isArray(section.links)) {
+        const linksWrap = document.createElement("div");
+        linksWrap.className = "links";
+        section.links.forEach(link => {
+          linksWrap.appendChild(makeLink(link.url_text, link.url));
+        });
+        sectionDiv.appendChild(linksWrap);
+      }
+    }
 
-		home.appendChild(sectionDiv);
+    container.appendChild(sectionDiv);
+  }
 
-		// Separador visual entre secciones (solo si hay más de una)
-		if (data.length > 1) {
-			const sep = document.createElement('hr');
-			sep.className = "section-separator";
-			home.appendChild(sep);
-		}
-	});
-})
-.catch(error => console.error(error));
+  async function loadTag(tag) {
+    try {
+      clearContent();
+      setActiveButton(tag);
+
+      const res = await fetch(`data/${tag}.json`);
+      const data = await res.json();
+
+      // Render de todas las secciones del array
+      data.forEach((section, idx) => {
+        renderSection(section, contentEl);
+        // Separador visual entre secciones si hay varias
+        if (data.length > 1 && idx < data.length - 1) {
+          const hr = document.createElement("hr");
+          hr.className = "section-separator";
+          contentEl.appendChild(hr);
+        }
+      });
+    } catch (err) {
+      console.error("Error cargando la sección:", err);
+      if (contentEl) {
+        contentEl.innerHTML = "<p>Hubo un problema cargando el contenido.</p>";
+      }
+    }
+  }
+
+  // --- Navegación por botones (tabs) ---
+  $$(".filter-button").forEach(btn => {
+    btn.addEventListener("click", (e) => {
+      e.preventDefault();
+      const tag = btn.dataset.filter || "home";
+
+      // actualizar URL sin recargar
+      const newUrl = `${window.location.pathname}?tag=${encodeURIComponent(tag)}`;
+      history.pushState({ tag }, "", newUrl);
+
+      loadTag(tag);
+    });
+  });
+
+  // Soporte para back/forward del navegador
+  window.addEventListener("popstate", (e) => {
+    const tag = (e.state && e.state.tag) || getTagFromURL();
+    loadTag(tag);
+  });
+
+  // --- Carga inicial ---
+  const initialTag = getTagFromURL();
+  setActiveButton(initialTag);
+  loadTag(initialTag);
+});

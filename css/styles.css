@@ -38,6 +38,7 @@ li{
 		.tab button:hover {
 			background-color: #FFF;
 		}
+		
 
 .tabcontent {
 	display: none;
@@ -52,7 +53,7 @@ li{
 	margin: 0px;
 	/* width: 100%; */
 	padding: 20px;
-	max-width: 800px;
+	max-width: 1920;
 }
 
 .contentDesc {
@@ -385,7 +386,7 @@ body {
 
 .filter-button-active {
 	color: #000000;
-	background-color: #55ffff;
+	background-color: #ffffff;
 }
 .filter-button {
 	color: #ffffff;
@@ -559,3 +560,49 @@ body {
   max-width: 100px; /* tamaño ajustable */
   height: auto;
 }
+
+/* Contenedor centrado del layout completo */
+.wrapper {
+  display: flex;
+  gap: 0;               /* ajustá si querés espacio entre menú y contenido */
+  max-width: 1400px;    /* ancho máximo del layout */
+  margin: 0 auto;       /* centra en la pantalla */
+  width: 100%;
+  box-sizing: border-box;
+  /* opcional: padding lateral suave
+  padding: 0 16px;
+  */
+}
+
+/* El menú deja de ser fixed para poder centrarse junto con el contenido */
+.menu {
+  position: sticky;   /* se queda pegado arriba al hacer scroll */
+  top: 0;
+  height: auto;       /* ya no forzado a 100vh si no querés */
+}
+
+/* En desktop: el menú ocupa ancho fijo, el contenido se estira */
+@media (min-width: 769px) {
+  .menu { width: 260px; }
+  .mainContent {
+    margin-left: 0 !important; /* anula la regla anterior que desplazaba por el menú fijo */
+    flex: 1;                   /* que ocupe el resto del espacio */
+  }
+}
+
+.menu {
+  background-color: transparent; /* quitamos el fondo de .menu */
+  position: relative;
+}
+
+.menu::before {
+  content: "";
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 200px; /* mismo ancho de la barra */
+  height: 100vh;
+  background-color: white; /* tu rosa */
+  z-index: -1; /* detrás del menú */
+}
+
