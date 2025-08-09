@@ -32,19 +32,21 @@ body {
    MENÚ / TABS ARRIBA EN UNA FILA
    ================================ */
 .menu {
-  position: fixed;
-  top: 0; left: 0; right: 0;
+  position: sticky;         /* <— era fixed */
+  top: 0;
+  left: 0; right: 0;
   width: 100%;
   height: auto;
   background-color: var(--rosa);
   z-index: 1000;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;          /* si no entran, bajan a la línea siguiente */
+  flex-wrap: wrap;          /* si no entran, bajan de línea */
   padding: 6px 6px 10px 6px;
   box-sizing: border-box;
-  overflow: visible;        /* evita clipping de textos */
+  overflow: visible;
 }
+
 
 /* Botones de tab en mobile */
 .menu button {
@@ -92,8 +94,8 @@ body {
    CONTENIDO: debajo del menú fijo
    ======================================= */
 .mainContent {
-  margin-left: 0 !important;             /* sin sidebar a la izquierda */
-  padding-top: var(--menu-mobile-offset);/* deja espacio al menú fijo */
+  margin-left: 0 !important;
+  padding-top: 0;           /* <— sin relleno extra */
   box-sizing: border-box;
 }
 
