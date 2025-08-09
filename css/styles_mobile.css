@@ -48,7 +48,8 @@ body {
 
 /* 👇 Cuando lo ocultás, que NO deje hueco */
 .menu.hidden {
-  transform: none !important;
+  display: none !important;
+  transform: none !important; /* por si hereda algo del desktop */
 }
 
 
