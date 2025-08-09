@@ -43,7 +43,7 @@ body {
 h1 {
   font-family: 'Silkscreen', sans-serif;
   font-weight: 700;
-  font-size: 4ex;
+  font-size: 4.3ex;
   line-height: 2ex;
   margin: 0.2em 0 .3em 0;
 }
@@ -51,7 +51,7 @@ h1 {
 h2 {
   font-family: 'Silkscreen', sans-serif;
   font-weight: 400;
-  font-size: 2.2ex;
+  font-size: 2.4ex;
   line-height: 2.8ex;
   margin-top: 30px;     /* espacio encima */
   margin-bottom: 12px;  /* espacio debajo reducido */

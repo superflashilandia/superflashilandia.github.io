@@ -41,6 +41,7 @@ body {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
+  gap: 6px;                 /* << separa tabs sin que ocupen todo */
   padding: 6px 6px 10px 6px;
   box-sizing: border-box;
   overflow: visible;
@@ -49,34 +50,34 @@ body {
 /* 👇 Cuando lo ocultás, que NO deje hueco */
 .menu.hidden {
   display: none !important;
-  transform: none !important; /* por si hereda algo del desktop */
+  transform: none !important;
 }
 
 
 /* Botones de tab en mobile */
 .menu button {
   border: none;
-  background: transparent;  /* el fondo lo da la barra rosa */
+  background: transparent;  /* el fondo lo da la barra/estado activo */
   color: var(--blanco);
-  padding: 8px 10px;
+  padding: 6px 10px;        /* un poco más finos */
   margin: 0;
   text-align: center;
-  font-size: 14px;
+  font-size: 13px;
   line-height: 1.1;
   cursor: pointer;
-  flex: 1 1 auto;           /* se adaptan al ancho disponible */
-  min-width: 96px;          /* evita tabs demasiado chicos */
+
+  flex: 0 0 auto;           /* << clave: no se estiran a ancho completo */
+  min-width: auto;          /* no fuerces ancho mínimo */
 }
 
 /* Título visual dentro del botón */
 .menu.tab h3 {
   font-family: 'Silkscreen', sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 13px;          /* un poco más chico */
   color: var(--blanco);
   margin: 0;
-  white-space: normal;      /* permite salto */
-  word-break: break-word;   /* corta limpio si es largo */
+  white-space: nowrap;      /* evita cortar palabras */
 }
 
 /* Hover/activo */
@@ -85,8 +86,9 @@ body {
 }
 .filter-button { color: var(--blanco); }
 .filter-button-active {
-  color: var(--negro);
   background-color: var(--blanco);
+  color: var(--negro);
+  border-radius: 4px;       /* opcional, podés poner 0 si querés recto */
 }
 .menu.tab .filter-button.filter-button-active h3 {
   color: var(--negro);
