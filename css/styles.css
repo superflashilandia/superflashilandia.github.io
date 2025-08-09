@@ -316,3 +316,18 @@ iframe {
   float: left;
   max-width: 100%;
 }
+
+:root{
+  /* Ajustá este valor a gusto */
+  --translate-offset: 40px;
+}
+
+/* Baja un poco el menú en mobile */
+.menu{
+  margin-top: var(--translate-offset);
+}
+
+/* Y empuja también el contenido para que no quede tapado */
+.mainContent{
+  padding-top: 8px; /* opcional, dejalo si querés un respiro extra */
+}
