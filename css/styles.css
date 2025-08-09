@@ -37,7 +37,7 @@ body {
 
 .content {
   padding: 20px;
-  max-width: 800px;
+  max-width: 1024px;
 }
 
 /* Tipografías */
@@ -165,9 +165,9 @@ iframe {
 .menu button {
   border: none;
   background: var(--rosa);   /* el fondo lo da la barra rosa */
-  padding: 14px 16px 14px 18px;
+  padding: 10px 16px 14px 18px;
   text-align: left;
-  font-size: 1.05em;
+  font-size: 1.2em;
   cursor: pointer;
   width: 100%;
   transition: background 0.25s ease;
