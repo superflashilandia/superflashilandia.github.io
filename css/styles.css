@@ -32,6 +32,7 @@ body {
   margin-left: 260px;
   width: 100%;
   box-sizing: border-box;
+  margin-top: 10px; /* ajustá para alinear visualmente con los tabs */
 }
 
 .content {
@@ -144,7 +145,7 @@ iframe {
 
 /* Sidebar fija a la izquierda */
 .menu {
-  background-color: var(--rosa);
+  background-color: white;
   display: flex;
   flex-direction: column;
   position: fixed;
@@ -155,11 +156,15 @@ iframe {
   z-index: 1000;
   overflow-y: auto;
 }
+/* Baja un poco la barra de tabs */
+.menu {
+  margin-top: 30px; /* ajustá el valor a gusto */
+}
 
 /* Botones de los tabs */
 .menu button {
   border: none;
-  background: transparent;   /* el fondo lo da la barra rosa */
+  background: var(--rosa);   /* el fondo lo da la barra rosa */
   padding: 14px 16px 14px 18px;
   text-align: left;
   font-size: 1.05em;

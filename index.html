@@ -4,7 +4,6 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Darío Georges / Portfolio</title>
-  
 
   <!-- Fuentes -->
   <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
@@ -14,8 +13,62 @@
 
   <!-- Estilos mobile (solo <= 768px) -->
   <link rel="stylesheet" type="text/css" href="css/styles_mobile.css" media="(max-width: 768px)">
+
+  <style>
+    /* Traductor fijo arriba a la derecha, sin empujar el layout */
+    #google_translate_container{
+      position: fixed;
+      top: 8px;
+      right: 10px;
+      z-index: 3000;       /* por encima del menú */
+      background: transparent;
+      padding: 0;
+    }
+    #google_translate_element select{
+      padding: 4px;
+      border-radius: 4px;
+      border: 1px solid #ccc;
+      background: #fff;
+    }
+    /* En mobile, bajamos un toque para que no se solape con el header */
+    @media (max-width: 768px){
+      #google_translate_container{ top: 12px; right: 10px; }
+    }
+  </style>
 </head>
 <body>
+
+  <!-- Google Translate fijo arriba a la derecha -->
+  <div id="google_translate_container">
+    <div id="google_translate_element"></div>
+  </div>
+  <script>
+    function googleTranslateElementInit() {
+      if (window.google && google.translate) {
+        new google.translate.TranslateElement({
+          pageLanguage: 'es',
+          includedLanguages: 'en,fr,de,it,pt,es,zh-CN,ja,ko',
+          layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+        }, 'google_translate_element');
+      }
+    }
+    (function loadGTranslate(){
+      var s = document.createElement('script');
+      s.src = 'https://translate.google.com/translate_a/element.js?cb=googleTranslateElementInit';
+      s.async = true;
+      document.head.appendChild(s);
+      // Fallback si la callback no dispara
+      var tries = 0, maxTries = 20;
+      var timer = setInterval(function() {
+        if (window.google && google.translate && document.getElementById('google_translate_element')) {
+          clearInterval(timer);
+          googleTranslateElementInit();
+        } else if (++tries >= maxTries) {
+          clearInterval(timer);
+        }
+      }, 500);
+    })();
+  </script>
 
   <button id="hamburger" class="hamburger" aria-label="Toggle menu">☰</button>
 
@@ -37,21 +90,7 @@
       <iframe id="videoFrame" src="" allowfullscreen></iframe>
     </div>
 
-    <div id="content" class="content">
-      <div id="google_translate_element"></div>
-
-      <script type="text/javascript">
-        function googleTranslateElementInit() {
-          new google.translate.TranslateElement({
-            pageLanguage: 'es',
-            includedLanguages: 'en,fr,de,it,pt,es,zh-CN,ja,ko',
-            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-          }, 'google_translate_element');
-        }
-      </script>
-
-      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
-    </div>
+    <div id="content" class="content"></div>
 
     <div class="footer">
       <ul>
@@ -95,17 +134,14 @@
         updateHamburgerVisibility();
         return;
       }
-
       if (currentScrollY > lastScrollY && !menuHidden) {
         menu.classList.add('hidden');
         menuHidden = true;
         updateHamburgerVisibility();
       }
-
       lastScrollY = currentScrollY;
     });
 
-    // Inicializar correctamente al cargar la página
     updateHamburgerVisibility();
   </script>
 </body>
