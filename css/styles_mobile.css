@@ -59,11 +59,11 @@ body {
   border: none;
   background: transparent;
   color: var(--blanco);
-  padding: 4px 8px 4px 8px;   /* altura más baja, un poco menos ancho */
+  padding: 2px 8px 2px 8px;   /* altura más baja, un poco menos ancho */
   margin: 0;
   text-align: center;
-  font-size: 12px;            /* tipografía un poco más chica */
-  line-height: 1.1;
+  font-size: 10px;            /* tipografía un poco más chica */
+  line-height: 1;
   cursor: pointer;
 
   flex: 0 0 auto;             /* evita que se estiren al ancho completo */
