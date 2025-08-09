@@ -32,19 +32,23 @@ body {
    MENÚ / TABS ARRIBA EN UNA FILA
    ================================ */
 .menu {
-  position: sticky;         /* <— era fixed */
+  position: sticky;
   top: 0;
   left: 0; right: 0;
   width: 100%;
-  height: auto;
   background-color: var(--rosa);
   z-index: 1000;
   display: flex;
   flex-direction: row;
-  flex-wrap: wrap;          /* si no entran, bajan de línea */
+  flex-wrap: wrap;
   padding: 6px 6px 10px 6px;
   box-sizing: border-box;
   overflow: visible;
+}
+
+/* 👇 Cuando lo ocultás, que NO deje hueco */
+.menu.hidden {
+  transform: none !important;
 }
 
 
@@ -88,14 +92,24 @@ body {
 }
 
 /* Ocultamos el hamburguesa en mobile (no lo necesitamos) */
-.hamburger { display: none !important; }
+.hamburger {
+  display: block;             /* el JS lo pone en block/none según estado */
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1100;
+  background: #fff;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+}
 
 /* =======================================
    CONTENIDO: debajo del menú fijo
    ======================================= */
 .mainContent {
   margin-left: 0 !important;
-  padding-top: 0;           /* <— sin relleno extra */
+  padding-top: 0;   /* antes usábamos un offset; ya no hace falta */
   box-sizing: border-box;
 }
 
