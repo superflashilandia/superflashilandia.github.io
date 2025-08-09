@@ -1,273 +1,259 @@
-body
-	{
-		margin: 0 auto;
-		padding:0;
-		font-family: helvetica, arial;
-		/* margin:auto; */
-		/* font-size:16px; */
-		color:#000000;
-		/* background-image:url('../images/interface/blackWhite.png'); */
-		background-position:center top;
-		line-height: 1.5;
-	}
-	.all
-	{
-		max-width: 100%;
-		margin:auto;
-	}
-	.ContentLineMobile #contentImage
-	{
-		width:95%
-	}
-	.menu {
-		display:none;
-		z-index: 1;
-		background-color: #bab9b9;
-		/* float: left; */
-		margin-left: 20px;
-		position: fixed;
-		width: 100%;
-		height: 100%;
-		padding: 0;
-		margin: 0;
-		margin-top: 62px;
-	}
-	.menuSmall {
-		font-size: 16px;
-		line-height: 1.8;
-	}
-	.tags
-	{
-		font-size: 28px;
-		margin-left: 20px;
-	}
-	ul
-	{
-		text-decoration:none;
-		margin:0px;
-		padding:0px;
-		float: left;
-	}
-	li 
-	{
-		display:block;
-		padding:0px;
-		margin-bottom:3px;		
-	} 
-	li a
-	{
-		padding:0 5px;	
-	}
+/* =========================================================
+   MOBILE ONLY (cargado con media="(max-width: 768px)")
+   Mantiene estilos base de desktop y los adapta a mobile.
+   ========================================================= */
 
-	.contentMobile {
-		width: 90%;
-		margin: auto;
-		padding-top: 83px;
-	}
-	.content {
-		margin-top: 66px;
-		margin-left: 23px;
-		width: 95%;
-		position: absolute;
-	}
-	.ContentLineMobile
-	{
-		float:left;
-		width:100%;
-		margin-bottom:22px;
-		font-size: 1em;			
-	}
-	.ContentLine
-	{
-		font-size: .75em;
-		float: left;
-		/* width: 80%; */
-		margin-bottom:22px;
-		margin-right: 20px;
-		margin-bottom: 36px;
-		/* clear: both; */
-		/* background: #CCC; */
-		/* display: block; */
-		/* height: 200px; */
-	}
-	.video{
-		float:left;
-		width:100%;
-	}
-	.ContentLine img
-		{
-			max-width:250px;
-			float: left;
-			clear: both;
-		}
-	.cols
-	{
-		width:100%;
-		float:left;
-		column-count: 4;
-		column-gap: 3em;
-		column-rule: 1px solid #bbb;
-	}
-	.colsMobile
-	{
-		width:100%;
-		float:left;
-	}
-	a {
-		background-color: #bab9b9;
-		color: #ffffff;
-		font-weight: 400;
-		text-decoration: none;
-	}
-	a:hover
-	{
-		text-decoration:none;
-		background-color:#FF0000;
-	}
-	.selected
-	{
-		background-color:#FF0000;
-	}
-	.header
-	{
-		background-color: #bab9b9;
-		width:100%;
-		color:white;
-		position: fixed;
-		z-index: 1;
-	}
-	h1
-	{
-		font-size: 24px;
-		font-weight:800;
-		margin-top: 0px;
-		margin-bottom: 18px;
-		line-height: 1.2em;
-		padding-top: 15px;
-		float: left;
-		padding-left: 25px;
-	}
-	p
-	{
-		
-	}
-	h2
-	{
-		font-size: 1.7em;
-		font-weight:800;
-		margin-top: 15px;
-		float: left;
-		margin-bottom: 28px;
-		width: 100%;
-		line-height: 1.3em;
-	}
-	h3
-	{
-		font-size:18px;
-		font-weight:800;
-		margin-top:0px;
-		margin-bottom:8px;
-	}
-	p
-	{
-		font-size: 0.9em;
-		float: left;
-		font-weight:400;
-		margin-top:4px;
-		margin-bottom:10px;
-		line-height: 1.5em;
-	}
-	.work
-	{
-		float:left;
-		margin-bottom: 30px;
-		width: 100%;
-	}
-	img
-	{
-		float:left;
-		margin-bottom: 12px;
-		margin-right: 22px;
-	}
-	.ContentLineMobile iframe
-	{
-		width:100%;
-		float: left;
-	}
-	.ContentLine iframe
-	{
-		width: 400px  !important;
-		height: 234px;
-	}
-	.ContentLineMobile .video
-	{
-		float:left;
-		margin-right: 22px;
-		width: 100%;
-	}
-	.social {
-		float:left;
-		margin-top: 9px;
-		margin-right: 34px;		#width:150px;
-	}
-	.social li{
-		float:left;
-	}
-	.social li a{
-		padding:0px;
-	}
-	.social li a img{
-		margin-right:0px;
-	}
-	.footer {
-		float:left;
-		color: #888;
-		margin: 5px;
-		margin-top:10px;
-	}
-	.footer li
-	{
-		font-size: 14px;
-	}
-	.socialData {
-		float:left;
-		margin-top: 5px;
-		margin-left: 34px;
-		/* width:150px; */
-	}
-	
-	
-	
-	
-	.hamburguer {
-  display: inline-block;
+/* Variables (mismo set que desktop para coherencia) */
+:root{
+  --rosa: #ff55ff;
+  --celeste: #55ffff;
+  --negro: #000000;
+  --blanco: #ffffff;
+  --gris-suave: #d9d9d9;
+
+  /* Altura aproximada del menú mobile (ajustable) */
+  --menu-mobile-offset: 96px;
+}
+
+/* Reset básico mobile */
+html, body {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: 'Roboto', sans-serif;
+  line-height: 1.5;
+  color: var(--negro);
+  display: block; /* anulamos el display:flex de desktop */
+  min-height: 100vh;
+}
+
+/* ================================
+   MENÚ / TABS ARRIBA EN UNA FILA
+   ================================ */
+.menu {
+  position: fixed;
+  top: 0; left: 0; right: 0;
+  width: 100%;
+  height: auto;
+  background-color: var(--rosa);
+  z-index: 1000;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;          /* si no entran, bajan a la línea siguiente */
+  padding: 6px 6px 10px 6px;
+  box-sizing: border-box;
+  overflow: visible;        /* evita clipping de textos */
+}
+
+/* Botones de tab en mobile */
+.menu button {
+  border: none;
+  background: transparent;  /* el fondo lo da la barra rosa */
+  color: var(--blanco);
+  padding: 8px 10px;
+  margin: 0;
+  text-align: center;
+  font-size: 14px;
+  line-height: 1.1;
   cursor: pointer;
-  float: right;
-  margin-top: 16px;
-  margin-right: 30px;
+  flex: 1 1 auto;           /* se adaptan al ancho disponible */
+  min-width: 96px;          /* evita tabs demasiado chicos */
 }
 
-.bar1, .bar2, .bar3 {
-  width: 29px;
-  height: 3px;
-  background-color: FFF;
-  margin: 4px 0;
-  transition: 0.4s;
+/* Título visual dentro del botón */
+.menu.tab h3 {
+  font-family: 'Silkscreen', sans-serif;
+  font-weight: 400;
+  font-size: 14px;
+  color: var(--blanco);
+  margin: 0;
+  white-space: normal;      /* permite salto */
+  word-break: break-word;   /* corta limpio si es largo */
 }
 
-/* Rotate first bar */
-.change .bar1 {
-  -webkit-transform: rotate(-45deg) translate(-9px, 6px) ;
-  transform: rotate(-45deg) translate(-9px, 6px) ;
+/* Hover/activo */
+.menu.tab .filter-button:hover h3 {
+  color: var(--celeste);
+}
+.filter-button { color: var(--blanco); }
+.filter-button-active {
+  color: var(--negro);
+  background-color: var(--blanco);
+}
+.menu.tab .filter-button.filter-button-active h3 {
+  color: var(--negro);
 }
 
-/* Fade out the second bar */
-.change .bar2 {
-  opacity: 0;
+/* Ocultamos el hamburguesa en mobile (no lo necesitamos) */
+.hamburger { display: none !important; }
+
+/* =======================================
+   CONTENIDO: debajo del menú fijo
+   ======================================= */
+.mainContent {
+  margin-left: 0 !important;             /* sin sidebar a la izquierda */
+  padding-top: var(--menu-mobile-offset);/* deja espacio al menú fijo */
+  box-sizing: border-box;
 }
 
-/* Rotate last bar */
-.change .bar3 {
-  -webkit-transform: rotate(45deg) translate(-8px, -8px) ;
-  transform: rotate(45deg) translate(-8px, -8px) ;
+/* Limpiamos anchos/posiciones heredadas del desktop */
+.content {
+  padding: 16px;
+  max-width: 100%;
+}
+
+/* Tipografías: un pelín más compactas en mobile */
+h1 {
+  font-family: 'Silkscreen', sans-serif;
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 1.2;
+  margin: 8px 0 10px 0;
+}
+
+h2 {
+  font-family: 'Silkscreen', sans-serif;
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 1.3;
+  margin-top: 22px;   /* espacio encima */
+  margin-bottom: 8px; /* debajo más corto */
+}
+
+p {
+  font-size: 16px;
+  line-height: 1.5;
+  margin: 6px 0;
+}
+
+/* Separador entre secciones (si lo usás) */
+.section-separator {
+  border: none;
+  height: 1px;
+  background: var(--gris-suave);
+  width: 80%;
+  max-width: 320px;
+  margin: 18px 0;
+}
+
+/* =======================================
+   LINKS DE CONTENIDO (home/cv/etc.)
+   ======================================= */
+.links {
+  display: flex;
+  gap: 8px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+.links a {
+  background-color: var(--rosa);
+  color: var(--blanco);
+  padding: 6px 10px;
+  font-size: 15px;
+  border-radius: 0;
+  text-decoration: none;
+  transition: background .25s ease;
+}
+.links a:hover {
+  background-color: var(--celeste);
+  color: var(--negro);
+}
+
+/* =======================================
+   FOOTER RESPONSIVE
+   ======================================= */
+.footer {
+  width: 100%;
+  margin: 24px 0 20px 0;
+  padding: 10px 12px;
+  box-sizing: border-box;
+}
+.footer ul {
+  list-style: none;
+  padding: 0; margin: 0;
+  display: flex;
+  flex-direction: column;   /* columna en mobile */
+  gap: 10px;
+  align-items: flex-start;
+}
+.footer li { margin: 0; }
+.footer a {
+  background-color: var(--celeste);
+  color: var(--negro);
+  padding: 8px 12px;
+  font-size: 15px;
+  border-radius: 0;
+  text-decoration: none;
+  transition: background .25s ease;
+}
+.footer a:hover {
+  background-color: var(--rosa);
+  color: var(--blanco);
+}
+
+/* =======================================
+   IMÁGENES Y GALERÍAS
+   ======================================= */
+.homeImage {
+  width: 100%;
+  height: auto;
+  margin: 0 0 14px 0;
+  float: none;            /* evita floats en mobile */
+}
+
+.contentImages img,
+.contentImagesHome img {
+  max-width: 100%;
+  height: auto;
+  float: none;
+  margin: 0 0 12px 0;
+}
+
+/* Galería responsive si la usás */
+#gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(160px, 1fr));
+  gap: 8px;
+}
+
+/* Iframe de video */
+iframe {
+  width: 100%;
+  height: 220px; /* más bajo en mobile */
+  border: none;
+}
+
+/* =======================================
+   OVERLAY DE VIDEO
+   ======================================= */
+.video-overlay {
+  display: none;              /* se muestra via JS */
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,.9);
+  align-items: center;
+  justify-content: center;
+  z-index: 9999;
+}
+.video-overlay iframe {
+  width: 92%;
+  max-width: 640px;
+  height: 360px;
+  border: none;
+}
+.close-overlay {
+  position: absolute;
+  top: 16px; right: 20px;
+  font-size: 32px;
+  color: var(--blanco);
+  cursor: pointer;
+}
+
+/* =======================================
+   GOOGLE TRANSLATE (un detalle)
+   ======================================= */
+#google_translate_element a {
+  color: var(--negro);
+  background-color: var(--blanco);
 }

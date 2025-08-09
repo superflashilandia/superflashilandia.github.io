@@ -1,121 +1,111 @@
-<html>
+<!DOCTYPE html>
+<html lang="es">
 <head>
-	<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Darío Georges / Portfolio</title> 
+  <title>Darío Georges / Portfolio</title>
+
+  <!-- Fuentes -->
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400&family=Silkscreen:wght@400;700&display=swap" rel="stylesheet">
+
+  <!-- Estilos desktop/base -->
   <link rel="stylesheet" type="text/css" href="css/styles.css">
+
+  <!-- Estilos mobile (solo <= 768px) -->
+  <link rel="stylesheet" type="text/css" href="css/styles_mobile.css" media="(max-width: 768px)">
 </head>
-<body>	
+<body>
 
+  <button id="hamburger" class="hamburger" aria-label="Toggle menu">☰</button>
 
-<button id="hamburger" class="hamburger" aria-label="Toggle menu">☰</button>
-<nav class="menu tab" id="tab">
-   <button class="filter-button" data-filter="home"><h3>home<h3></button>
-   <button class="filter-button" data-filter="edtech"><h3>EdTech<h3></button>
-	<button class="filter-button" data-filter="videogame"><h3>Videojuegos<h3></button>
-	<button class="filter-button" data-filter="punkscii"><h3>Punkscii<h3></button>
-	<button class="filter-button" data-filter="videos"><h3>Video<h3></button>
-	<button class="filter-button" data-filter="exhibition"><h3>Exhibiciones<h3></button>
-	<button class="filter-button" data-filter="musicapps"><h3>Apps musicales<h3></button>
-	<button class="filter-button" data-filter="music"><h3>Música<h3></button>
-	<button class="filter-button" data-filter="cv"><h3>CV<h3></button>
-</nav>
+  <nav class="menu tab" id="tab">
+    <button class="filter-button" data-filter="home"><h3>home</h3></button>
+    <button class="filter-button" data-filter="edtech"><h3>EdTech</h3></button>
+    <button class="filter-button" data-filter="videogame"><h3>Videojuegos</h3></button>
+    <button class="filter-button" data-filter="punkscii"><h3>Punkscii</h3></button>
+    <button class="filter-button" data-filter="videos"><h3>Video</h3></button>
+    <button class="filter-button" data-filter="exhibition"><h3>Exhibiciones</h3></button>
+    <button class="filter-button" data-filter="musicapps"><h3>Apps musicales</h3></button>
+    <button class="filter-button" data-filter="music"><h3>Música</h3></button>
+    <button class="filter-button" data-filter="cv"><h3>CV</h3></button>
+  </nav>
 
-  <main class="mainContent"> 
-	<div class="video-overlay" id="videoOverlay">
-		<div class="close-overlay" onclick="closeVideo()">&times;</div>
-		<iframe id="videoFrame" src="" allowfullscreen></iframe>
-	</div>
+  <main class="mainContent">
+    <div class="video-overlay" id="videoOverlay">
+      <div class="close-overlay" onclick="closeVideo()">&times;</div>
+      <iframe id="videoFrame" src="" allowfullscreen></iframe>
+    </div>
 
-	<div id="content" class = "content">
-	
-	<div id="google_translate_element"></div>
+    <div id="content" class="content">
+      <div id="google_translate_element"></div>
 
-	<script type="text/javascript">
-	  function googleTranslateElementInit() {
-		new google.translate.TranslateElement({
-		  pageLanguage: 'es',  // idioma original
-		  includedLanguages: 'en,fr,de,it,pt,es,zh-CN,ja,ko',  // idiomas disponibles
-		  layout: google.translate.TranslateElement.InlineLayout.SIMPLE
-		}, 'google_translate_element');
-	  }
-	</script>
+      <script type="text/javascript">
+        function googleTranslateElementInit() {
+          new google.translate.TranslateElement({
+            pageLanguage: 'es',
+            includedLanguages: 'en,fr,de,it,pt,es,zh-CN,ja,ko',
+            layout: google.translate.TranslateElement.InlineLayout.SIMPLE
+          }, 'google_translate_element');
+        }
+      </script>
 
-<script type="text/javascript"
-  src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit">
-</script>
+      <script type="text/javascript" src="//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"></script>
+    </div>
 
- 
-	</div> 
-	<div class="footer">
-		<ul>
-			<li>
-				<a href="mailto:superflashilandia@gmail.com">superflashilandia@gmail.com</a>  
-			</li>
-			<li>
-				<a href="https://github.com/superflashilandia" target="_blank">Github</a>  
-			</li>
-			<li>
-				<a href="https://www.behance.net/superflashilandia" target="_blank">Behance</a>  
-			</li>
-			<li>
-				<a href="https://www.linkedin.com/in/dariogeorges/" target="_blank">Linkedin</a>  
-			</li>	
-			<li>
-				<a href="https://www.instagram.com/superflashilandia/" target="_blank">Instagram</a>  
-			</li>			
-		</ul>
-	</div> 
-   </main> 
+    <div class="footer">
+      <ul>
+        <li><a href="mailto:superflashilandia@gmail.com">superflashilandia@gmail.com</a></li>
+        <li><a href="https://github.com/superflashilandia" target="_blank" rel="noopener">Github</a></li>
+        <li><a href="https://www.behance.net/superflashilandia" target="_blank" rel="noopener">Behance</a></li>
+        <li><a href="https://www.linkedin.com/in/dariogeorges/" target="_blank" rel="noopener">Linkedin</a></li>
+        <li><a href="https://www.instagram.com/superflashilandia/" target="_blank" rel="noopener">Instagram</a></li>
+      </ul>
+    </div>
+  </main>
 
-	 
-</body>
- <script src="js/content.js"></script>
- <script src="js/videos.js"></script>
-</html>
+  <!-- Scripts -->
+  <script src="js/content.js"></script>
+  <script src="js/videos.js"></script>
 
-<script>
-  const menu = document.getElementById('tab');
-  const hamburger = document.getElementById('hamburger');
-  let lastScrollY = window.scrollY;
-  let menuHidden = false;
+  <script>
+    const menu = document.getElementById('tab');
+    const hamburger = document.getElementById('hamburger');
+    let lastScrollY = window.scrollY;
+    let menuHidden = false;
 
-  function updateHamburgerVisibility() {
-    if (menuHidden) {
-      hamburger.style.display = 'block';
-    } else {
-      hamburger.style.display = 'none';
+    function updateHamburgerVisibility() {
+      hamburger.style.display = menuHidden ? 'block' : 'none';
     }
-  }
 
-  // Toggle con botón hamburguesa
-  hamburger.addEventListener('click', () => {
-    menu.classList.toggle('hidden');
-    menuHidden = !menuHidden;
+    // Toggle con botón hamburguesa
+    hamburger.addEventListener('click', () => {
+      menu.classList.toggle('hidden');
+      menuHidden = !menuHidden;
+      updateHamburgerVisibility();
+    });
+
+    // Control del scroll
+    window.addEventListener('scroll', () => {
+      const currentScrollY = window.scrollY;
+
+      if (currentScrollY === 0) {
+        menu.classList.remove('hidden');
+        menuHidden = false;
+        updateHamburgerVisibility();
+        return;
+      }
+
+      if (currentScrollY > lastScrollY && !menuHidden) {
+        menu.classList.add('hidden');
+        menuHidden = true;
+        updateHamburgerVisibility();
+      }
+
+      lastScrollY = currentScrollY;
+    });
+
+    // Inicializar correctamente al cargar la página
     updateHamburgerVisibility();
-  });
-
-  // Control del scroll
-  window.addEventListener('scroll', () => {
-    const currentScrollY = window.scrollY;
-
-    if (currentScrollY === 0) {
-      menu.classList.remove('hidden');
-      menuHidden = false;
-      updateHamburgerVisibility();
-      return;
-    }
-
-    if (currentScrollY > lastScrollY && !menuHidden) {
-      menu.classList.add('hidden');
-      menuHidden = true;
-      updateHamburgerVisibility();
-    }
-
-    lastScrollY = currentScrollY;
-  });
-
-  // Inicializar correctamente al cargar la página
-  updateHamburgerVisibility();
-</script>
+  </script>
+</body>
+</html>
