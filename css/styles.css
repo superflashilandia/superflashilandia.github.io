@@ -344,3 +344,65 @@ iframe {
   max-width: 160px;    /* ajustá a gusto */
   height: auto;
 }
+/* Contenedor responsive para embeds 16:9 */
+.embed {
+  width: 100%;
+  max-width: 960px;   /* ajustá a gusto */
+  margin: 12px 0;
+}
+
+.embed-16x9 iframe {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  height: auto;
+  border: 0;
+}
+
+/* fallback por si algún navegador viejo no respeta aspect-ratio */
+.embed-16x9 {
+  position: relative;
+}
+.embed-16x9 iframe {
+  position: relative;
+}
+@supports not (aspect-ratio: 16/9) {
+  .embed-16x9 {
+    height: 0;
+    padding-bottom: 56.25%;
+  }
+  .embed-16x9 iframe {
+    position: absolute;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+  }
+}
+/* grilla para embeds de instagram */
+.instagram-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(326px, 1fr)); /* antes 260px */
+  gap: 16px;
+  align-items: start;
+}
+
+/* el embed ocupa todo el ancho de su celda, sin tope */
+.instagram-grid .instagram-media {
+  width: 100% !important;
+  max-width: 100% !important;   /* ← dejalo en 100%, NO 320px */
+  min-width: 0 !important;
+  margin: 0 !important;
+}
+
+/* mobile: 1 por fila */
+@media (max-width: 768px) {
+  .instagram-grid {
+    grid-template-columns: 1fr;
+    gap: 12px;
+  }
+}
+
+/* asegurar altura automática */
+.instagram-grid .instagram-media,
+.instagram-grid .instagram-media iframe {
+  height: auto !important;
+}

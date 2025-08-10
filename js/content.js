@@ -161,6 +161,12 @@ document.addEventListener("DOMContentLoaded", () => {
           contentEl.appendChild(hr);
         }
       });
+
+      // --- Re-procesar embeds de Instagram si el script está disponible ---
+      if (window.instgrm && window.instgrm.Embeds && typeof window.instgrm.Embeds.process === 'function') {
+        window.instgrm.Embeds.process();
+      }
+
     } catch (err) {
       console.error("Error cargando la sección:", err);
       if (contentEl) {

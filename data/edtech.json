@@ -16,7 +16,7 @@
   },
 	{
 		"title": "Inventar El Mundo",
-		"description": "<img src='images/illustrations/inventar.png' class='homeImage'/>En 2020 desarrollamos Inventar el Mundo para Paka Paka. Este juego/juguete/herramienta permite crear pequeñas obras de arte animadas con piezas geométricas editables, y compartirlas en formato de gif animado. Como director de arte, procuré que el juego se sintiera orgánico y cálido. Algo que ayudó mucho a lograr esto fue el inventario de formas: las piezas caen con física, generando sonidos suaves de madera al colisionar entre ellas. Es un juego digital con espíritu naturalista. Fue publicado para dispositivos Android, iOs y para desktop en formato webGL.",
+		"description": "<img src='images/illustrations/inventar.png' class='homeImage'/>Junto a Plan desarrollamos Inventar el Mundo para Paka Paka. Este juego/herramienta permite crear pequeñas obras de arte animadas con piezas geométricas editables, y compartirlas en formato de gif animado. Como director de arte, procuré que el juego se sintiera orgánico y cálido. Algo que ayudó mucho a lograr esto fue el inventario de formas: las piezas caen con física, generando sonidos suaves de madera al colisionar entre ellas. Por otro lado, todas las animaciones tienen sonidos percusivos de estética analógica que, combinados, generan ritmos. Es un juego digital con espíritu naturalista. Fue publicado para dispositivos Android, iOs y para desktop en formato webGL. Actualmente sólo está disponible en el último formato.",
 	 "images": [
     "images/illustrations/prize_comkids.png",
     "images/illustrations/prize_japan.png"
@@ -52,17 +52,22 @@
 		"links":
 		[
 			{
+				"url_text": "Google Play",
+				"url": "https://play.google.com/store/apps/details?id=com.yaguar.Matenautas"
+			},
+			{
+				"url_text": "Arte",
+				"url": "https://www.behance.net/gallery/122374861/Matenautas"
+			},
+			{
+				"url_text": "Charla en Núcleo 2021",
+				"url": "https://www.youtube.com/watch?v=9eipDeYoQog"
+			},
+			{
 				"url_text": "Ganador MasMat",
 				"url": "https://www.fundacionbyb.org/post/matenautas-es-el-proyecto-ganador-de-m%C3%A1smat"
-			},
-			{
-				"url_text": "Ver el Festival Multiversos",
-				"url": "https://www.dailymotion.com/video/x8jt8n8"
-			},
-			{
-				"url_text": "MATENAUTAS es el proyecto ganador del Concurso MásMAT...",
-				"url": "https://revista.elarcondeclio.com.ar/matenautas-es-el-proyecto-ganador-del-concurso-masmat-que-busca-promover-habilidades-matematicas/"
 			}
+			
 			
 		]
 	},

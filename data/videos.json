@@ -1,31 +1,53 @@
 [
 	{
-		"name": "Inventar Pakapaka",
-		"youtube_id": "Vs_wEMhh1O4",
-		"description": "Juguete para crear pequeñas obras animadas partiendo de figuras geométricas básicas. Las obras son compartidas como gifs animados en redes sociales.<br><ul><li>Ganadora del premio Mejor App Para Niñes en comKids 2022.</li><li>Finalista del Japan Prize 2022, categoría digital</li>",
-		"client": "Pakapaka",
-		"tags": "home videogame kids educational",
-		"links": 
+		"title": "Mariano Rodriguez & Julio Nusdeo - Dos Tumbas",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/8ybBnnmpNHc?si=wuQtjKDX2FRnQu2b' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+
+		"links":
 		[
 			{
-				"url_text": "Paka-Paka (PLAY)",
-				"url": "https://inventar.pakapaka.gob.ar/juego/"
+				"url_text": "Arte",
+				"url": "https://www.behance.net/gallery/191093409/Dos-Tumbas"
+			},
+			{
+				"url_text": "Mariano Rodriguez",
+				"url": "https://marianorodriguez2.bandcamp.com/"
+			},
+			{
+				"url_text": "Julio Nusdeo",
+				"url": "https://www.linkedin.com/in/julio-nusdeo-14065b24/?trk=pub-pbmap&originalSubdomain=ar"
+			}
+		]
+  },
+	{
+		"title": "Lulu Lewis - Destroy All Data",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/xhjr2TQYweA?si=Wozl3qVsmtCSzQ0N' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+		"links":
+		[
+			{
+				"url_text": "Arte",
+				"url": "https://www.behance.net/gallery/186720101/Destroy-All-Data"
+			},
+			{
+				"url_text": "Lulu Lewis",
+				"url": "https://www.lululewismusic.com/"
 			}
 		]
 	},
-   {
-    "name": "Matenautas",
-    "youtube_id": "a6qcpWbs1Uw",
-    "client": "Fundación Bunge y Born",
-    "title": "Matenautas",
-    "description": "Matenautas es un juego de ciencia ficción desarrollado por Yaguar, Fundación Hagamos Todo Para Educar en Ciencias y Edutrama. Este proyecto es uno de los finalistas del concurso MásMAT, organizado por la Fundación Bunge y Born.<br><ul><li>Ganadora del concurso MásMAT, organizado por la Fundación Bunge y Born.</li>",
-    "tags": "home educational kids videogame",
-	"links": 
+	{
+		"title": "Kumbia Queers - Delivery de Vino",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/SGfNwQXv6UA?si=mRVz0WpIfzMy-JSm' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+		"links":
 		[
 			{
-				"url_text": "PlayStore",
-				"url": "https://play.google.com/store/apps/details?id=com.yaguar.Matenautas"
+				"url_text": "Arte",
+				"url": "https://www.behance.net/gallery/151020015/Delivery-de-Vino"
+			},
+			{
+				"url_text": "Kumbia Queers",
+				"url": "https://www.instagram.com/kumbia_queers"
 			}
 		]
-  }
+	}
+			
 ]
