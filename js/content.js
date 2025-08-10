@@ -33,6 +33,18 @@ document.addEventListener("DOMContentLoaded", () => {
     return a;
   }
 
+  // Recibe string o array y agrega <img> al parent
+  function appendImages(imgField, parent) {
+    if (!imgField) return;
+    const srcs = Array.isArray(imgField) ? imgField : [imgField];
+    srcs.forEach(src => {
+      if (!src) return;
+      const img = document.createElement("img");
+      img.src = src;
+      parent.appendChild(img);
+    });
+  }
+
   function renderSection(section, container) {
     const sectionDiv = document.createElement("div");
     sectionDiv.className = "content-section";
@@ -62,10 +74,9 @@ document.addEventListener("DOMContentLoaded", () => {
           itemDiv.appendChild(desc);
         }
 
-        if (item.image) {
-          const img = document.createElement("img");
-          img.src = item.image;
-          itemDiv.appendChild(img);
+        // Soporte image / images en item
+        if (item.image || item.images) {
+          appendImages(item.images || item.image, itemDiv);
         }
 
         if (item.links && Array.isArray(item.links)) {
@@ -87,10 +98,9 @@ document.addEventListener("DOMContentLoaded", () => {
         sectionDiv.appendChild(desc);
       }
 
-      if (section.image) {
-        const img = document.createElement("img");
-        img.src = section.image;
-        sectionDiv.appendChild(img);
+      // Soporte image / images en sección simple
+      if (section.image || section.images) {
+        appendImages(section.images || section.image, sectionDiv);
       }
 
       if (section.links && Array.isArray(section.links)) {

@@ -1,19 +1,24 @@
 [
 	{
 		"title": "EdTech y Museología",
-		"description": "En 2013, después de 8 años de aprender mucho participando del desarrollo de proyectos soñados, decidí renunciar a QB9 para poder dedicarme a explorar otras áreas del desarrollo interactivo y volver al dinamismo y la heterogeneidad de la autonomía. Pronto aparecieron los primeros clientes del mundo EdTech: Edutrama y Tipitap. No tardé en enamorarme de ese nicho. Participar de la creación de ideas con educadores, historiadores, matemáticos, científicos y otros expertos, y acercarles soluciones tecnológicas a sus demandas educativas, me pareció algo gratificante y estimulante desde el comienzo, y sentí que era un camino natural para profundizar. En 2014 fundamos Yaguar junto a los programadores Agustín Pontura y Juan Pablo Amato, focalizándonos casi exclusivamente en el desarrollo de productos y servicios tecnológicos para los segmentos de educación y cultura. El equipo creció según la necesidad de cada proyecto, sumando talentos como el de la escritora y diseñadora narrativa Alejandra Bruno, la diseñadora de UX Brenda Burgoa, la productora experta en museología Mariana Albornoz, el level designer Ignacio Rud, y la consultora educativa María Forteza. Juntos desarrollamos decenas de juegos y apps para instalaciones en museos y parques tecnológicos.",
+		"description": "En 2013, después de 8 años de aprender mucho participando del desarrollo de proyectos soñados, decidí renunciar a QB9 para poder dedicarme a explorar otras áreas del desarrollo interactivo y volver al dinamismo y la heterogeneidad de la autonomía. Pronto aparecieron los primeros clientes del mundo EdTech: <b>Edutrama</b> y <b>Tipitap</b>. No tardé en enamorarme de ese nicho. Participar de la creación de ideas con educadores, historiadores, matemáticos, científicos y otros expertos, y acercarles soluciones tecnológicas a sus demandas educativas, me pareció algo gratificante y estimulante desde el comienzo, y sentí que era un camino natural para profundizar. En 2014 fundamos Yaguar junto a los programadores <b>Agustín Pontura</b> y <b>Juan Pablo Amato</b>, focalizándonos casi exclusivamente en el desarrollo de productos y servicios tecnológicos para los segmentos de educación y cultura. El equipo creció según la necesidad de cada proyecto, sumando talentos como el de la escritora y diseñadora narrativa <b>Alejandra Bruno</b>, la diseñadora de UX <b>Brenda Burgoa</b>, la productora experta en museología <b>Mariana Albornoz</b>, el level designer <b>Ignacio Rud</b>, y la consultora educativa <b>María Forteza</b>. Juntos desarrollamos decenas de juegos y apps educativas para entidades públicas y privadas. También desarrollamos software para instalaciones en museos y parques tecnológicos, mayormente junto al estudio interactivo Plan.",
 		"links":
 		[
 			{
 				"url_text": "Yaguar",
 				"url": "https://yaguar.xyz/"
+			},
+			{
+				"url_text": "Plan",
+				"url": "https://vimeo.com/holaplan"
 			}
 		]
   },
 	{
-		"title": "Inventar - Pakapaka",
-		"description": "Desarrollé junto al equipo de Yaguar y Plan este videojuego / juguete interactivo para niñes que puede experimentarse en dispositivos Android y Apple y también en la web oficial de canal Paka Paka. Se trata de un juego para armar figuras, animarlas y compartirlas en redes. Publicación: Octubre 2020.",
-		"image":"images/illustrations/matenautas.png",
+		"title": "Inventar El Mundo",
+		"description": "<img src='images/illustrations/inventar.png' class='homeImage'/>En 2020 desarrollamos Inventar el Mundo para Paka Paka. Este juego/juguete/herramienta permite crear pequeñas obras de arte animadas con piezas geométricas editables, y compartirlas en formato de gif animado. Como director de arte, procuré que el juego se sintiera orgánico y cálido. Algo que ayudó mucho a lograr esto fue el inventario de formas: las piezas caen con física, generando sonidos suaves de madera al colisionar entre ellas. Es un juego digital con espíritu naturalista. Fue publicado para dispositivos Android, iOs y para desktop en formato webGL.",
+		"images": ["images/illustrations/prize_comkids.png", "images/illustrations/prize_japan.png"],
+
 		"links":
 		[
 			{
@@ -28,7 +33,7 @@
 	},
 	{
 		"title": "Matenautas",
-		"description": "Matenautas es un juego educativo de ciencia ficción que desarrollamos en Yaguar junto a Fundación Hagamos Todo Para Educar en Ciencias y Edutrama, que permite ejercitar contenidos curriculares de Matemática. Fué Ganadora del concurso MásMAT, organizado por la Fundación Bunge y Born.",
+		"description": "<img src='images/illustrations/matenautas.png' class='homeImage'/>Matenautas es una aventura gráfica de ciencia ficción que desarrollamos en sociedad con Fundación Hagamos Todo Para Educar en Ciencias y Edutrama. que permite ejercitar contenidos curriculares de Matemática. Fué ganadora del concurso nacional MásMAT, organizado por la Fundación Bunge y Born.",
 		"image":"images/works/matenautas2.jpg",
 		"links":
 		[
