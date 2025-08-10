@@ -339,3 +339,16 @@ iframe {
   /* el contenido NO se corre a la izquierda como en desktop */
   .mainContent { margin-left: 0 !important; }
 }
+/* Bloque para imágenes múltiples debajo del texto/homeImage */
+.extra-images {
+  clear: both;         /* ← fuerza que empiece debajo de cualquier float */
+  margin-top: 12px;    /* espacio arriba del bloque */
+  display: flex;       /* o grid, si preferís */
+  gap: 10px;
+  flex-wrap: wrap;
+}
+
+.extra-images img {
+  max-width: 160px;    /* ajustá a gusto */
+  height: auto;
+}

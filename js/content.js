@@ -33,15 +33,32 @@ document.addEventListener("DOMContentLoaded", () => {
     return a;
   }
 
-  // Recibe string o array y agrega <img> al parent
-  function appendImages(imgField, parent) {
-    if (!imgField) return;
-    const srcs = Array.isArray(imgField) ? imgField : [imgField];
-    srcs.forEach(src => {
-      if (!src) return;
+  // Helpers para imágenes
+  function appendSingleImage(src, container) {
+    if (!src) return;
+    const img = document.createElement("img");
+    img.src = src;
+    container.appendChild(img);
+  }
+
+  function appendImagesArray(images, container) {
+    if (!images) return;
+
+    // normalizo: aceptar string o array
+    const list = Array.isArray(images) ? images : [images];
+    if (list.length === 0) return;
+
+    // salto de línea ANTES del bloque de imágenes múltiples
+    container.appendChild(document.createElement("br"));
+
+    const wrap = document.createElement("div");
+    wrap.className = "extra-images";
+    container.appendChild(wrap);
+
+    list.forEach(src => {
       const img = document.createElement("img");
       img.src = src;
-      parent.appendChild(img);
+      wrap.appendChild(img);
     });
   }
 
@@ -74,9 +91,14 @@ document.addEventListener("DOMContentLoaded", () => {
           itemDiv.appendChild(desc);
         }
 
-        // Soporte image / images en item
-        if (item.image || item.images) {
-          appendImages(item.images || item.image, itemDiv);
+        // Imagen simple del item
+        if (item.image) {
+          appendSingleImage(item.image, itemDiv);
+        }
+
+        // MÚLTIPLES imágenes del item (con salto de línea antes)
+        if (item.images) {
+          appendImagesArray(item.images, itemDiv);
         }
 
         if (item.links && Array.isArray(item.links)) {
@@ -98,9 +120,14 @@ document.addEventListener("DOMContentLoaded", () => {
         sectionDiv.appendChild(desc);
       }
 
-      // Soporte image / images en sección simple
-      if (section.image || section.images) {
-        appendImages(section.images || section.image, sectionDiv);
+      // Imagen simple de la sección
+      if (section.image) {
+        appendSingleImage(section.image, sectionDiv);
+      }
+
+      // MÚLTIPLES imágenes de la sección (con salto de línea antes)
+      if (section.images) {
+        appendImagesArray(section.images, sectionDiv);
       }
 
       if (section.links && Array.isArray(section.links)) {
