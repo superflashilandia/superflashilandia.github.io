@@ -1,8 +1,15 @@
 [
-	{
-		"title": "Punkscii Not Dead",
-		"description": "Mis proyectos más experimentales y lúdicos desde la dinámica creativa, muchas veces combinan una serie de estéticas y recursos visuales y tecnológicos muy arraigados a varias etapas de mi vida: pixels, fanzines, text art, fotocopia experimental, fotonovelas, comics y flyers de rock. A este estilo mixto me gusta llamarle punkscii."
+		{
+		"title": "Punkscii",
+		"description": "Mis proyectos más experimentales y lúdicos desde la dinámica creativa, muchas veces combinan una serie de estéticas y recursos visuales y tecnológicos muy arraigados a varias etapas de mi vida: pixels, fanzines, ascii, fotocopia experimental, fotonovelas, comics y flyers de rock. A este estilo mixto me gusta llamarle punkscii."
 	},
+	
+	{
+		"title": "Punq!",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/ZsqvkZOdVo4?si=u8umQqW2Wf_oO2lO' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>"
+	
+	},
+
 	{
 		"title": "Venite conmigo",
 		"description": "<div class='instagram-grid'><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/DIbMv5IxARm/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/DINPNryxaeq/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/DIKXZjESR4I/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote></div>",
@@ -14,5 +21,6 @@
 			}
 		]
 
-	}	
+	}
+	
 ]
