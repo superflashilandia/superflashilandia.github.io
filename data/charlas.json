@@ -1,0 +1,68 @@
+[
+	{
+		"title": "Videojuegos como fanzines interactivos para animadorxs y marcianxs",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/3cDSxyojgME?si=V4EYRmEnY_MEpiRP' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>Charla en el festival de animación Cartón 2023, sobre el rol de un animador en el desarrollo de videojuegos.",
+
+		"links":
+		[
+			{
+				"url_text": "Festival Cartón",
+				"url": "https://animacioncarton.com/"
+			}
+		]
+  },
+  	{
+		"title": "Matenautas: Creando mundos inclusivos",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/9eipDeYoQog?si=r4VO2daJ1kxkxrs2' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>Charla que dimos junto a Ale Bruno sobre Matenautas en el evento Núcleo 2021, en diciembre de ese año.",
+		"links":
+		[
+			{
+				"url_text": "Encuentro Núcleo",
+				"url": "https://www.imagecampus.edu.ar/nucleo"
+			},
+			{
+				"url_text": "Matenautas",
+				"url": "https://play.google.com/store/apps/details?id=com.yaguar.Matenautas&hl=es_AR"
+			}
+		]
+	},
+	  	{
+		"title": "Yaguar: Videojuegos Educativos para Cambiar el Mundo",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/3CwNahznY9c?si=NzJZyhR0R3NGQCOS' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>Charla emitida el 4 de septiembre de 2021 durante la expo EVA 2021.",
+		"links":
+		[
+			{
+				"url_text": "Expo EVA",
+				"url": "https://expoeva.com/"
+			},
+			{
+				"url_text": "Yaguar",
+				"url": "https://yaguar.xyz/"
+			}
+		]
+	},
+	{
+		"title": "Modo Historia y la era de los juegos en Flash",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/090rS46Q6e4?si=NtUJApGGuJMPcs-h' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>Podcast de Modo Historia emitido el día que se discontinuó el soporte para Flash en los browsers del Planeta Tierra. Un emotivo velorio donde un montón de nerds nos despedimos de un querido amigo. Diciembre de 2020.",
+		"links":
+		[
+			{
+				"url_text": "Modo Historia",
+				"url": "https://open.spotify.com/show/5VfuTFEbnjG1QYO6c8gjlK"
+			}
+		]
+	},
+	{
+		"title": "Tumba en A Maze - Total Digital 2020",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/4Bbdw6eQNf4?si=2B51t4xb-zVKiKPL' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>Charla sobre Punga Raid y Perra Force en el evento alemán A-Maze 2020.",
+		"links":
+		[
+			{
+				"url_text": "A-Maze",
+				"url": "https://a-maze.net/"
+			}
+		]
+	}
+
+			
+]

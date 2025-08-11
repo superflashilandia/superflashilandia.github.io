@@ -221,6 +221,15 @@ p {
   float: none;            /* evita floats en mobile */
 }
 
+.fixedImage {
+  float: left;            /* Para que el texto fluya a la derecha */
+  margin-right: 25px;     /* Espacio entre la imagen y el texto */
+  margin-bottom: 18px;    /* Espacio debajo por si el texto no llega */
+  width: auto;            /* Mantener tamaño original */
+  height: auto;
+  max-width: none;        /* Evita que escale al 100% en mobile */
+}
+
 .contentImages img,
 .contentImagesHome img {
   max-width: 100%;
@@ -405,4 +414,25 @@ iframe {
     grid-template-columns: 1fr; /* 1 por fila en mobile */
     gap: 12px;
   }
+}
+.item-spacer {
+  height: 8px; /* ajusta para más o menos espacio debajo de los Links */
+}
+
+/* --- Separador entre items (ej. discografía) --- */
+.item-spacer {
+  display: block;
+  height: 12px;       /* ajustá este valor para más/menos espacio */
+  width: 100%;
+  clear: both;        /* asegura que el salto baje debajo de imágenes flotantes */
+}
+.dynamic-grid {
+  display: grid;
+  grid-gap: 10px; /* separación entre imágenes */
+}
+
+.dynamic-grid img {
+  width: 100%;
+  height: auto;
+  display: block;
 }

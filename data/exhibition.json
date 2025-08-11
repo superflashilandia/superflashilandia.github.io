@@ -1,25 +1,24 @@
 [
 	{
-		"title": "Muestras / Exhibiciones",
-		"description": "Expuse experiencias digitales propias y participé de muchas obras de distintos artistas y productoras, empezando por sitios web hasta muestras VR / AR, pasando por un colectivo lleno de arcades y otras experiencias más raras."
+		"title": "Exhibiciones",
+		"description": "Algunas muestras de arte de las que participé."
 	},
 	{
-		"title": "Muestras Arcade",
-	"description": "Hace años que formo parte de lo que llamamos colectivo arcade, que es un grupo de desarrolladores de videojuegos independientes argentinos que armamos eventos en distintos espacios culturales y conlcuimos comprando un colectivo y lo formateamos para que sea una auténtica sala de juegos móbil con gabinetes custom 100% desarrolos propios. En el 2021 Mulata Films filmó una serie que muestra un viaje qeu hicimos por todo el país, generando un encuentro inusual entre jugadores y máquinas en cada destino. Experiencias, historia, industria y nuevas propuestas lúdicas confluyen en este recorrido sin precedentes.",
-		"image": "images/works/vjsr.png",
+		"title": "Tono Sobre Tono",
+	"description": "<img src='images/exhibiciones/tst.png' class='homeImage'/>Muestra colectiva de arte de flyers, posters y discos de rock del primer cuarto del Siglo XXI. Museo Nacional del Grabado.Buenos Aires, 2025.",
 		"links":
 		[
 			{
-				"url_text": "En CineAR",
-				"url": "https://play.cine.ar/INCAA/produccion/8761"
-			},
-			{
-				"url_text": "Nota en Argentina.gob.ar",
-				"url": "https://www.argentina.gob.ar/noticias/videojuegos-sobre-ruedas-la-serie-estreno-de-tectv-que-lleva-los-juegos-arcades-por-toda-la"
+				"url_text": "MNG",
+				"url": "https://museodelgrabado.cultura.gob.ar/exhibicion/1800-tono-sobre-tono/"
 			}
-		]
-	} ,{
-		"title": "Ergo Proxy - Muestra Virtual",
+		],
+		"images": [
+     ""
+  ]
+	} ,
+	{
+		"title": "Bosque Inmersivo",
 		"description": "Ergo Proxy - Muestra Virtual. En el año del centenario del nacimiento de Joseph Beuys, el Pabellón de las Artes se adhiere a este aniversario con una exposición de escultura dentro del campo expandido, donde la escultura toma un rol social como lo difundía el maestro alemán. Un contexto 3D computarizado e interactivo desde la comunicación y la reconstrucción digital del paisaje que, de acuerdo al entendimiento del observador de lo habitual en su vida real, le permite relacionarse con la realidad virtual y la reconstrucción digital de Ergo Proxy. La muestra, que reúne a cuatro artistas, trabaja con las ambigüedades que se producen sobre la existencia, durante los procesos de digitalización.",
 		"image": "images/works/uca2.png",
 		"links":

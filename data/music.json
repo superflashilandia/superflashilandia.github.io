@@ -25,7 +25,8 @@
     "items": [
       {
         "subtitle": "Darío Georges - Superflashilandia Vol. 1",
-        "description": "<p><b>2020 - Jit Jot Records - Casette / Digital</b></p><p>Selección de musicas originales de videojuegos, en romántico formato de casette, y en pragmático formato digital. Chiptunes, thrash metal, cumbia, industrial... Un arcoiris de estilos que abarcan 15 años de videojuegos de géneros tan variados como las canciones.</p>",
+        "description": "<img src='images/disco/superflashilandia.jpg' class='fixedImage'/><p><b>2020 - Jit Jot Records - Casette / Digital</b></p><p>Selección de musicas originales de videojuegos, en romántico formato de casette, y en pragmático formato digital. Chiptunes, thrash metal, cumbia, industrial... Un arcoiris de estilos que abarcan 15 años de videojuegos de géneros tan variados como las canciones.</p>",
+	
         "links": [
           {
             "url_text": "Digital",
@@ -43,7 +44,7 @@
       },
 	  {
         "subtitle": "Darío Georges - Claudia",
-        "description": "<p><b>2019 - Independiente - Digital</b></p><p>Música original de la película Claudia, de Sebastián De Caro. La banda sonora más ´seria´ que compuse hasta el momento. Los temas estan en el orden en el que aparecen en la película.</p>",
+        "description": "<img src='images/disco/claudia.jpg' class='fixedImage'/><p><b>2019 - Independiente - Digital</b></p><p>Música original de la película Claudia, de Sebastián De Caro. La banda sonora más ´seria´ que compuse hasta el momento. Los temas estan en el orden en el que aparecen en la película.</p>",
         "links": [
           {
             "url_text": "Digital",
@@ -62,7 +63,7 @@
       },
 	  {
         "subtitle": "Darío Georges - Román",
-        "description": "<p><b>2017 - Independiente - Digital</b></p><p>Música original de la película Román, de Sebastián De Caro. Una suerte de pretencioso disco conceptual sobre Riquelme, a la altura de este original y experimental documental en cámara lenta. Es un licuado de Kraftwerk, Genesis y The Art of Noise, hecho en La Paternal.</p>",
+        "description": "<img src='images/disco/roman.jpg' class='fixedImage'/><p><b>2017 - Independiente - Digital</b></p><p>Música original de la película Román, de Sebastián De Caro. Una suerte de pretencioso disco conceptual sobre Riquelme, a la altura de este original y experimental documental en cámara lenta. Es un licuado de Kraftwerk, Genesis y The Art of Noise, hecho en La Paternal.</p>",
         "links": [
           {
             "url_text": "Digital",
@@ -76,7 +77,7 @@
 		},
 		  {
         "subtitle": "Darío Georges - Kryptonita",
-        "description": "<p><b>2016 - Boikot Records - Casette / Digital</b></p><p>Música original de la película Kryptonita, de Nicanor Loreti. Basada en el libro homónimo de Leo Oyola. No vacilé en autopercibirme John Carpenter con guitarra de metal.</p>",
+        "description": "<img src='images/disco/kryptonita.jpg' class='fixedImage'/><p><b>2016 - Boikot Records - Casette / Digital</b></p><p>Música original de la película Kryptonita, de Nicanor Loreti. Basada en el libro homónimo de Leo Oyola. No vacilé en autopercibirme John Carpenter con guitarra de metal.</p>",
         "links": [
           {
             "url_text": "Digital",
@@ -95,7 +96,7 @@
 		  },
 	  	  {
   "subtitle": "Cinturonga - Tóxica",
-  "description": "<p><b>2015 - Independiente - Digital</b></p><p>Single. Único registro grabado de la efímera pero poderosa banda Cinturonga. Desamor metalizado punkeramente.</p>",
+  "description": "<img src='images/disco/toxica.jpg' class='fixedImage'/><p><b>2015 - Independiente - Digital</b></p><p>Single. Único registro grabado de la efímera pero poderosa banda Cinturonga. Desamor metalizado punkeramente.</p>",
   "links": [
     {
       "url_text": "Digital",
@@ -105,7 +106,7 @@
 },
 {
   "subtitle": "Eugenetics - Underground Overlord",
-  "description": "<p><b>2014 - Tumba Games - Digital</b></p><p>EP de banda ficcional derivado del videojuego Insane Imbecile Dancing, de Tumba Games. Heavy metal digital.</p>",
+  "description": "<img src='images/disco/eugenetics.jpg' class='fixedImage'/><p><b>2014 - Tumba Games - Digital</b></p><p>EP de banda ficcional derivado del videojuego Insane Imbecile Dancing, de Tumba Games. Heavy metal digital.</p>",
   "links": [
     {
       "url_text": "Digital",
@@ -115,7 +116,7 @@
 },
 {
   "subtitle": "The Tandooris - Midnight Heat",
-  "description": "<p><b>2012 - Rastrillo Records - CD / Digital</b></p><p>Último disco de The Tandooris, con composiciones acumuladas por varios años e invitados de lujo como Rob Conlazo, Manza Esaín y Claudio Filadoro. A mí es el que más me gusta de The Tandooris.</p>",
+  "description": "<img src='images/disco/midnight.jpg' class='fixedImage'/><p><b>2012 - Rastrillo Records - CD / Digital</b></p><p>Último disco de The Tandooris, con composiciones acumuladas por varios años e invitados de lujo como Rob Conlazo, Manza Esaín y Claudio Filadoro. A mí es el que más me gusta de The Tandooris.</p>",
   "links": [
     {
       "url_text": "CD",
@@ -129,7 +130,7 @@
 },
 {
   "subtitle": "The Tandooris - Bombs Away! Raw Live",
-  "description": "<p><b>2009 - Scatter Records - CD / Digital</b></p><p>Registro crudo y directo de un típico show de The Tandooris, junto a las Sin Sisters. Grabado en el mítico antro underground Unione e Benevolenza.</p>",
+  "description": "<img src='images/disco/bombs.jpg' class='fixedImage'/><p><b>2009 - Scatter Records - CD / Digital</b></p><p>Registro crudo y directo de un típico show de The Tandooris, junto a las Sin Sisters. Grabado en el mítico antro underground Unione e Benevolenza.</p>",
   "links": [
       {
       "url_text": "CD",
@@ -143,7 +144,7 @@
 },
 {
   "subtitle": "VA - Mansos y Salvajes",
-  "description": "<p><b>2006 - UMI - CD</b></p><p>Homenaje a nuestros queridos Los Gatos, donde además de The Tandooris participan Los Grillos, Motosierra, HPLE, ZPS, Flaming Sideburns, Doble Fuerza, y otros.</p>",
+  "description": "<img src='images/disco/mansos.jpg' class='fixedImage'/><p><b>2006 - UMI - CD</b></p><p>Homenaje a nuestros queridos Los Gatos, donde además de The Tandooris participan Los Grillos, Motosierra, HPLE, ZPS, Flaming Sideburns, Doble Fuerza, y otros.</p>",
   "links": [
       {
       "url_text": "CD",
@@ -153,7 +154,7 @@
 },
 {
   "subtitle": "The Tandooris - Science Fiction Guaranteed",
-  "description": "<p><b>2004 - No Fun Records - CD / Digital</b></p><p>The Tandooris en formato de cuarteto, con 2 guitarras. Oscilábamos entre un desprolijo soul punkeado y el garage punk, con esquirlas de bubblegum.</p>",
+  "description": "<img src='images/disco/scifi.jpg' class='fixedImage'/><p><b>2004 - No Fun Records - CD / Digital</b></p><p>The Tandooris en formato de cuarteto, con 2 guitarras. Oscilábamos entre un desprolijo soul punkeado y el garage punk, con esquirlas de bubblegum.</p>",
   "links": [
     {
       "url_text": "CD",
@@ -167,7 +168,7 @@
 	},
 	{
   "subtitle": "VA - Garage Attack Vol.1",
-  "description": "<p><b>2004 - Garage Attack - CD</b></p><p>Compilado registrado en vivo en la primera edición del festival Garage Attack, con temas de The Tandooris, ZPS, The Tormentos y Los Peyotes.</p>",
+  "description": "<img src='images/disco/garage.jpg' class='fixedImage'/><p><b>2004 - Garage Attack - CD</b></p><p>Compilado registrado en vivo en la primera edición del festival Garage Attack, con temas de The Tandooris, ZPS, The Tormentos y Los Peyotes.</p>",
   "links": [
     {
       "url_text": "CD",
@@ -177,7 +178,7 @@
 	},
 	{
   "subtitle": "The Tandooris - Walking Blind",
-  "description": "<p><b>2003 - No Fun Records - CD / Digital</b></p><p>Primer LP de The Tandooris, en formato power trío. Un mix de killer rock, garage punk, rhythm and blues y psicodelia, con skills y actitud estrictamente punks.</p>",
+  "description": "<img src='images/disco/walking.jpg' class='fixedImage'/><p><b>2003 - No Fun Records - CD / Digital</b></p><p>Primer LP de The Tandooris, en formato power trío. Un mix de killer rock, garage punk, rhythm and blues y psicodelia, con skills y actitud estrictamente punks.</p>",
   "links": [
    {
       "url_text": "CD",
@@ -191,7 +192,7 @@
 	},
 		{
   "subtitle": "VA - South American Teenage Garage Punk Vol. 1",
-  "description": "<p><b>2002 - Butterfly Records - Vinilo</b></p><p>Debut de The Tandooris, como quinteto con 2 guitarras y órgano, en una formación clásica de garage punk. Compilado compartido con Los Peyotes, Elio & Thee Horribles y The Supersónicos. Excelente registro del revival garagero rioplatense de los 2000s editado por el sello español Butterfly Records.</p>",
+  "description": "<img src='images/disco/south.jpg' class='fixedImage'/><p><b>2002 - Butterfly Records - Vinilo</b></p><p>Debut de The Tandooris, como quinteto con 2 guitarras y órgano, en una formación clásica de garage punk. Compilado compartido con Los Peyotes, Elio & Thee Horribles y The Supersónicos. Excelente registro del revival garagero rioplatense de los 2000s editado por el sello español Butterfly Records.</p>",
   "links": [
    {
       "url_text": "Vinilo",
@@ -206,7 +207,7 @@
 	},
 	{
   "subtitle": "VA - Evolución Vol. 1",
-  "description": "<p><b>1995 - Mortal Records - CD / Digital</b></p><p>Compilado con las bandas más emblemáticas del ascenso alternativo de mediados de los 90s.</p>",
+  "description": "<img src='images/disco/evolucion.jpg' class='fixedImage'/><p><b>1995 - Mortal Records - CD / Digital</b></p><p>Compilado con las bandas más emblemáticas del ascenso alternativo de mediados de los 90s.</p>",
   "links": [
    {
       "url_text": "CD",
@@ -220,7 +221,7 @@
 	},
 	{
   "subtitle": "die Blumen - Se Mi Valentín",
-  "description": "<p><b>1994 - Independiente - Casette / Digital</b></p><p>Los 90s fueron años muy punks, muy noise, muy sónicos y alternativos. Armar die Blumen y salir a tocar en los antros fue una gran idea. Sacamos este casette en 1994, y recientemente lo digitalizamos..</p>",
+  "description": "<img src='images/disco/valentin.jpg' class='fixedImage'/><p><b>1994 - Independiente - Casette / Digital</b></p><p>Los 90s fueron años muy punks, muy noise, muy sónicos y alternativos. Armar die Blumen y salir a tocar en los antros fue una gran idea. Sacamos este casette en 1994, y recientemente lo digitalizamos..</p>",
   "links": [
    {
       "url_text": "Casette",

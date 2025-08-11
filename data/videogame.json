@@ -1,13 +1,127 @@
 [
 	{
 		"title": "Gen X Nerd",
-		"description": "<p>Nací en <b>1974</b> y voy a los fichines desde que tengo uso de razón. Fui testigo de la aparición de los juegos que forjaron una cultura y una industria. La influencia del arte primitivo y limitado de los juegos de mi infancia fue tan fuerte como la de mis animadores y mis dibujantes favoritos. Estuve allí cuando aparecieron por primera vez en <b>Sacoa</b> o en <b>Plaza</b>, en <b>Atari 2600</b> o en <b>Commodore 64</b>, todos los juegos quintaesenciales de los 80s. <b>Wonderboy</b>, <b>Galaxian</b>, <b>Bubble Bobble</b>, <b>Defender</b>, <b>Space Harrier</b>, <b>Berzerk</b>, <b>PacLand</b>, <b>Western Bar</b>, <b>Donkey Kong</b>, <b>Popeye</b>... todos ellos y muchos otros marcaron mi destino imponiéndome una estética y una vocación.<p>"
+		"description": "<p>Nací en <b>1974</b> y voy a los fichines desde que tengo uso de razón. Fui testigo de la aparición de los juegos que forjaron una cultura y una industria. La influencia del arte primitivo y limitado de los juegos de mi infancia fue tan fuerte como la de mis animadores y mis dibujantes favoritos. Estuve allí cuando aparecieron por primera vez en <b>Sacoa</b> o en <b>Plaza</b>, en <b>Atari 2600</b> o en <b>Commodore 64</b>, todos los juegos quintaesenciales de los 80s. <b>Wonderboy</b>, <b>Galaxian</b>, <b>Bubble Bobble</b>, <b>Defender</b>, <b>Space Harrier</b>, <b>Berzerk</b>, <b>PacLand</b>, <b>Western Bar</b>, <b>Donkey Kong</b>, <b>Popeye</b>... todos ellos y muchos otros marcaron mi destino imponiéndome una estética y una vocación.</p><p>Estos son algunos de los juegos en los que trabajé.</p>"
 	},
 
 	{
-		"title": "Colectivo Arcade (2020)",
-		"description": "Hace años que formo parte de lo que llamamos colectivo arcade, que es un grupo de desarrolladores de videojuegos independientes argentinos que armamos eventos en distintos espacios culturales y conlcuimos comprando un colectivo y lo formateamos para que sea una auténtica sala de juegos móbil con gabinetes custom 100% desarrolos propios. En el 2021 Mulata Films filmó una serie que muestra un viaje qeu hicimos por todo el país, generando un encuentro inusual entre jugadores y máquinas en cada destino. Experiencias, historia, industria y nuevas propuestas lúdicas confluyen en este recorrido sin precedentes.",
-		"image": "images/works/vjsr.png",
+		"title": "Mad Rollers",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/lKchgbLdyuw?si=L02kJcdzQwrxw9VH' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+		"links":
+		[
+			{
+				"url_text": "Videojuegos sobre Ruedas",
+				"url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
+			},
+			{
+				"url_text": "En CineAR",
+				"url": "https://play.cine.ar/INCAA/produccion/8761"
+			},
+			{
+				"url_text": "Nota en Argentina.gob.ar",
+				"url": "https://www.argentina.gob.ar/noticias/videojuegos-sobre-ruedas-la-serie-estreno-de-tectv-que-lleva-los-juegos-arcades-por-toda-la"
+			}
+		]
+	},
+		{
+		"title": "Fulbo Stars",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/3g5A-6SuR2I?si=GeZuQiKNnrOYO8Cm' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+		"links":
+		[
+			{
+				"url_text": "Videojuegos sobre Ruedas",
+				"url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
+			},
+			{
+				"url_text": "En CineAR",
+				"url": "https://play.cine.ar/INCAA/produccion/8761"
+			},
+			{
+				"url_text": "Nota en Argentina.gob.ar",
+				"url": "https://www.argentina.gob.ar/noticias/videojuegos-sobre-ruedas-la-serie-estreno-de-tectv-que-lleva-los-juegos-arcades-por-toda-la"
+			}
+		]
+	},
+	{
+		"title": "Punga Raid",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/K9598G0ep-8?si=f1Obff7DwkLpxjVQ' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+		"links":
+		[
+			{
+				"url_text": "Videojuegos sobre Ruedas",
+				"url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
+			},
+			{
+				"url_text": "En CineAR",
+				"url": "https://play.cine.ar/INCAA/produccion/8761"
+			},
+			{
+				"url_text": "Nota en Argentina.gob.ar",
+				"url": "https://www.argentina.gob.ar/noticias/videojuegos-sobre-ruedas-la-serie-estreno-de-tectv-que-lleva-los-juegos-arcades-por-toda-la"
+			}
+		]
+	},
+		{
+		"title": "South Park: Double Bunny",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/p30fjwSTvnc?si=0R5onImUsUemJ6_T' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+		"links":
+		[
+			{
+				"url_text": "Videojuegos sobre Ruedas",
+				"url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
+			},
+			{
+				"url_text": "En CineAR",
+				"url": "https://play.cine.ar/INCAA/produccion/8761"
+			},
+			{
+				"url_text": "Nota en Argentina.gob.ar",
+				"url": "https://www.argentina.gob.ar/noticias/videojuegos-sobre-ruedas-la-serie-estreno-de-tectv-que-lleva-los-juegos-arcades-por-toda-la"
+			}
+		]
+	},
+	
+		{
+		"title": "Lego Ninjago: Spinjitzu Spinball Snake Invasion",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/zVIdc7y8igY?si=uoWkMRyIzKIvYnUd' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+		"links":
+		[
+			{
+				"url_text": "Videojuegos sobre Ruedas",
+				"url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
+			},
+			{
+				"url_text": "En CineAR",
+				"url": "https://play.cine.ar/INCAA/produccion/8761"
+			},
+			{
+				"url_text": "Nota en Argentina.gob.ar",
+				"url": "https://www.argentina.gob.ar/noticias/videojuegos-sobre-ruedas-la-serie-estreno-de-tectv-que-lleva-los-juegos-arcades-por-toda-la"
+			}
+		]
+	},
+			{
+		"title": "Revenge of the Zombees",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/WinmLPRsGMg?si=gFzJaPfnDKgkfzR-' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+		"links":
+		[
+			{
+				"url_text": "Videojuegos sobre Ruedas",
+				"url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
+			},
+			{
+				"url_text": "En CineAR",
+				"url": "https://play.cine.ar/INCAA/produccion/8761"
+			},
+			{
+				"url_text": "Nota en Argentina.gob.ar",
+				"url": "https://www.argentina.gob.ar/noticias/videojuegos-sobre-ruedas-la-serie-estreno-de-tectv-que-lleva-los-juegos-arcades-por-toda-la"
+			}
+		]
+	},
+	{
+		"title": "Lego Monster Fighters - The Monsterland Tales",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/sqAqOmOO1bk?si=1Ln-SIJcPWNCTgsi' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
 		"links":
 		[
 			{
@@ -24,4 +138,5 @@
 			}
 		]
 	}
+	
 ]
