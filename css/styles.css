@@ -377,32 +377,24 @@ iframe {
     height: 100%;
   }
 }
-/* grilla para embeds de instagram */
+
 .instagram-grid {
   display: grid;
-  grid-template-columns: repeat(2, minmax(326px, 1fr)); /* antes 260px */
+  grid-template-columns: repeat(3, minmax(200px, 1fr)); /* 2 por fila en desktop */
   gap: 16px;
   align-items: start;
 }
 
-/* el embed ocupa todo el ancho de su celda, sin tope */
 .instagram-grid .instagram-media {
   width: 100% !important;
-  max-width: 100% !important;   /* ← dejalo en 100%, NO 320px */
-  min-width: 0 !important;
+  max-width: 100% !important;
+  min-width: 0 !important;   /* pisa el min-width que mete Instagram */
   margin: 0 !important;
 }
 
-/* mobile: 1 por fila */
 @media (max-width: 768px) {
   .instagram-grid {
-    grid-template-columns: 1fr;
+    grid-template-columns: 1fr; /* 1 por fila en mobile */
     gap: 12px;
   }
-}
-
-/* asegurar altura automática */
-.instagram-grid .instagram-media,
-.instagram-grid .instagram-media iframe {
-  height: auto !important;
 }

@@ -70,17 +70,5 @@
 			
 			
 		]
-	},
-	{
-		"title": "Conicet - Huonna Cuentos",
-		"description": "Huo'o na cuentos es una aplicación que busca promover el desarrollo lingüístico y la alfabetización temprana de niños y niñas pequeños. Incluye tres recorridos:Oscarcito es para que los niños y niñas que hablan español continúen aprendiéndolo, Nasheli es para aquellos y aquellas que hablan otras lenguas con sus familias y quieren empezar a aprender español y Dany es para los niños y niñas que quieren empezar a aprender qom. Equipo: Matias Somonte en arte, Brenda Burgoa en producción junto a la gente de Conicet y yo hice el desarrollo",
-		"image":"images/works/conicet.jpg",
-		"links":
-		[
-			{
-				"url_text": "Playstore",
-				"url": "https://play.google.com/store/apps/details?id=com.pontura.conicet&hl=es"
-			}
-		]
 	}
 ]

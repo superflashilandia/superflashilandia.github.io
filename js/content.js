@@ -143,6 +143,72 @@ document.addEventListener("DOMContentLoaded", () => {
     container.appendChild(sectionDiv);
   }
 
+  // -----------------------------
+  // Instagram helpers
+  // -----------------------------
+  function loadInstagramScriptOnce(callback) {
+    if (window.instgrm && window.instgrm.Embeds) {
+      callback?.();
+      return;
+    }
+    // Evitar cargarlo dos veces
+    if (document.getElementById("instagram-embed-js")) {
+      // si ya está cargando, esperamos un toque y procesamos
+      const tryProcess = () => {
+        if (window.instgrm && window.instgrm.Embeds) {
+          callback?.();
+        } else {
+          setTimeout(tryProcess, 150);
+        }
+      };
+      tryProcess();
+      return;
+    }
+    const s = document.createElement("script");
+    s.id = "instagram-embed-js";
+    s.src = "https://www.instagram.com/embed.js";
+    s.async = true;
+    s.onload = () => callback?.();
+    document.body.appendChild(s);
+  }
+
+  function wrapInstagramEmbedsInGrid() {
+    if (!contentEl) return;
+
+    // Si ya existe una grilla, no hacemos nada
+    const alreadyWrapped = contentEl.querySelector(".instagram-grid");
+    const embeds = Array.from(contentEl.querySelectorAll("blockquote.instagram-media"));
+
+    if (embeds.length === 0) return;
+
+    // Si ya estaban adentro de una grilla, salimos
+    if (alreadyWrapped) {
+      return;
+    }
+
+    // Creamos contenedor y movemos los blockquotes adentro
+    const grid = document.createElement("div");
+    grid.className = "instagram-grid";
+
+    // Insertamos la grilla al final del contenido
+    contentEl.appendChild(grid);
+
+    embeds.forEach(bq => {
+      // Me aseguro de no duplicar
+      if (bq.parentElement !== grid) {
+        grid.appendChild(bq);
+      }
+    });
+  }
+
+  function processInstagramEmbeds() {
+    loadInstagramScriptOnce(() => {
+      if (window.instgrm && window.instgrm.Embeds && typeof window.instgrm.Embeds.process === "function") {
+        window.instgrm.Embeds.process();
+      }
+    });
+  }
+
   async function loadTag(tag) {
     try {
       clearContent();
@@ -162,10 +228,9 @@ document.addEventListener("DOMContentLoaded", () => {
         }
       });
 
-      // --- Re-procesar embeds de Instagram si el script está disponible ---
-      if (window.instgrm && window.instgrm.Embeds && typeof window.instgrm.Embeds.process === 'function') {
-        window.instgrm.Embeds.process();
-      }
+      // Instagram: agrupar en grilla y procesar embeds
+      wrapInstagramEmbedsInGrid();
+      processInstagramEmbeds();
 
     } catch (err) {
       console.error("Error cargando la sección:", err);
