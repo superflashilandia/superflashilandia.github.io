@@ -9,19 +9,42 @@
 		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/ZsqvkZOdVo4?si=u8umQqW2Wf_oO2lO' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>"
 	
 	},
-		{
-  "title": "Galería de prueba",
-  "description": "Esta es una galería de imágenes variable.",
-  "grid": {
-    "columns": 2,
-    "images": [
-		"images/punkscii/carroza1.gif",
-		"images/punkscii/carroza2.png"
+	{
+  "title": "Loading La Carroza",
+  "description": "<img src='images/punkscii/carroza1.gif' class='homeImage'/><img src='images/punkscii/carroza2.png' class='homeImage'/>",
+  		"images": [
+     ""
+		],
+  "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.behance.net/gallery/228554081/LOADING-LA-CARROZA"
+			}
 		]
-	  }
+
+	},
+	{
+  "title": "Scan Zine '91",
+  "description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/CFTxUgUU2h8?si=iPc8ANnEIcFaECOW' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+  		"images": [
+     ""
+		],
+  "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.behance.net/gallery/221505739/Scan-Zine-93"
+			}
+		]
+
 	},
 	
+	{
+		"title": "Mamangas",
+		"description": "<div class='instagram-grid'><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/C3Bcd86vjOT/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/C3BbXEUvWq0/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote></div>"
 
+	},
 
 	{
 		"title": "Venite conmigo",

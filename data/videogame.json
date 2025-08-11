@@ -10,16 +10,12 @@
 		"links":
 		[
 			{
-				"url_text": "Videojuegos sobre Ruedas",
-				"url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
+				"url_text": "Google Play",
+				"url": "https://play.google.com/store/apps/details?id=com.yaguar.madrollers&hl=es_AR"
 			},
 			{
-				"url_text": "En CineAR",
-				"url": "https://play.cine.ar/INCAA/produccion/8761"
-			},
-			{
-				"url_text": "Nota en Argentina.gob.ar",
-				"url": "https://www.argentina.gob.ar/noticias/videojuegos-sobre-ruedas-la-serie-estreno-de-tectv-que-lleva-los-juegos-arcades-por-toda-la"
+				"url_text": "Colectivo Arcade - CCR",
+				"url": "https://youtu.be/iAPQi6tVKFc?si=LVT9VKRUa4CuoKbz"
 			}
 		]
 	},
@@ -29,16 +25,16 @@
 		"links":
 		[
 			{
-				"url_text": "Videojuegos sobre Ruedas",
-				"url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
+				"url_text": "Arte",
+				"url": "https://www.behance.net/gallery/176039247/Fulbo-Galaxy"
 			},
 			{
-				"url_text": "En CineAR",
-				"url": "https://play.cine.ar/INCAA/produccion/8761"
+				"url_text": "Lista completa de personajes",
+				"url": "https://www.behance.net/gallery/176507751/Fulbo-Galaxy-players"
 			},
 			{
-				"url_text": "Nota en Argentina.gob.ar",
-				"url": "https://www.argentina.gob.ar/noticias/videojuegos-sobre-ruedas-la-serie-estreno-de-tectv-que-lleva-los-juegos-arcades-por-toda-la"
+				"url_text": "Arcade",
+				"url": "https://scontent.faep9-3.fna.fbcdn.net/v/t39.30808-6/476242797_8842502642513575_2251697022327687349_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=127cfc&_nc_eui2=AeEbNtAwGQI2wD7EklnbUrzRD4NSfmAD4z4Pg1J-YAPjPoXGqmXu2DbBe0aXTAGTcOs&_nc_ohc=HiObD09gwqwQ7kNvwHZC4ta&_nc_oc=AdkM-jnZTjKhvx96DoIRQLz7UWTKpL0Hk6dc2XmmbgdoqWaDn49ZLIzrZO9RUE5OnCU&_nc_zt=23&_nc_ht=scontent.faep9-3.fna&_nc_gid=oiyI5jQlltpe4_SomFTMIg&oh=00_AfVcR3dK1Ukxn5P59Bv8Bu0no4TYcp_BPtFt5XXtGHdMzw&oe=68A01910"
 			}
 		]
 	},
@@ -48,16 +44,8 @@
 		"links":
 		[
 			{
-				"url_text": "Videojuegos sobre Ruedas",
-				"url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
-			},
-			{
-				"url_text": "En CineAR",
-				"url": "https://play.cine.ar/INCAA/produccion/8761"
-			},
-			{
-				"url_text": "Nota en Argentina.gob.ar",
-				"url": "https://www.argentina.gob.ar/noticias/videojuegos-sobre-ruedas-la-serie-estreno-de-tectv-que-lleva-los-juegos-arcades-por-toda-la"
+				"url_text": "Arte",
+				"url": "https://www.behance.net/gallery/86743585/Punga-Raid-(version-Gato)"
 			}
 		]
 	},
@@ -67,16 +55,19 @@
 		"links":
 		[
 			{
-				"url_text": "Videojuegos sobre Ruedas",
-				"url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
-			},
+				"url_text": "Blog",
+				"url": "https://superflashilandia.blogspot.com/2008/09/south-park-meets-double-dragon.html"
+			}
+		]
+	},
+		{
+		"title": "Alice in Wonderland: Wonderland's Hidden Secrets",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/kNiruCX4zpo?si=Vlhb87GLVUJ-YC5P' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+		"links":
+		[
 			{
-				"url_text": "En CineAR",
-				"url": "https://play.cine.ar/INCAA/produccion/8761"
-			},
-			{
-				"url_text": "Nota en Argentina.gob.ar",
-				"url": "https://www.argentina.gob.ar/noticias/videojuegos-sobre-ruedas-la-serie-estreno-de-tectv-que-lleva-los-juegos-arcades-por-toda-la"
+				"url_text": "Tim Burton's Alice in Wonderland",
+				"url": "https://www.primevideo.com/-/es/detail/Alice-in-Wonderland/0G0ZY7WMBYMB4DTWCQOLHJBS9G"
 			}
 		]
 	},
@@ -87,16 +78,38 @@
 		"links":
 		[
 			{
-				"url_text": "Videojuegos sobre Ruedas",
-				"url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
+				"url_text": "Lego Ninjago",
+				"url": "https://www.lego.com/en-in/themes/ninjago"
 			},
 			{
-				"url_text": "En CineAR",
-				"url": "https://play.cine.ar/INCAA/produccion/8761"
+				"url_text": "Blog",
+				"url": "https://superflashilandia.blogspot.com/2012/02/spinball-wizard.html"
+			}
+		]
+	},
+			{
+		"title": "South Park: Pandemic - The Game!",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/wAEQkcOWo10?si=uTYrJNuuV3keABr7' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+		"links":
+		[
+			{
+				"url_text": "South Park",
+				"url": "https://www.paramountplus.com/ar/shows/south-park/"
 			},
 			{
-				"url_text": "Nota en Argentina.gob.ar",
-				"url": "https://www.argentina.gob.ar/noticias/videojuegos-sobre-ruedas-la-serie-estreno-de-tectv-que-lleva-los-juegos-arcades-por-toda-la"
+				"url_text": "Episodio 'Pandemic'",
+				"url": "https://www.imdb.com/es-es/title/tt1312012/"
+			}
+		]
+	},
+	{
+		"title": "Lego: Curse of the Pharaoh",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/LtIQBOz52_0?si=GT90V8G0xx56TyOa' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+		"links":
+		[
+			{
+				"url_text": "Lego Pharaoh's Quest",
+				"url": "https://www.lego.com/en-us/service/building-instructions/7305"
 			}
 		]
 	},
@@ -106,16 +119,12 @@
 		"links":
 		[
 			{
-				"url_text": "Videojuegos sobre Ruedas",
-				"url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
+				"url_text": "Adult Swim Games",
+				"url": "https://www.adultswim.com/games"
 			},
 			{
-				"url_text": "En CineAR",
-				"url": "https://play.cine.ar/INCAA/produccion/8761"
-			},
-			{
-				"url_text": "Nota en Argentina.gob.ar",
-				"url": "https://www.argentina.gob.ar/noticias/videojuegos-sobre-ruedas-la-serie-estreno-de-tectv-que-lleva-los-juegos-arcades-por-toda-la"
+				"url_text": "Blog",
+				"url": "https://superflashilandia.blogspot.com/2011/08/zmbzzzzzzzz.html"
 			}
 		]
 	},
@@ -125,16 +134,8 @@
 		"links":
 		[
 			{
-				"url_text": "Videojuegos sobre Ruedas",
-				"url": "https://www.youtube.com/watch?v=uHqqKRCJ9oI"
-			},
-			{
-				"url_text": "En CineAR",
-				"url": "https://play.cine.ar/INCAA/produccion/8761"
-			},
-			{
-				"url_text": "Nota en Argentina.gob.ar",
-				"url": "https://www.argentina.gob.ar/noticias/videojuegos-sobre-ruedas-la-serie-estreno-de-tectv-que-lleva-los-juegos-arcades-por-toda-la"
+				"url_text": "Lego Monster Fighters",
+				"url": "https://www.lego.com/es-mx/categories/adults-welcome/article/monster-fighters"
 			}
 		]
 	}

@@ -238,5 +238,18 @@
 
     
     ]
-  }
+  },
+  {
+   "links": [
+   {
+      "url_text": "Reportaje en el Suplemento NO de Página 12",
+      "url": "https://www.pagina12.com.ar/diario/suplementos/no/12-8186-2015-11-26.html"
+    },
+	{
+      "url_text": "The Tandooris en Arte Zeta",
+      "url": "https://artezeta.com.ar/dee-gee-tandoori-nuestra-musica-conecta-con-el-lado-travieso-de-las-personas/"
+    }
+		]
+	}
+	
 ]
