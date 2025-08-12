@@ -49,6 +49,10 @@
 			{
 				"url_text": "Modo Historia",
 				"url": "https://open.spotify.com/show/5VfuTFEbnjG1QYO6c8gjlK"
+			},
+			{
+				"url_text": "Flash en Wikipedia",
+				"url": "https://es.wikipedia.org/wiki/Adobe_Flash_Player"
 			}
 		]
 	},
@@ -61,6 +65,24 @@
 				"url_text": "A-Maze",
 				"url": "https://a-maze.net/"
 			}
+		]
+	},
+		{
+		"title": "Videojuegos Independientes en Bit Bang Fest",
+		"description": "<img src='images/charlas/bitbang.png' class='homeImage'/>Charla sobre el arte en los videojuegos independientes, junto a Andrés Borghi, Maxi Silva y Agustín Pontura, en el marco del festival de animación Bit Bang Fest.",
+
+		"links":
+		[
+			{
+				"url_text": "Noticia en Da Vinci",
+				"url": "https://davinci.edu.ar/noticias/detalle/bit-bang-fest-animando-los-videojuegos"
+			},
+			{
+				"url_text": "Bit Bang Club",
+				"url": "https://bitbangclub.com/es/"
+			}
+			
+			
 		]
 	}
 

@@ -1,12 +1,16 @@
 [
 		{
 		"title": "Punkscii",
-		"description": "Mis proyectos más experimentales y lúdicos desde la dinámica creativa, muchas veces combinan una serie de estéticas y recursos visuales y tecnológicos muy arraigados a varias etapas de mi vida: pixels, fanzines, ascii, fotocopia experimental, fotonovelas, comics y flyers de rock. A este estilo mixto me gusta llamarle punkscii."
+		"description": "Mis proyectos más experimentales y lúdicos desde la dinámica creativa, muchas veces combinan una serie de estéticas y recursos visuales y tecnológicos muy arraigados a etapas de mi vida muy distantes entre sí: <b>pixel art, fanzines, ascii, fotocopia experimental, fotonovelas, comics, herramientas visuales de IA</b> y <b>flyers de rock</b>. Al este estilo mixto que se fusiona en ese vórtice interdimensional me gusta llamarle <b>punkscii</b>."
 	},
-	
 	{
 		"title": "Punq!",
 		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/ZsqvkZOdVo4?si=u8umQqW2Wf_oO2lO' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>"
+	
+	},
+	{
+		"title": "A Rainbow Of Futures",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/KCmRALa16dI?si=M-c56LQWxoG390Hf' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>"
 	
 	},
 	{
@@ -45,7 +49,6 @@
 		"description": "<div class='instagram-grid'><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/C3Bcd86vjOT/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/C3BbXEUvWq0/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote></div>"
 
 	},
-
 	{
 		"title": "Venite conmigo",
 		"description": "<div class='instagram-grid'><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/DIbMv5IxARm/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/DINPNryxaeq/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/DIKXZjESR4I/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote></div>",
@@ -57,6 +60,18 @@
 			}
 		]
 
+	},
+		{
+		"title": "Zona Videojuegos 2015 - Robot",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/egXst32MNHQ?si=z9-AcnxrwYYNTYEd' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+		 "links":
+		[
+			{
+				"url_text": "Arte",
+				"url": "https://superflashilandia.blogspot.com/2015/08/zona-videojuegos-2015.html"
+			}
+		]
+	
 	}
 	
 ]

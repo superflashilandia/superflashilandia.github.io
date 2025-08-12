@@ -48,6 +48,17 @@
 				"url": "https://www.instagram.com/kumbia_queers"
 			}
 		]
+	},
+	{
+		"title": "The Doodle Project",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/RvSCfkcTK50?si=DfkfhXzTCMCk-cGw' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+		"links":
+		[
+			{
+				"url_text": "Blog",
+				"url": "https://superflashilandia.blogspot.com/2013/09/the-doodle-project.html"
+			}
+		]
 	}
 			
 ]

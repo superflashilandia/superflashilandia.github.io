@@ -1,7 +1,7 @@
 [
 	{
 		"title": "EdTech y Museología",
-		"description": "En 2013, después de 8 años de aprender mucho participando del desarrollo de proyectos soñados, decidí renunciar a QB9 para poder dedicarme a explorar otras áreas del desarrollo interactivo y volver al dinamismo y la heterogeneidad de la autonomía. Pronto aparecieron los primeros clientes del mundo EdTech: <b>Edutrama</b> y <b>Tipitap</b>. No tardé en enamorarme de ese nicho. Participar de la creación de ideas con educadores, historiadores, matemáticos, científicos y otros expertos, y acercarles soluciones tecnológicas a sus demandas educativas, me pareció algo gratificante y estimulante desde el comienzo, y sentí que era un camino natural para profundizar. En 2014 fundamos Yaguar junto a los programadores <b>Agustín Pontura</b> y <b>Juan Pablo Amato</b>, focalizándonos casi exclusivamente en el desarrollo de productos y servicios tecnológicos para los segmentos de educación y cultura. El equipo creció según la necesidad de cada proyecto, sumando talentos como el de la escritora y diseñadora narrativa <b>Alejandra Bruno</b>, la diseñadora de UX <b>Brenda Burgoa</b>, la productora experta en museología <b>Mariana Albornoz</b>, el level designer <b>Ignacio Rud</b>, y la consultora educativa <b>María Forteza</b>. Juntos desarrollamos decenas de juegos y apps educativas para entidades públicas y privadas. También desarrollamos software para instalaciones en museos y parques tecnológicos, mayormente junto al estudio interactivo Plan.",
+		"description": "En 2014 fundamos <b>Yaguar</b> junto a <b>Agustín Pontura</b> y <b>Juan Pablo Amato</b>, focalizándonos casi exclusivamente en el desarrollo de productos y servicios tecnológicos para los segmentos de educación y cultura. El equipo creció según la necesidad de cada proyecto, sumando talentos como el de la escritora y diseñadora narrativa <b>Alejandra Bruno</b>, la diseñadora de UX <b>Brenda Burgoa</b>, la productora experta en museología <b>Mariana Albornoz</b>, el level designer <b>Ignacio Rud</b>, y la consultora educativa <b>María Forteza</b>. Juntos desarrollamos decenas de juegos y apps educativas para entidades públicas y privadas. También desarrollamos software para instalaciones en museos y parques tecnológicos, mayormente junto al estudio interactivo <b>Plan</b>. También desarrollé varios proyectos educativos para <b>Papumba</b>, como artista y como game designer.",
 		"links":
 		[
 			{
@@ -16,7 +16,7 @@
   },
 	{
 		"title": "Inventar El Mundo",
-		"description": "<img src='images/illustrations/inventar.png' class='homeImage'/><b>Yaguar</b> y <b>Plan</b> desarrollamos <b>Inventar el Mundo</b> para <b>Paka Paka</b>. Este juego/herramienta permite crear pequeñas obras de arte animadas con piezas geométricas editables, y compartirlas en formato de <b>gif animado</b>. Como director de arte, procuré que el juego se sintiera <b>orgánico y cálido</b>. Algo que ayudó mucho a lograr esto fue el inventario de formas: las piezas caen con física, generando sonidos suaves de madera al colisionar entre ellas. Por otro lado, todas las animaciones tienen sonidos percusivos de estética analógica que, combinados, generan ritmos. Es un juego digital con espíritu naturalista. Fue publicado para dispositivos <b>Android</b>, <b>iOs</b> y para desktop en formato <b>webGL</b>. Actualmente sólo está disponible en el último formato.",
+		"description": "<img src='images/illustrations/inventar.png' class='homeImage'/>Este juego/herramienta que desarrollamos para <b>Paka Paka</b> permite crear pequeñas obras de arte animadas con piezas geométricas editables, y compartirlas en formato de <b>gif animado</b>. Como director de arte, procuré que el juego se sintiera <b>orgánico y cálido</b>. Algo que ayudó mucho a lograr esto fue el inventario de formas: las piezas caen con física, generando sonidos suaves de madera al colisionar entre ellas. Por otro lado, todas las animaciones tienen sonidos percusivos de estética analógica que, combinados, generan ritmos. Es un juego digital con espíritu naturalista y minimalista. Fue publicado para dispositivos <b>Android</b>, <b>iOs</b> y para desktop en formato <b>webGL</b>. Actualmente sólo está disponible en el último formato.",
 	 "images": [
     "images/illustrations/prize_comkids.png",
     "images/illustrations/prize_japan.png"
@@ -37,6 +37,10 @@
 				"url": "https://www.youtube.com/watch?v=Vs_wEMhh1O4"
 			},
 			{
+				"url_text": "Paka Paka",
+				"url": "https://www.instagram.com/canalpakapaka/"
+			},
+			{
 				"url_text": "Nota en Pressover",
 				"url": "https://pressover.news/noticias/inventar-un-videojuego-de-paka-paka/"
 			}
@@ -44,7 +48,7 @@
 	},
 	{
 		"title": "Matenautas",
-		"description": "<img src='images/illustrations/matenautas.png' class='homeImage'/>Matenautas es una aventura gráfica de ciencia ficción que desarrollamos en sociedad con Fundación Hagamos Todo Para Educar en Ciencias y Edutrama. Permite ejercitar contenidos curriculares de sexto grado de matemática a través de minijuegos distribuidos a lo largo de una aventura con elementos de RPG. Fué ganadora del concurso nacional MásMAT, organizado por la Fundación Bunge y Born.",
+		"description": "<img src='images/illustrations/matenautas.png' class='homeImage'/><b>Matenautas</b> es una aventura gráfica de ciencia ficción que desarrollamos en sociedad con <b>Fundación Hagamos Todo Para Educar en Ciencias</b> y <b>Edutrama</b>. Permite ejercitar contenidos curriculares de sexto grado de matemática a través de minijuegos distribuidos a lo largo de una aventura con elementos de RPG. Fué <b>ganadora</b> del concurso nacional <b>MásMAT</b>, organizado por la <b>Fundación Bunge y Born</b>.",
 		 "images": [
     "images/illustrations/prize_masmat.png"
   ],
@@ -70,5 +74,39 @@
 			
 			
 		]
-	}
+	},
+	{
+		"title": "123 Awesome Park",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/ZA9C_CnCJXM?si=s0w1-QPLPywOFd2y' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>Este juego para aprender los números marcó un cambio significativo para <b>Papumba</b>, que pasó de hacer juegos con personajes variados a focalizarse en un único universo de personajes y un estilo transversal a todos sus productos. Con <b>Santiago Sanchez</b> desarrollamos esta nueva estética sobre la que se construyó un sinfin de juegos educativos.",
+
+		"links":
+		[
+			{
+				"url_text": "Arte",
+				"url": "https://www.behance.net/gallery/73510507/123-Awesome-Park"
+			},
+			{
+				"url_text": "Papumba",
+				"url": "https://play.google.com/store/apps/details?id=com.papumba.academyforkids&hl"
+			}
+			
+		]
+  },
+  {
+		"title": "ABC Toyland",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/P4z02oI2P4Q?si=kjEcRBhalsLXJbMy' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>El primer proyecto de <b>Papumba</b> para el que desarrollé el arte, junto al diseñador UX <b>Santiago Sanchez</b>.",
+
+		"links":
+		[
+			{
+				"url_text": "Arte",
+				"url": "https://www.behance.net/gallery/73511127/ABC-Toyland"
+			},
+			{
+				"url_text": "Papumba",
+				"url": "https://play.google.com/store/apps/details?id=com.papumba.academyforkids&hl"
+			}
+			
+		]
+  }
 ]
