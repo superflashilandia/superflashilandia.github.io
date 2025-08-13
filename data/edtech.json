@@ -37,6 +37,10 @@
 				"url": "https://www.youtube.com/watch?v=Vs_wEMhh1O4"
 			},
 			{
+				"url_text": "Instagram",
+				"url": "https://www.instagram.com/p/DMNnk4tRiO7/?img_index=1"
+			},
+			{
 				"url_text": "Paka Paka",
 				"url": "https://www.instagram.com/canalpakapaka/"
 			},
@@ -68,8 +72,58 @@
 				"url": "https://www.youtube.com/watch?v=9eipDeYoQog"
 			},
 			{
+				"url_text": "Infobae",
+				"url": "https://www.infobae.com/tendencias/2021/12/15/premiaron-a-un-equipo-educativo-que-elaboro-un-juego-para-aprender-matematica-en-una-app/"
+			},
+			{
 				"url_text": "Ganador MasMat",
 				"url": "https://www.fundacionbyb.org/post/matenautas-es-el-proyecto-ganador-de-m%C3%A1smat"
+			}
+			
+			
+		]
+	},
+		{
+		"title": "Hand Wash Squad",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/6uWvsLWCvdE?si=uT-zfQe1pnHjn-kF' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div><p><b>Hand Wash Squad</b> es un juego que desarrollamos junto a <b>Tipitap</b> y <b>Planet One Reality</b> durante la pandemia de 2020, para enseñar a los más chicos la importancia de la <b>higiene</b> como defensa contra las enfermedades.</p><p> A través de las aventuras de un aprendiz de artes marciales, el juego invita a enfrentar microbios peligrosos con una poderosa técnica: ¡el correcto lavado de manos! Dibujando formas en la pantalla, los jugadores aprenden todos los pasos recomendados por la <b>OMS</b> para una limpieza efectiva, útil en tiempos de pandemia… y para toda la vida.</p>",
+
+		"links":
+		[
+			{
+				"url_text": "Arte",
+				"url": "https://www.behance.net/gallery/99073267/Hand-Wash-Squad"
+			},
+			{
+				"url_text": "Corr Med",
+				"url": "https://www.corrmed.com/post/hand-wash-squad-a-free-hand-washing-game-for-children-from-gojo-gama-and-corrmed"
+			},
+			{
+				"url_text": "Instagram",
+				"url": "https://www.instagram.com/handwashsquad/?hl=es"
+			}
+			
+		]
+  },
+	{
+		"title": "¡Animate!",
+		"description": "<img src='images/illustrations/animate.png' class='homeImage'/>En 2020 tuvimos el placer de participar de la muestra colectiva <b>Cuánto Cuento</b>, producida por <b>Plan</b> para <b>Tecnópolis</b>. Nuestra propuesta para este homenaje interactivo a la imaginación de <b>María Elena Walsh</b> fueron dos mesas de animación con objetos físicos alegóricos al universo de las canciones de la autora, preparadas para generar de manera fluida <b>gifs animados</b> con técnica de <b>stop motion</b>. El título de nuestra instalación: <b>¡Animate!</b>.",
+			"images": [
+		""
+		],
+
+		"links":
+		[
+			{
+				"url_text": "Arte",
+				"url": "https://www.behance.net/gallery/92267193/Animate"
+			},
+			{
+				"url_text": "Video",
+				"url": "https://vimeo.com/396154308?share=copy"
+			},
+			{
+				"url_text": "Instagram",
+				"url": "https://www.instagram.com/p/DNBC30GxWgL/?img_index=1"
 			}
 			
 			
