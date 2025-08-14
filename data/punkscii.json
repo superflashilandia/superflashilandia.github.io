@@ -43,6 +43,44 @@
 		]
 
 	},
+		{
+  "title": "Game Boy Sacoa Thing",
+   "description": "<img src='images/punkscii/usgb.png' class='homeImage'/>",
+  		"images": [
+     ""
+		],
+  "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/DBTlESqRGEe/?img_index=1"
+			}
+		]
+
+	},
+			{
+  "title": "Laboristischer Roboter",
+   "description": "<img src='images/punkscii/ufo1.gif' class='homeImage'/><img src='images/punkscii/ufo2.gif' class='homeImage'/>",
+  		"images": [
+     ""
+		],
+  "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/C62AUDuPIqM/?img_index=1"
+			},
+			{
+				"url_text": "y más",
+				"url": "https://www.instagram.com/p/C64X_cqRX0G/?img_index=1"
+			},
+			{
+				"url_text": "y más aún",
+				"url": "https://www.instagram.com/p/C7H88dNRPgz/?img_index=1"
+			}
+		]
+
+	},
 	
 	{
 		"title": "Mamangas",
@@ -52,6 +90,21 @@
 	{
   "title": "Xl🗲lX",
   "description": "<img src='images/punkscii/xslsx.gif' class='homeImage'/><div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/yFoGpRcxaFQ?si=7T5zjFja1xrMNyIc' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>"
+
+	},
+		{
+  "title": "Vol Dos",
+  "description": "<img src='images/punkscii/pb1.png' class='homeImage'/><img src='images/punkscii/pb2.png' class='homeImage'/><img src='images/punkscii/pb3.png' class='homeImage'/>",
+  		"images": [
+     ""
+		],
+  "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/C5tdq3tOtm7/?img_index=1"
+			}
+		]
 
 	},
 		{
@@ -69,6 +122,15 @@
 		]
 
 	},
+	{
+  "title": "Sacred Golden Cats",
+  "description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/zs5Z_HjV3KM?si=AX2rt7m29hZn9-RR' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+  		"images": [
+     ""
+		]
+
+	},
+	
 	{
 		"title": "Venite conmigo",
 		"description": "<div class='instagram-grid'><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/DIbMv5IxARm/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/DINPNryxaeq/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/DIKXZjESR4I/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote></div>",
