@@ -13,6 +13,18 @@
 		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/KCmRALa16dI?si=M-c56LQWxoG390Hf' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>"
 	
 	},
+		{
+		"title": "Poomper Kings",
+		"description": "<div class='instagram-grid'><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/CseYO5Hr6fa/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/C5624BfrpZu/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/CshT12rLrNh/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote></div>",
+		"links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/C567ZwCuLDN/"
+			}
+		]
+
+	},
 	{
   "title": "Loading La Carroza",
   "description": "<img src='images/punkscii/carroza1.gif' class='homeImage'/><img src='images/punkscii/carroza2.png' class='homeImage'/>",
@@ -58,6 +70,7 @@
 		]
 
 	},
+	
 			{
   "title": "Laboristischer Roboter",
    "description": "<img src='images/punkscii/ufo1.gif' class='homeImage'/><img src='images/punkscii/ufo2.gif' class='homeImage'/>",
@@ -90,6 +103,26 @@
 	{
   "title": "Xl🗲lX",
   "description": "<img src='images/punkscii/xslsx.gif' class='homeImage'/><div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/yFoGpRcxaFQ?si=7T5zjFja1xrMNyIc' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>"
+
+	},
+			{
+  "title": "Monochrome chromosome",
+  "description": "<img src='images/punkscii/kitty.png' class='homeImage'/>",
+  		"images": [
+     ""
+		],
+  "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/CpsbZ6eLyBu/?img_index=1"
+			}
+		]
+
+	},
+	{
+  "title": "WXJ MRJ III",
+  "description": "<iframe src='https://www.youtube-nocookie.com/embed/Y2dvpUlXEEo?si=q-uEahsK-76cTEFY' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>"
 
 	},
 		{
@@ -127,6 +160,40 @@
   "description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/zs5Z_HjV3KM?si=AX2rt7m29hZn9-RR' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
   		"images": [
      ""
+		],
+		 "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/CrHWa5sLohC/?img_index=1"
+			}
+		]
+
+	},
+		{
+		"title": "ZX Spectral",
+		"description": "<div class='instagram-grid'><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/C5y1gH8Rusl/' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/C5wa3UzPGXs/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/C5wZCm0PrLr/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote></div>",
+		  "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/C5wYFoHPY0m/?img_index=1"
+			}
+		]
+
+	},
+	{
+  "title": "Garota",
+  "description": "<img src='images/punkscii/moni.png' class='homeImage'/>",
+  		"images": [
+     ""
+		],
+  "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/Cp-0MJ7pS9X/?img_index=4"
+			}
 		]
 
 	},
@@ -139,6 +206,21 @@
 			{
 				"url_text": "Cha Cha Cha",
 				"url": "https://www.youtube.com/watch?v=aUhpMQFf_ac"
+			}
+		]
+
+	},
+			{
+  "title": "ZX Spooky",
+  "description": "<img src='images/punkscii/torso.png' class='homeImage'/>",
+  		"images": [
+     ""
+		],
+  "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/ClzgsyCLMuz/?img_index=1"
 			}
 		]
 
