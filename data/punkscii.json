@@ -24,6 +24,29 @@
 
 	},
 	{
+  "title": "Photonouvelle Numérique",
+  "description": "<img src='images/punkscii/kl1.png' class='homeImage'/><img src='images/punkscii/kl2.png' class='homeImage'/><div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/pB5h94iH8fU?si=o3JQSA3gEKlbX09k' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+  		"images": [
+     ""
+		],
+  "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/C0AtzYiuuGI/?img_index=1"
+			},
+			{
+				"url_text": "Un cacho más",
+				"url": "https://www.instagram.com/p/C0AthTuOWeq/?img_index=3"
+			},
+			{
+				"url_text": "Un toquesound más",
+				"url": "https://www.instagram.com/p/C0AsAlaOd6D/?img_index=1"
+			}
+		]
+
+	},
+	{
   "title": "Loading La Carroza",
   "description": "<img src='images/punkscii/carroza1.gif' class='homeImage'/><img src='images/punkscii/carroza2.png' class='homeImage'/>",
   		"images": [
@@ -139,6 +162,14 @@
 
 	},
 	{
+  "title": "Kick.gif",
+   "description": "<img src='images/punkscii/kick.gif' class='homeImage'/>",
+  		"images": [
+     ""
+		]
+
+	},
+	{
 	
 	  "title": "♱♰",
   "description": "<img src='images/punkscii/2t1.gif' class='homeImage'/><img src='images/punkscii/2t2.png' class='homeImage'/>",
@@ -209,6 +240,14 @@
 				"url_text": "Más de esto",
 				"url": "https://www.instagram.com/p/CpsbZ6eLyBu/?img_index=1"
 			}
+		]
+
+	},
+		{
+  "title": "Divina",
+   "description": "<img src='images/punkscii/divina.gif' class='homeImage'/>",
+  		"images": [
+     ""
 		]
 
 	},
@@ -354,7 +393,14 @@
 		]
 
 	},
-	
+	{
+  "title": "Live and Noisy",
+   "description": "<img src='images/punkscii/viola.gif' class='homeImage'/>",
+  		"images": [
+     ""
+		]
+
+	},
 	{
 		"title": "Venite conmigo",
 		"description": "<div class='instagram-grid'><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/DIbMv5IxARm/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/DINPNryxaeq/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/DIKXZjESR4I/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote></div>",
