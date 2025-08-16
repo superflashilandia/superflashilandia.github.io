@@ -4,7 +4,7 @@
     "items": [
       {
         "subtitle": "Amigxs & colegas",
-        "description": "",
+        "description": "Gente y equipos con los que trabajé en proyectos lindos.",
         "links": [
         {
 			"url_text": "Plan",
@@ -84,12 +84,28 @@
 			"url": "https://open.spotify.com/episode/4rFTSd67lhohDMBlQTPQWo"
 		},
 		{
+			"url_text": "Superflashilandia Vol.1 en El Ojo Fisgón",
+			"url": "https://youtu.be/CPx09Lkph5k?si=_GeO6omtLb7wGp5d"
+		},
+		{
+			"url_text": "Punk games en el Suplemento NO de P12",
+			"url": "https://www.pagina12.com.ar/diario/suplementos/no/12-8355-2016-02-11.html"
+		},
+		{
 			"url_text": "Presentando el poster Un Día De Vida #15",
 			"url": "https://www.youtube.com/watch?v=-llj5BpW9X8&t=5s"
 		},
 		{
 			"url_text": "Hablando de pixel art en 4P",
 			"url": "https://youtu.be/iQSeuMDhQpQ?si=uEuXGRhUSu5f7V0i"
+		},
+		{
+			"url_text": "El Fenómeno Retro en los Videojuegos Argentinos",
+			"url": "https://youtu.be/ZIDpauoxezU?si=XLfuWs2amxpBtbYR"
+		},
+		{
+			"url_text": "Yo en el Suplemento NO de P12",
+			"url": "https://www.pagina12.com.ar/diario/suplementos/no/12-8186-2015-11-26.html"
 		}
 		
         ]
