@@ -1,0 +1,59 @@
+[
+  {
+    "title": "Links",
+	"description": "Un poco de esto, un poco de aquello",	
+	"links":
+	[
+	
+		{
+			"url_text": "Club 404",
+			"url": "https://www.instagram.com/club__404/?hl=es"
+		},
+		{
+			"url_text": "Flash Party",
+			"url": "https://flashparty.ar/index.php/es/"
+		},
+		{
+			"url_text": "Revista Replay",
+			"url": "https://revistareplay.com.ar/"
+		},
+		{
+			"url_text": "Modo Historia Podcast",
+			"url": "hhttps://open.spotify.com/show/5VfuTFEbnjG1QYO6c8gjlK"
+		},
+		{
+			"url_text": "Pontura",
+			"url": "https://pontura.github.io/"
+		},
+		{
+			"url_text": "JPAmato",
+			"url": "http://www.jpamato.com.ar/"
+		},
+		{
+			"url_text": "Charla en Bit Bang Fest",
+			"url": "https://davinci.edu.ar/noticias/detalle/bit-bang-fest-animando-los-videojuegos"
+		},
+		{
+			"url_text": "Kryptonita: Reportaje en el NO de Página 12",
+			"url": "https://www.pagina12.com.ar/diario/suplementos/no/12-8186-2015-11-26.html"
+		},
+		{
+			"url_text": "Día Mundial de los Videojuegos en Tecnópolis",
+			"url": "https://www.argentina.gob.ar/noticias/muestra-interactiva-de-videojuegos-nacionales-en-tecnopolis"
+		},
+	
+		{
+			"url_text": "Atari",
+			"url": "https://atari.com/"
+		},
+		{
+			"url_text": "Commodore",
+			"url": "https://www.commodore.net/"
+		}
+		
+		
+	]
+  } 
+  
+   
+]

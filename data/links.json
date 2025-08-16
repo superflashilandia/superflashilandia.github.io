@@ -1,25 +1,26 @@
 [
   {
-    "title": "Links",
-	"description": "Un poco de esto, un poco de aquello",	
-	"links":
-	[
-	
+    "title": "╰┈➤",
+    "items": [
+      {
+        "subtitle": "Amigxs & colegas",
+        "description": "",
+        "links": [
+        {
+			"url_text": "Plan",
+			"url": "https://vimeo.com/holaplan"
+		},
+		{
+			"url_text": "Amblagar",
+			"url": "https://www.amblagar.com/"
+		},
 		{
 			"url_text": "Club 404",
 			"url": "https://www.instagram.com/club__404/?hl=es"
 		},
 		{
-			"url_text": "Flash Party",
-			"url": "https://flashparty.ar/index.php/es/"
-		},
-		{
-			"url_text": "Revista Replay",
-			"url": "https://revistareplay.com.ar/"
-		},
-		{
-			"url_text": "Modo Historia Podcast",
-			"url": "hhttps://open.spotify.com/show/5VfuTFEbnjG1QYO6c8gjlK"
+			"url_text": "Bicho Raro",
+			"url": "https://bichorarogames.com/"
 		},
 		{
 			"url_text": "Pontura",
@@ -30,30 +31,94 @@
 			"url": "http://www.jpamato.com.ar/"
 		},
 		{
-			"url_text": "Charla en Bit Bang Fest",
-			"url": "https://davinci.edu.ar/noticias/detalle/bit-bang-fest-animando-los-videojuegos"
+			"url_text": "Bren Burgoa",
+			"url": "https://www.instagram.com/brendalaminina/"
 		},
 		{
-			"url_text": "Kryptonita: Reportaje en el NO de Página 12",
-			"url": "https://www.pagina12.com.ar/diario/suplementos/no/12-8186-2015-11-26.html"
+			"url_text": "Cesar Jara",
+			"url": "https://www.instagram.com/csr.jara/"
 		},
 		{
-			"url_text": "Día Mundial de los Videojuegos en Tecnópolis",
-			"url": "https://www.argentina.gob.ar/noticias/muestra-interactiva-de-videojuegos-nacionales-en-tecnopolis"
+			"url_text": "Santiago Sanchez",
+			"url": "https://www.behance.net/santo76"
+		},
+		{
+			"url_text": "Pato Oliver",
+			"url": "https://www.behance.net/patriciooliver"
 		},
 	
 		{
-			"url_text": "Atari",
-			"url": "https://atari.com/"
+			"url_text": "Bongo Landia",
+			"url": "https://www.instagram.com/bongo_landia/"
 		},
 		{
-			"url_text": "Commodore",
-			"url": "https://www.commodore.net/"
+			"url_text": "Luxy Shanghai",
+			"url": "https://www.instagram.com/mundoluxyshanghai/"
+		},
+		{
+			"url_text": "Flash Party",
+			"url": "https://flashparty.ar/index.php/es/"
 		}
 		
+        ]
+      },
+	  {
+        "subtitle": "Medios",
+        "description": "",
+        "links": [
+          
+		{
+			"url_text": "Ascii Theater",
+			"url": "https://ascii.theater/"
+		},
+		{
+			"url_text": "Revista Replay",
+			"url": "https://revistareplay.com.ar/"
+		},
+		{
+			"url_text": "Modo Historia Podcast",
+			"url": "https://open.spotify.com/show/5VfuTFEbnjG1QYO6c8gjlK?si=1a1e3c5b502340f6"
+		},
+		{
+			"url_text": "Hablando de IAs en Ilucast",
+			"url": "https://open.spotify.com/episode/4rFTSd67lhohDMBlQTPQWo"
+		},
+		{
+			"url_text": "Presentando el poster Un Día De Vida #15",
+			"url": "https://www.youtube.com/watch?v=-llj5BpW9X8&t=5s"
+		},
+		{
+			"url_text": "Hablando de pixel art en 4P",
+			"url": "https://youtu.be/iQSeuMDhQpQ?si=uEuXGRhUSu5f7V0i"
+		}
 		
-	]
-  } 
-  
-   
+        ]
+      },
+       
+      {
+        "subtitle": "Recursos & Herramientas",
+        "description": "",
+		"links": [
+          {
+            "url_text": "Aseprite",
+            "url": "https://www.aseprite.org/"
+          },
+		  {
+            "url_text": "Pico-8",
+            "url": "https://www.lexaloffle.com/pico-8.php"
+          },
+		  {
+            "url_text": "Pico Cad",
+            "url": "https://picocad.net/"
+          },
+		  {
+            "url_text": "BDFM",
+            "url": "https://bitmap.designfamilymarket.com/#/"
+          }
+        ]
+      }
+    ]
+
+  }
+
 ]

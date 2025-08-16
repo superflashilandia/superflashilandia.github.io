@@ -46,6 +46,22 @@
 		]
 
 	},
+		{
+  "title": "Pagsa Gym Experiment",
+  "description": "<iframe src='https://www.youtube-nocookie.com/embed/X306aIktu74?si=3F_PFOv0d8s0lA2k' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div><iframe src='https://www.youtube-nocookie.com/embed/QDSfyycrHSI?si=zfFAKh1aNS0EyE58' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+  	  "links":
+		[
+			{
+				"url_text": "Zoom in",
+				"url": "https://www.instagram.com/p/ClALHLFjquv/"
+			},
+			{
+				"url_text": "Zoom in",
+				"url": "https://www.instagram.com/p/Ck8n95JjdNS/"
+			}
+		]
+
+	},
 	{
   "title": "Loading La Carroza",
   "description": "<img src='images/punkscii/carroza1.gif' class='homeImage'/><img src='images/punkscii/carroza2.png' class='homeImage'/>",
@@ -155,7 +171,24 @@
 		]
 
 	},
-	
+	{
+		"title": "👾77",
+	   "description": "<img src='images/punkscii/sf7.png' class='homeImage'/>",
+  		"images": [
+     ""
+		],
+  "links":
+		[
+			{
+				"url_text": "Orígenes",
+				"url": "https://www.instagram.com/p/Cqy5IwzrxbH/?img_index=1"
+			},
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/Cq1YLPPrS1D/?img_index=1"
+			}
+		]
+	},
 	{
 		"title": "Mamangas",
 	   "description": "<img src='images/punkscii/B1.png' class='homeImage'/><img src='images/punkscii/B4.png' class='homeImage'/>",
@@ -304,6 +337,21 @@
 
 	},
 	{
+  "title": "DATA ERR✖R",
+  "description": "<img src='images/punkscii/dad1.gif' class='homeImage'/><img src='images/punkscii/dad2.png' class='homeImage'/><img src='images/punkscii/dad4.png' class='homeImage'/><img src='images/punkscii/dad3.png' class='homeImage'/><img src='images/punkscii/dad5.png' class='homeImage'/>",
+  		"images": [
+     ""
+		],
+  "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.behance.net/gallery/186720101/Destroy-All-Data"
+			}
+		]
+
+	},
+	{
   "title": "Lust Boyz",
   "description": "<img src='images/punkscii/lb1.png' class='homeImage'/><img src='images/punkscii/lb2.png' class='homeImage'/><img src='images/punkscii/lb3.png' class='homeImage'/>",
   		"images": [
@@ -338,6 +386,24 @@
 
 	},
 	{
+		"title": "⋆⭒˚.⋆🪐 ⋆⭒˚.⋆.gif",
+	   "description": "<img src='images/punkscii/sbl.gif' class='homeImage'/>",
+  		"images": [
+     ""
+		],
+  "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/Cush24su3KZ/?img_index=1"
+			},
+			{
+				"url_text": "Y más",
+				"url": "https://www.instagram.com/p/CushjS7ORem/?img_index=1"
+			}
+		]
+	},
+	{
   "title": "Sacred Golden Cats",
   "description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/zs5Z_HjV3KM?si=AX2rt7m29hZn9-RR' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
   		"images": [
@@ -351,6 +417,20 @@
 			}
 		]
 
+	},
+	{
+		"title": "Walkie.gif",
+	   "description": "<img src='images/punkscii/wk.gif' class='homeImage'/>",
+  		"images": [
+     ""
+		],
+  "links":
+		[
+			{
+				"url_text": "Frame a frame",
+				"url": "https://www.instagram.com/p/CyefA_fLj64/?img_index=3"
+			}
+		]
 	},
 	{
   "title": "Metropolitan artifakts",
@@ -506,6 +586,20 @@
      ""
 		]
 
+	},
+	{
+		"title": "Make Alderaan Dark Again",
+	   "description": "<img src='images/punkscii/mada.gif' class='homeImage'/>",
+  		"images": [
+     ""
+		],
+  "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/CufnI-jLjOk/?img_index=1"
+			}
+		]
 	},
 	{
   "title": "ZX Spooky",
