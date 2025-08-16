@@ -158,7 +158,39 @@
 	
 	{
 		"title": "Mamangas",
-		"description": "<div class='instagram-grid'><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/C3Bcd86vjOT/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/C3BbXEUvWq0/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote></div>"
+	   "description": "<img src='images/punkscii/B1.png' class='homeImage'/><img src='images/punkscii/B4.png' class='homeImage'/>",
+  		"images": [
+     ""
+		],
+  "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/C3Bcd86vjOT/?img_index=1"
+			},
+			{
+				"url_text": "African Punks",
+				"url": "https://www.instagram.com/p/C3BbXEUvWq0/?img_index=1"
+			}
+		]
+	},
+	{
+  "title": "Guerreras Lobas",
+  "description": "<img src='images/punkscii/gl1.png' class='homeImage'/><img src='images/punkscii/gl2.png' class='homeImage'/>",
+  		"images": [
+     ""
+		],
+  "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/Cq9QIG-uy1Z/?img_index=1"
+			},
+			{
+				"url_text": "Wolf mother",
+				"url": "https://www.instagram.com/p/Cq-7FGMrt3c/?img_index=1"
+			}
+		]
 
 	},
 	{
@@ -338,13 +370,44 @@
 	},
 		{
 		"title": "ZX Spectral",
-		"description": "<div class='instagram-grid'><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/C5y1gH8Rusl/' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/C5wa3UzPGXs/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/C5wZCm0PrLr/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote></div>",
+		"description": "<iframe src='https://www.youtube-nocookie.com/embed/JO5mE84pucU?si=lUWCWkW3NtjMPfcQ' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div><div class='instagram-grid'><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/C5wa3UzPGXs/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/C5wZCm0PrLr/?img_index=1' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote></div>",
 		  "links":
 		[
 			{
 				"url_text": "Más de esto",
 				"url": "https://www.instagram.com/p/C5wYFoHPY0m/?img_index=1"
 			}
+		]
+
+	},
+	{
+  "title": "Iorio Presidenta",
+  "description": "<img src='images/punkscii/IT.png' class='homeImage'/>",
+  		"images": [
+     ""
+		],
+  "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/C05BpfcvX_Y/?img_index=1"
+			},
+			{
+				"url_text": "ᯓ‎♪",
+				"url": "https://open.spotify.com/intl-es/track/4MUhGA8YfsYDqD4NhTUtSf"
+			},
+			{
+				"url_text": "Starring Mr T",
+				"url": "https://es.wikipedia.org/wiki/Mr._T"
+			}
+		]
+
+	},
+	{
+  "title": "⫘⫘⫘⫘⫘⫘⫘⫘⫘",
+  "description": "<img src='images/punkscii/americanGorilla.png' class='homeImage'/>",
+  		"images": [
+     ""
 		]
 
 	},
@@ -389,6 +452,29 @@
 			{
 				"url_text": "Más de esto",
 				"url": "https://www.instagram.com/p/Cp-0MJ7pS9X/?img_index=4"
+			}
+		]
+
+	},
+		{
+  "title": "Ensayo Punkscii sobre el otoño, pts I y II",
+  "description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/puAkiHJ9iys?si=lxaD3h5TJ8Xw3CG2' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div><div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/z4Iw5Odk6V0?si=0ORHBX48jl0tW9b1' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+  		"images": [
+     ""
+		],
+  "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/CwJWORwLsf-/?img_index=1"
+			},
+			{
+				"url_text": "Más de esto?",
+				"url": "https://www.instagram.com/p/CwI9CWaxZgH/?img_index=1"
+			},
+			{
+				"url_text": "Más de esto!",
+				"url": "https://www.instagram.com/p/CwI8vNrxPtY/?img_index=1"
 			}
 		]
 
