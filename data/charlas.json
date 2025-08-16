@@ -67,6 +67,17 @@
 			}
 		]
 	},
+	{
+		"title": "Punk: Juegos de la tumba",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/E6Qyk9IOoA0?si=B9jpkpDvEiqYi4-i' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>Charla sobre hacer videojuegos por amor al arte, en el evento Liquea, Tecnópolis (2014).",
+		"links":
+		[
+			{
+				"url_text": "A-Maze",
+				"url": "https://a-maze.net/"
+			}
+		]
+	},
 		{
 		"title": "Videojuegos Independientes en Bit Bang Fest",
 		"description": "<img src='images/charlas/bitbang.png' class='homeImage'/>Charla sobre el arte en los videojuegos independientes, junto a Andrés Borghi, Maxi Silva y Agustín Pontura, en el marco del festival de animación Bit Bang Fest.",
