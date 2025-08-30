@@ -4,7 +4,13 @@
     "items": [
       {
         "subtitle": "Creá Sin Límites (2025)",
-        "description": "<p><b>Desarrollador:</b> Yaguar<br><b>Publisher / Cliente:</b> Plan / Epson<br><b>Plataforma:</b> stand<br><b>Tecnología:</b> Unity/Phisical<br><b>Rol:</b> Tech art / Eyecandy</p>"
+        "description": "<p><b>Desarrollador:</b> Yaguar<br><b>Publisher / Cliente:</b> Plan / Epson<br><b>Plataforma:</b> stand<br><b>Tecnología:</b> Unity/Phisical<br><b>Rol:</b> Tech art / Eyecandy</p>",
+		"links": [
+          {
+            "url_text": "Link",
+            "url": "https://www.instagram.com/p/DMu-_gnxJ98/"
+          }
+        ]
       },
       {
         "subtitle": "Gogo Smart (2025)",
@@ -12,7 +18,13 @@
       },
       {
         "subtitle": "La Hija del Delta (2025)",
-        "description": "<p><b>Desarrollador:</b> Bicho Raro<br><b>Publisher / Cliente:</b> Bicho Raro<br><b>Plataforma:</b> desktop<br><b>Tecnología:</b> Unity<br><b>Rol:</b> Consultoríaía</p>"
+        "description": "<p><b>Desarrollador:</b> Bicho Raro<br><b>Publisher / Cliente:</b> Bicho Raro<br><b>Plataforma:</b> desktop<br><b>Tecnología:</b> Unity<br><b>Rol:</b> Consultoría</p>",
+		"links": [
+          {
+            "url_text": "Link",
+            "url": "https://bichorarogames.com/lhdd.html"
+          }
+        ]
       },
       {
         "subtitle": "Mad Rollers Mobile (2025)",
@@ -34,7 +46,13 @@
       },
       {
         "subtitle": "Ninja Chess (2024)",
-        "description": "<p><b>Desarrollador:</b> Aconcagua Games<br><b>Publisher / Cliente:</b> Ninja Chess.net<br><b>Plataforma:</b> mobile<br><b>Tecnología:</b> unity<br><b>Rol:</b> Dirección de arte</p>"
+        "description": "<p><b>Desarrollador:</b> Aconcagua Games<br><b>Publisher / Cliente:</b> Ninja Chess.net<br><b>Plataforma:</b> mobile<br><b>Tecnología:</b> unity<br><b>Rol:</b> Dirección de arte</p>",
+		"links": [
+          {
+            "url_text": "Link",
+            "url": "https://ninjachess.xyz/"
+          }
+        ]
       },
       {
         "subtitle": "Control Fanvatar Creator (2023)",
@@ -598,7 +616,7 @@
       },
       {
         "subtitle": "ZoomBook: The Temple of the Sun (2007)",
-        "description": "<p><b>Desarrollador:</b> QB9<br><b>Publisher / Cliente:</b> Big Fish<br><b>Plataforma:</b> desktop<br><b>Tecnología:</b> nan<br><b>Rol:</b> Consultoríaía</p>"
+        "description": "<p><b>Desarrollador:</b> QB9<br><b>Publisher / Cliente:</b> Big Fish<br><b>Plataforma:</b> desktop<br><b>Tecnología:</b> nan<br><b>Rol:</b> Consultoría</p>"
       },
       {
         "subtitle": "Home Sale (2005)",
