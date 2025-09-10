@@ -404,6 +404,16 @@
           }
         ]
       },
+	   {
+        "subtitle": "Emerging Leaders (2014)",
+        "description": "<p><b>Desarrollador:</b> Yaguar<br><b>Publisher / Cliente:</b> Edutrama<br><b>Plataforma:</b> mobile<br><b>Tecnología:</b> nan<br><b>Rol:</b> Desarrollo de arte completo</p>",
+        "links": [
+          {
+            "url_text": "Link",
+            "url": "https://www.youtube.com/watch?v=R1L9AmJQG6Q"
+          }
+        ]
+      },
       {
         "subtitle": "Rocco en Frikilandia (2013)",
         "description": "<p><b>Desarrollador:</b> QB9<br><b>Publisher / Cliente:</b> QB9<br><b>Plataforma:</b> web<br><b>Tecnología:</b> unity<br><b>Rol:</b> Dirección de arte</p>",
