@@ -149,6 +149,11 @@
 
 	},
 	{
+		"title": "Futures of the Rainbow",
+		"description": "<img src='images/punkscii/arof1.gif' class='homeImage'/>,<img src='images/punkscii/arof4.gif' class='homeImage'/>,<img src='images/punkscii/arof3.gif' class='homeImage'/>,<img src='images/punkscii/arof2.gif' class='homeImage'/>,<img src='images/punkscii/arof5.gif' class='homeImage'/>"
+	
+	},
+	{
   "title": "Laboristischer Roboter",
    "description": "<img src='images/punkscii/ufo1.gif' class='homeImage'/><img src='images/punkscii/ufo2.gif' class='homeImage'/>",
   		"images": [
