@@ -1,7 +1,15 @@
 [
 		{
 		"title": "Punkscii",
-		"description": "Mis proyectos más experimentales y lúdicos desde la dinámica creativa, muchas veces combinan una serie de estéticas y recursos visuales y tecnológicos muy arraigados a etapas de mi vida muy distantes entre sí: <b>pixel art, fanzines, ascii, fotocopia experimental, fotonovelas, comics, herramientas visuales de IA</b> y <b>flyers de rock</b>. Al estilo que se fusiona en ese vórtice interdimensional me gusta llamarle <b>punkscii</b>."
+		"description": "Experimentos visuales y/o sonoros con elementos de pixel art, ascii, fanzines, glitch art y otros frutos de Superflashilandia."
+	},
+		{
+		"title": "A Rainbow Of Futures",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/KCmRALa16dI?si=M-c56LQWxoG390Hf' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+		"images": [
+    "images/illustrations/prize_shibuya.png"
+  ]
+	
 	},
 	{
 		"title": "Punq!",
@@ -112,11 +120,6 @@
 			}
 		]
 
-	},
-	{
-		"title": "A Rainbow Of Futures",
-		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/KCmRALa16dI?si=M-c56LQWxoG390Hf' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>"
-	
 	},
 	{
   "title": "Game Boy Sacoa Thing",
