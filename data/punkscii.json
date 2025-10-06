@@ -23,7 +23,7 @@
 	
 	},
 	{
-  "title": "Panamericana 2989",
+  "title": "Panamericana 2989 (Gameboy)",
   "description": "<img src='images/punkscii/GBPJ1.png' class='homeImage'/>",
   		"images": [
      ""
@@ -33,6 +33,10 @@
 			{
 				"url_text": "Más de esto",
 				"url": "https://www.instagram.com/p/DPcqk_7EmNQ/?img_index=1"
+			},
+			{
+				"url_text": "GB Pixel Jam 2025",
+				"url": "https://itch.io/jam/gbpixelartjam25/entries"
 			}
 		]
 
