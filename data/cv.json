@@ -123,12 +123,24 @@
     "title": "Premios",
     "items": [
       {
+        "subtitle": "Shibuya Pixel Art 2025, Excellence Award",
+        "description": "<p><b>A Rainbow Of Futures</b> obtuvo el premio otorgado a la excelencia en pixel art.</p>"
+      },
+	  {
+        "subtitle": "Shibuya Pixel Art 2025, Judge's Award",
+        "description": "<p><b>A Rainbow Of Futures</b> tuvo el premio especial del artista coreano Joo Jaebum.</p>"
+      },
+	  {
         "subtitle": "másMAT, Ganador",
         "description": "<p><b>Matenautas</b> fue ganador del primer premio del concurso másMAT, otorgado por la Fundación Bunge y Born a la excelencia en educación en matemática. Financiamiento total del proyecto.</p>"
       },
       {
         "subtitle": "comKids, Mejor app infantil",
         "description": "<p><b>Inventar El Mundo</b> obtuvo el reconocimiento a la mejor app infantil regional en 2022.</p>"
+      },
+	        {
+        "subtitle": "Japan Prize, Nominado a la categoría digital",
+        "description": "<p><b>Inventar El Mundo</b> fue nominado en 2022.</p>"
       }
     ]
   },

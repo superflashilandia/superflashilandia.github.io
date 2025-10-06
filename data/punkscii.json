@@ -8,8 +8,34 @@
 		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/KCmRALa16dI?si=M-c56LQWxoG390Hf' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
 		"images": [
     "images/illustrations/prize_shibuya.png","images/illustrations/prize_shibuya2.png"
-  ]
+  ],
+  "links":
+		[
+			{
+				"url_text": "Shibuya Pixel Art 2025",
+				"url": "https://pixel-art.jp/spa2025"
+			},
+			{
+				"url_text": "X",
+				"url": "https://x.com/ShibuyaPixelArt"
+			}
+		]
 	
+	},
+	{
+  "title": "Panamericana 2989",
+  "description": "<img src='images/punkscii/GBPJ1.png' class='homeImage'/>",
+  		"images": [
+     ""
+		],
+  "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/DPcqk_7EmNQ/?img_index=1"
+			}
+		]
+
 	},
 	{
 		"title": "Punq!",

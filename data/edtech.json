@@ -84,6 +84,21 @@
 		]
 	},
 		{
+		"title": "CATA",
+		"description": "<div class='embed embed-4x3'><iframe src='https://www.youtube-nocookie.com/embed/qd9JjF5Faz8?si=KxAwX0EEmlM-EWgf' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>Desarrollamos <b>Operación Rosita</b> para CATA, un museo interactivo de San Fernando del Valle de Catamarca. Esta trivia sobre minerales de la región invita a los usuarios del museo a poner en acción los conocimientos adquiridos durante la recorrida. El juego es parte de un desarrollo integral de Plan.",
+
+
+		"links":
+		[
+			{
+				"url_text": "Comunicación oficial",
+				"url": "https://portal.catamarca.gob.ar/noticias/abrio-sus-puertas-cata-un-nuevo-hito-cultural-y-turistico-de-catamarca"
+			}
+			
+			
+		]
+	},
+		{
 		"title": "Hand Wash Squad",
 		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/6uWvsLWCvdE?si=uT-zfQe1pnHjn-kF' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div><p><b>Hand Wash Squad</b> es un juego que desarrollamos junto a <b>Tipitap</b> y <b>Planet One Reality</b> durante la pandemia de 2020, para enseñar a los más chicos la importancia de la <b>higiene</b> como defensa contra las enfermedades.</p><p> A través de las aventuras de un aprendiz de artes marciales, el juego invita a enfrentar microbios peligrosos con una poderosa técnica: ¡el correcto lavado de manos! Dibujando formas en la pantalla, los jugadores aprenden todos los pasos recomendados por la <b>OMS</b> para una limpieza efectiva, útil en tiempos de pandemia… y para toda la vida.</p>",
 
