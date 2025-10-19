@@ -22,6 +22,22 @@
 			{
 				"url_text": "Instagram",
 				"url": "https://www.instagram.com/shibuya_pixel_art/"
+			},
+			{
+				"url_text": "Streaming de la ceremonia",
+				"url": "https://youtu.be/cF8lBhtGd2Q?si=m-D1Oj99Q6e48X9K"
+			}
+		]
+	
+	},
+	{
+		"title": "Mont Serrat",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/_qfzpUVXU3o?si=qAYbGKQcKB9oDyAx' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+		 "links":
+		[
+			{
+				"url_text": "Flash Party 2025",
+				"url": "https://flashparty.ar/index.php/es/"
 			}
 		]
 	
