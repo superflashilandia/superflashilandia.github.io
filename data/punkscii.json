@@ -66,6 +66,14 @@
 
 	},
 	{
+  "title": "🌈2600",
+  "description": "<img src='images/punkscii/atariTrio.gif' class='homeImage'/>",
+  		"images": [
+     ""
+		]
+
+	},
+	{
 		"title": "Punq!",
 		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/ZsqvkZOdVo4?si=u8umQqW2Wf_oO2lO' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>"
 	
