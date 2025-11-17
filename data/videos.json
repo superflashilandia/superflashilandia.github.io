@@ -2,6 +2,9 @@
 	{
 		"title": "Mariano Rodriguez & Julio Nusdeo - Dos Tumbas",
 		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/8ybBnnmpNHc?si=wuQtjKDX2FRnQu2b' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>",
+		 "images": [
+    "images/illustrations/prize_carton.png"
+  ],
 
 		"links":
 		[
@@ -18,6 +21,7 @@
 				"url": "https://www.linkedin.com/in/julio-nusdeo-14065b24/?trk=pub-pbmap&originalSubdomain=ar"
 			}
 		]
+
   },
 	{
 		"title": "Lulu Lewis - Destroy All Data",
