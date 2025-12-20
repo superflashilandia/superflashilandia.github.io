@@ -12,7 +12,13 @@
       },
 	  {
         "subtitle": "Operación Rosita (2025)",
-        "description": "<p><b>Desarrollador:</b> Yaguar<br><b>Publisher / Cliente:</b> Plan / CATA<br><b>Plataforma:</b> instalación<br><b>Tecnología:</b> Unity/Phisical<br><b>Rol:</b> Desarrollo de arte completo</p>"
+        "description": "<p><b>Desarrollador:</b> Yaguar<br><b>Publisher / Cliente:</b> Plan / CATA<br><b>Plataforma:</b> instalación<br><b>Tecnología:</b> Unity/Phisical<br><b>Rol:</b> Desarrollo de arte completo</p>",
+		"links": [
+          {
+            "url_text": "Link",
+            "url": "https://www.youtube.com/watch?v=qd9JjF5Faz8"
+          }
+        ]
       },
 	  {
         "subtitle": "Skyy Infusions Cosmic (2025)",
