@@ -3,6 +3,26 @@
     "title": "Proyectos desarrollados",
     "items": [
       {
+        "subtitle": "Profissões do Futuro (2025)",
+        "description": "<p><b>Desarrollador:</b> Yaguar<br><b>Publisher / Cliente:</b> Plan / BAG / Catavento<br><b>Plataforma:</b> instalación<br><b>Tecnología:</b> Unity/Phisical<br><b>Rol:</b> Desarrollo de arte completo</p>",
+		"links": [
+          {
+            "url_text": "Link",
+            "url": "https://www.youtube.com/watch?v=qd9JjF5Faz8"
+          }
+        ]
+      },
+	  {
+        "subtitle": "JD Jackpot (2025)",
+        "description": "<p><b>Desarrollador:</b> Yaguar<br><b>Publisher / Cliente:</b> Plan <br><b>Plataforma:</b> instalación<br><b>Tecnología:</b> Unity/Phisical<br><b>Rol:</b> Desarrollo de arte completo</p>",
+		"links": [
+          {
+            "url_text": "Link",
+            "url": "https://www.youtube.com/watch?v=qd9JjF5Faz8"
+          }
+        ]
+      },
+	  {
         "subtitle": "Operación Rosita (2025)",
         "description": "<p><b>Desarrollador:</b> Yaguar<br><b>Publisher / Cliente:</b> Plan / CATA<br><b>Plataforma:</b> instalación<br><b>Tecnología:</b> Unity/Phisical<br><b>Rol:</b> Desarrollo de arte completo</p>",
 		"links": [
