@@ -74,6 +74,21 @@
 
 	},
 	{
+		"title": "Chromo Azul",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/m16fHIviBTs?si=a8qhB-2zd5h4QXWH' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div><img src='images/punkscii/CA1.png' class='homeImage'/><img src='images/punkscii/CA2.png' class='homeImage'/>",
+		"images": [
+     ""
+		],
+		 "links":
+		[
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/DTaqq6HEQeO/?img_index=1"
+			}
+		]
+	
+	},
+	{
 		"title": "Punq!",
 		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/ZsqvkZOdVo4?si=u8umQqW2Wf_oO2lO' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div>"
 	
