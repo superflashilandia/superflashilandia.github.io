@@ -4,6 +4,50 @@
 		"description": "Algunas muestras de arte de las que participé."
 	},
 	{
+		"title": "Ficha Sucia",
+	"description": "<img src='images/exhibiciones/fs.png' class='homeImage'/>Retrospectiva interactiva experimental del arte de los primeros 15 años de vida de Tumba Games. Montada en un arcade de 1 jugador (1 palanca + 1 botón) emplazado en la galería de arte Fémur. Buenos Aires, 2026. Puede visitarse en la actualidad.",
+		"links":
+		[
+			{
+				"url_text": "Press Kit",
+				"url": "https://drive.google.com/drive/folders/1nooI4YqVrwIgsMPtfPuz0-deMTjDk6yB"
+			},
+			{
+				"url_text": "Teasers",
+				"url": "https://youtube.com/playlist?list=PLddFVfYp50GHv5RGEBmQfiagbBZIAJ2Rw&si=fuUbLS4deFwWqfpn"
+			},
+			{
+				"url_text": "Galería Fémur",
+				"url": "https://www.instagram.com/femur.gallery/"
+			}
+		],
+		"images": [
+     ""
+  ]
+	} ,
+		{
+		"title": "Shibuya Pixel Art 2025",
+	"description": "<div class='instagram-grid'><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/DRUCiX7knag/?img_index=2' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote><blockquote class='instagram-media' data-instgrm-permalink='https://www.instagram.com/p/DP_ODvdjYo8/?img_index=3' data-instgrm-version='14' style='background:#FFF;border:0;margin:0;padding:0;'></blockquote></div> Muestra colectiva internacional de pixel art en pantallas gigantes de publicidad del emblemático barrio tokiota de Shibuya. Mi obra ´A Rainbow of Futures´ ganó el premio a la excelencia y un premio del jurado.",
+		"images": [
+    "images/illustrations/prize_shibuya.png","images/illustrations/prize_shibuya2.png"
+  ],
+  "links":
+		[
+			{
+				"url_text": "Shibuya Pixel Art 2025",
+				"url": "https://pixel-art.jp/spa2025"
+			},
+			{
+				"url_text": "X",
+				"url": "https://x.com/ShibuyaPixelArt"
+			},
+			{
+				"url_text": "Streaming de la ceremonia",
+				"url": "https://youtu.be/cF8lBhtGd2Q?si=m-D1Oj99Q6e48X9K"
+			}
+		]
+	} ,
+	{
 		"title": "Tono Sobre Tono",
 	"description": "<img src='images/exhibiciones/tst.png' class='homeImage'/>Muestra colectiva de arte de flyers, posters y discos de rock del primer cuarto del Siglo XXI. Mi participación fueron varios posters de shows de <b>The Tandooris</b> & amigos, algunos realizados en conjunto con el diseñador <b>David Chirico</b>. Curaduría: <b>Santiago Pozzi</b> y <b>Valentino Tettamanti</b>. Museo Nacional del Grabado. Buenos Aires, 2025.",
 		"links":
