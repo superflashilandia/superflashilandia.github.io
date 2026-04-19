@@ -66,6 +66,29 @@
 
 	},
 	{
+		"title": "Мать-Пространство",
+		"description": "<div class='embed embed-16x9'><iframe src='https://www.youtube-nocookie.com/embed/zVanhddFXOs?si=6_IPE32HiPwSfE33' title='YouTube video player' frameborder='0' allow='accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share' referrerpolicy='strict-origin-when-cross-origin' allowfullscreen></iframe></div><img src='images/punkscii/CA1.png' class='homeImage'/><img src='images/punkscii/CA2.png' class='homeImage'/>",
+		"images": [
+     ""
+		],
+		 "links":
+		[
+			{
+				"url_text": "Más",
+				"url": "https://www.instagram.com/p/DCcPXjix8cR/?img_index=1"
+			},
+			{
+				"url_text": "Más de esto",
+				"url": "https://www.instagram.com/p/DCW6BVRxJn5/?img_index=1"
+			},
+			{
+				"url_text": "Y aún más",
+				"url": "https://www.instagram.com/p/DCQJN_fR4KO/?img_index=1"
+			}
+		]
+	
+	},
+	{
   "title": "🌈2600",
   "description": "<img src='images/punkscii/atariTrio.gif' class='homeImage'/>",
   		"images": [
