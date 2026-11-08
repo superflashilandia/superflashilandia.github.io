@@ -47,6 +47,18 @@
 	
 	},
 	{
+		"title": "The Texas Bubblegum Marshmallow",
+		"description": "<img src='images/punkscii/Texas1.png' class='homeImage'/><img src='images/punkscii/Texas2.png' class='homeImage'/><img src='images/punkscii/Texas3.png' class='homeImage'/>",
+		 "links":
+		[
+			{
+				"url_text": "Flash Party 2025",
+				"url": "https://flashparty.ar/index.php/es/"
+			}
+		]
+	
+	},
+	{
   "title": "Panamericana 2989 (Gameboy)",
   "description": "<img src='images/punkscii/GBPJ1.png' class='homeImage'/><img src='images/punkscii/GBPJ3.png' class='homeImage'/>",
   		"images": [
